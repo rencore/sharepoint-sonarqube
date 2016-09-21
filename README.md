@@ -1,5 +1,4 @@
-SonarQube SPCAF Plugins
-=======================
+#SonarQube SPCAF Plugins
 
 SonarQube allows you to use MSBuild to run static code analysis tools. This plugin by Rencore GmbH the creators of SharePoint Code Analysis Framework (SPCAF) allows you to configure a build task to import code analysis results after a build has been completed.
 
@@ -11,12 +10,14 @@ The reason for this is that the plugins contain references to the rules for that
 
 The plugin is seperated into 5 components are 1 prerequisite.
 
+```
 |-sonar-spcaf-language-definition-aspx-plugin
 |-sonar-spcaf-language-definition-css-plugin
 |-sonar-spcaf-language-definition-js-plugin
 |-sonar-spcaf-language-definition-ps1-plugin
 |-sonar-spcaf-language-definition-xml-plugin
 |-sonar-scpaf-plugin
+```
 
 The first four plugins are language definitions and should be excluded if you already have a plugin which covers this area.
 
