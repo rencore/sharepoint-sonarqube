@@ -1,0 +1,1825 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RulesReport SettingsFile="RS10_ExtendedRecommendedRules" Type="SPCAF.Reports.Engine.AnalysisResultReportViewModel">
+    <GeneratedWith>SPCAF, Version: 6.0.5.3298</GeneratedWith>
+    <!-- Start Section Analysis Results -->
+    <Summary CriticalErrors="4" Errors="12" CriticalWarnings="35" Warnings="69" Information="11" />
+    <Solutions>
+        <Solution Name="MyCompany.Intranet.Components.wsp" CriticalErrors="3" Errors="8" CriticalWarnings="12" Warnings="23" Information="4">
+            <VisitorGroups>
+                <VisitorGroup Name="Correctness" CriticalErrors="3" Errors="5" CriticalWarnings="5" Warnings="0" Information="0">
+                    <Notifications>
+                        <Notification CheckID="SPC010214" Name="DoNotUseSPWebProperties" Severity="CriticalWarning">
+                            <Message>Do not use SPWeb.Properties in method 'SetProperty', class 'MyCompany.Intranet.Components.CustomCode.SPWebProperties'. Use the SPWeb.AllProperties property instead.</Message>
+                            <HiveLocation>[SharePointHive]\MyCompany.Intranet.Components.dll</HiveLocation>
+                            <WSPRelativeLocation>MyCompany.Intranet.Components.dll, type 'MyCompany.Intranet.Components.CustomCode.SPWebProperties', method 'SetProperty'</WSPRelativeLocation>
+                            <Description>SPWeb.Properties is a StringDictionary and doesn't support casing for keys/values (everything gets converted to lowercase). Instead use SPWeb.AllProperties. SPWeb.AllProperties is a Hashtable and supports additional types of data.</Description>
+                            <ElementName>MyCompany.Intranet.Components.dll</ElementName>
+                            <LineNumber>0</LineNumber>
+                            <LinePosition>0</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC010214_DoNotUseSPWebProperties.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC015103" Name="DefineUniqueFieldId" Severity="CriticalError">
+                            <Message>ID '{C64E738E-C093-495C-9B32-BB944948D82E}' of Field 'InternalField3' in Feature 'MyCompany_Intranet_Actions' is used multiple times. Field InternalField in Feature 'MyCompany_Intranet_InternalFields' uses same id '{C64E738E-C093-495C-9B32-BB944948D82E}'</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_Actions\InternalField\Elements.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_Actions\InternalField\Elements.xml</WSPRelativeLocation>
+                            <Description>The ID of a Field must be unique in the farm. </Description>
+                            <ElementName>InternalField3</ElementName>
+                            <LineNumber>7</LineNumber>
+                            <LinePosition>3</LinePosition>
+                            <SchemaUrl>http://msdn.microsoft.com/en-us/library/bb266224.aspx</SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC015103_DefineUniqueFieldId.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC015103" Name="DefineUniqueFieldId" Severity="CriticalError">
+                            <Message>ID '{32E36ECB-69DF-46B0-9FC3-D4C8A33C4EFC}' of Field 'HiddenPageField' in Feature 'MyCompany_Intranet_InternalFields' is used multiple times. Field HiddenPageField in Feature 'MyCompany_Intranet_InternalFields' uses same id '{32E36ECB-69DF-46B0-9FC3-D4C8A33C4EFC}'</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_InternalFields\HiddenPageField\Elements.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_InternalFields\HiddenPageField\Elements.xml</WSPRelativeLocation>
+                            <Description>The ID of a Field must be unique in the farm. </Description>
+                            <ElementName>HiddenPageField</ElementName>
+                            <LineNumber>7</LineNumber>
+                            <LinePosition>3</LinePosition>
+                            <SchemaUrl>http://msdn.microsoft.com/en-us/library/bb266224.aspx</SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC015103_DefineUniqueFieldId.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC015103" Name="DefineUniqueFieldId" Severity="CriticalError">
+                            <Message>ID '{C64E738E-C093-495C-9B32-BB944948D82E}' of Field 'InternalField' in Feature 'MyCompany_Intranet_InternalFields' is used multiple times. Field InternalField3 in Feature 'MyCompany_Intranet_Actions' uses same id '{C64E738E-C093-495C-9B32-BB944948D82E}'</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_InternalFields\InternalField\Elements.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_InternalFields\InternalField\Elements.xml</WSPRelativeLocation>
+                            <Description>The ID of a Field must be unique in the farm. </Description>
+                            <ElementName>InternalField</ElementName>
+                            <LineNumber>7</LineNumber>
+                            <LinePosition>3</LinePosition>
+                            <SchemaUrl>http://msdn.microsoft.com/en-us/library/bb266224.aspx</SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC015103_DefineUniqueFieldId.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC015105" Name="DeclareAllRequiredAttributesInFields" Severity="CriticalWarning">
+                            <Message>Add missing attribute 'Type' to field 'HiddenPageField'.</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_InternalFields\InternalField\Elements.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_InternalFields\InternalField\Elements.xml</WSPRelativeLocation>
+                            <Description>Required attributes ID, Name and Type must be declared in Field.</Description>
+                            <ElementName>HiddenPageField</ElementName>
+                            <LineNumber>16</LineNumber>
+                            <LinePosition>3</LinePosition>
+                            <SchemaUrl>http://msdn.microsoft.com/en-us/library/bb266224.aspx</SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC015105_DeclareAllRequiredAttributesInFields.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC015105" Name="DeclareAllRequiredAttributesInFields" Severity="CriticalWarning">
+                            <Message>Add missing attribute 'Type' to field 'InternalField'.</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_InternalFields\InternalField\Elements.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_InternalFields\InternalField\Elements.xml</WSPRelativeLocation>
+                            <Description>Required attributes ID, Name and Type must be declared in Field.</Description>
+                            <ElementName>InternalField</ElementName>
+                            <LineNumber>7</LineNumber>
+                            <LinePosition>3</LinePosition>
+                            <SchemaUrl>http://msdn.microsoft.com/en-us/library/bb266224.aspx</SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC015105_DeclareAllRequiredAttributesInFields.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC015108" Name="DeclareAllRecommendedAttributesInFields" Severity="CriticalWarning">
+                            <Message>Add missing attribute 'Type' to field 'HiddenPageField'.</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_InternalFields\InternalField\Elements.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_InternalFields\InternalField\Elements.xml</WSPRelativeLocation>
+                            <Description>All recommended attributes ID, Type, Name, DisplayName, and Group should be declared in Field.</Description>
+                            <ElementName>HiddenPageField</ElementName>
+                            <LineNumber>16</LineNumber>
+                            <LinePosition>3</LinePosition>
+                            <SchemaUrl>http://msdn.microsoft.com/en-us/library/bb266224.aspx</SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC015108_DeclareAllRecommendedAttributesInFields.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC015108" Name="DeclareAllRecommendedAttributesInFields" Severity="CriticalWarning">
+                            <Message>Add missing attribute 'Type' to field 'InternalField'.</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_InternalFields\InternalField\Elements.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_InternalFields\InternalField\Elements.xml</WSPRelativeLocation>
+                            <Description>All recommended attributes ID, Type, Name, DisplayName, and Group should be declared in Field.</Description>
+                            <ElementName>InternalField</ElementName>
+                            <LineNumber>7</LineNumber>
+                            <LinePosition>3</LinePosition>
+                            <SchemaUrl>http://msdn.microsoft.com/en-us/library/bb266224.aspx</SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC015108_DeclareAllRecommendedAttributesInFields.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC015112" Name="DefineUniqueFieldName" Severity="Error">
+                            <Message>Attribute 'Name' of Field 'HiddenPageField' in Feature 'MyCompany_Intranet_InternalFields' is used multiple times. Field HiddenPageField in Feature 'MyCompany_Intranet_InternalFields' uses same Name 'HiddenPageField'</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_InternalFields\HiddenPageField\Elements.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_InternalFields\HiddenPageField\Elements.xml</WSPRelativeLocation>
+                            <Description>The Name of a Field should be unique in the farm. </Description>
+                            <ElementName>HiddenPageField</ElementName>
+                            <LineNumber>10</LineNumber>
+                            <LinePosition>3</LinePosition>
+                            <SchemaUrl>http://msdn.microsoft.com/en-us/library/bb266224.aspx</SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC015112_DefineUniqueFieldName.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC015112" Name="DefineUniqueFieldName" Severity="Error">
+                            <Message>Attribute 'Name' of Field 'HiddenPageField' in Feature 'MyCompany_Intranet_InternalFields' is used multiple times. Field HiddenPageField in Feature 'MyCompany_Intranet_InternalFields' uses same Name 'HiddenPageField'</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_InternalFields\InternalField\Elements.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_InternalFields\InternalField\Elements.xml</WSPRelativeLocation>
+                            <Description>The Name of a Field should be unique in the farm. </Description>
+                            <ElementName>HiddenPageField</ElementName>
+                            <LineNumber>19</LineNumber>
+                            <LinePosition>3</LinePosition>
+                            <SchemaUrl>http://msdn.microsoft.com/en-us/library/bb266224.aspx</SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC015112_DefineUniqueFieldName.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC015113" Name="DefineUniqueFieldStaticName" Severity="Error">
+                            <Message>Attribute 'StaticName' of Field 'HiddenPageField' in Feature 'MyCompany_Intranet_InternalFields' is used multiple times. Field HiddenPageField in Feature 'MyCompany_Intranet_InternalFields' uses same StaticName 'HiddenPageField'</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_InternalFields\HiddenPageField\Elements.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_InternalFields\HiddenPageField\Elements.xml</WSPRelativeLocation>
+                            <Description>The StaticName of a Field should be unique in the farm. </Description>
+                            <ElementName>HiddenPageField</ElementName>
+                            <LineNumber>9</LineNumber>
+                            <LinePosition>3</LinePosition>
+                            <SchemaUrl>http://msdn.microsoft.com/en-us/library/bb266224.aspx</SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC015113_DefineUniqueFieldStaticName.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC015113" Name="DefineUniqueFieldStaticName" Severity="Error">
+                            <Message>Attribute 'StaticName' of Field 'HiddenPageField' in Feature 'MyCompany_Intranet_InternalFields' is used multiple times. Field HiddenPageField in Feature 'MyCompany_Intranet_InternalFields' uses same StaticName 'HiddenPageField'</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_InternalFields\InternalField\Elements.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_InternalFields\InternalField\Elements.xml</WSPRelativeLocation>
+                            <Description>The StaticName of a Field should be unique in the farm. </Description>
+                            <ElementName>HiddenPageField</ElementName>
+                            <LineNumber>18</LineNumber>
+                            <LinePosition>3</LinePosition>
+                            <SchemaUrl>http://msdn.microsoft.com/en-us/library/bb266224.aspx</SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC015113_DefineUniqueFieldStaticName.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC015703" Name="DeployMissingUrlActionFileOfCustomAction" Severity="Error">
+                            <Message>Deploy missing file '~site/_layouts/EnterPageName.aspx?ItemUrl={ItemUrl}&amp;amp;ListId={ListId}' in CustomAction 'CustomActionContentTypePage'.</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_InternalFields\CustomActionContentTypePage\Elements.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_InternalFields\CustomActionContentTypePage\Elements.xml</WSPRelativeLocation>
+                            <Description>If a CustomAction references a file in attribute 'UrlAction' (e.g. ASPX page) the file must be deployed. Otherwise a click on this CustomAction will lead to 404 error.</Description>
+                            <ElementName>CustomActionContentTypePage</ElementName>
+                            <LineNumber>4</LineNumber>
+                            <LinePosition>3</LinePosition>
+                            <SchemaUrl>http://msdn.microsoft.com/en-us/library/ms460194.aspx</SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC015703_DeployMissingUrlActionFileOfCustomAction.html?version=6.0.5.3298</Help>
+                        </Notification>
+                    </Notifications>
+                </VisitorGroup>
+                <VisitorGroup Name="Supportability" CriticalErrors="0" Errors="2" CriticalWarnings="0" Warnings="0" Information="0">
+                    <Notifications>
+                        <Notification CheckID="SPC030221" Name="DoNotModifyWebAppSettings" Severity="Error">
+                            <Message>Do not call property 'set_AlertsMaximumQuerySet' of a SharePoint WebApplication in method 'Test1', class 'MyCompany.Intranet.Components.SPFarmModifications'. WebApplication should only be modified by an administrator or via PowerShell.</Message>
+                            <HiveLocation>[SharePointHive]\MyCompany.Intranet.Components.dll</HiveLocation>
+                            <WSPRelativeLocation>MyCompany.Intranet.Components.dll, type 'MyCompany.Intranet.Components.SPFarmModifications', method 'Test1'</WSPRelativeLocation>
+                            <Description>Do not change properties of the SPWebApplication object and do not call methods that modify the SPWebApplication configuration. Such changes should be done only by the farm administrator or should be part of a deployment script e.g. with PowerShell.</Description>
+                            <ElementName>MyCompany.Intranet.Components.dll</ElementName>
+                            <LineNumber>0</LineNumber>
+                            <LinePosition>0</LinePosition>
+                            <SchemaUrl>http://msdn.microsoft.com/en-us/library/ms468837.aspx</SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC030221_DoNotModifyWebAppSettings.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC030222" Name="DoNotActivateWebAppFeatures" Severity="Error">
+                            <Message>Do not activate a WebApp feature via code. Activate WebApp features during the deployment of a solution e.g. via PowerShell.</Message>
+                            <HiveLocation>[SharePointHive]\MyCompany.Intranet.Components.dll</HiveLocation>
+                            <WSPRelativeLocation>MyCompany.Intranet.Components.dll, type 'MyCompany.Intranet.Components.SPFarmModifications', method 'Test1'</WSPRelativeLocation>
+                            <Description>Do not activate or deactivate features with WebApplication scope. This operation should only be done by the farm administrator or should be part of a deployment script e.g. with PowerShell.</Description>
+                            <ElementName>MyCompany.Intranet.Components.dll</ElementName>
+                            <LineNumber>0</LineNumber>
+                            <LinePosition>0</LinePosition>
+                            <SchemaUrl>http://msdn.microsoft.com/en-us/library/ms468837.aspx</SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC030222_DoNotActivateWebAppFeatures.html?version=6.0.5.3298</Help>
+                        </Notification>
+                    </Notifications>
+                </VisitorGroup>
+                <VisitorGroup Name="Design" CriticalErrors="0" Errors="0" CriticalWarnings="3" Warnings="2" Information="0">
+                    <Notifications>
+                        <Notification CheckID="SPC040102" Name="DeclareTitleAndDescriptionInSolutions" Severity="Warning">
+                            <Message>Add attribute 'Title' to Solution 'MyCompany.Intranet.Components.wsp'.</Message>
+                            <HiveLocation>[SharePointHive]\manifest.xml</HiveLocation>
+                            <WSPRelativeLocation>manifest.xml</WSPRelativeLocation>
+                            <Description>To make it easier to identify Solutions in the Solution Gallery in SharePoint the attributes 'Title' and 'Description' should be declared.</Description>
+                            <ElementName>MyCompany.Intranet.Components.wsp</ElementName>
+                            <LineNumber>2</LineNumber>
+                            <LinePosition>60</LinePosition>
+                            <SchemaUrl>http://msdn.microsoft.com/en-us/library/ms412929.aspx</SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC040102_DeclareTitleAndDescriptionInSolutions.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC040102" Name="DeclareTitleAndDescriptionInSolutions" Severity="Warning">
+                            <Message>Add attribute 'Description' to Solution 'MyCompany.Intranet.Components.wsp'.</Message>
+                            <HiveLocation>[SharePointHive]\manifest.xml</HiveLocation>
+                            <WSPRelativeLocation>manifest.xml</WSPRelativeLocation>
+                            <Description>To make it easier to identify Solutions in the Solution Gallery in SharePoint the attributes 'Title' and 'Description' should be declared.</Description>
+                            <ElementName>MyCompany.Intranet.Components.wsp</ElementName>
+                            <LineNumber>2</LineNumber>
+                            <LinePosition>60</LinePosition>
+                            <SchemaUrl>http://msdn.microsoft.com/en-us/library/ms412929.aspx</SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC040102_DeclareTitleAndDescriptionInSolutions.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC042103" Name="MakeFeaturesWithScopeFarmOrWebAppVisible" Severity="CriticalWarning">
+                            <Message>Make Feature 'MyCompany_Intranet_HttpModulePage' visible.</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_HttpModulePage\Feature.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_HttpModulePage\Feature.xml</WSPRelativeLocation>
+                            <Description>Feature of scope 'Farm' or 'WebApplication' should not be hidden. They are not visible for the farm administrator in the Central Administration and cannot be deactivated via the UI e.g. in case of problems. If the feature is visible in the Central Administration the farm administrator can easier identify available and activated features.</Description>
+                            <ElementName>MyCompany_Intranet_HttpModulePage</ElementName>
+                            <LineNumber>15</LineNumber>
+                            <LinePosition>123</LinePosition>
+                            <SchemaUrl>http://msdn.microsoft.com/en-us/library/ms436075.aspx</SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC042103_MakeFeaturesWithScopeFarmOrWebAppVisible.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC042104" Name="MakeFeaturesWithScopeSiteOrWebHidden" Severity="CriticalWarning">
+                            <Message>Consider to make Feature 'MyCompany_Intranet_Actions' hidden.</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_Actions\Feature.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_Actions\Feature.xml</WSPRelativeLocation>
+                            <Description>Consider to make Features with scope 'Web' or 'Site' hidden to avoid activation via the UI.</Description>
+                            <ElementName>MyCompany_Intranet_Actions</ElementName>
+                            <LineNumber>15</LineNumber>
+                            <LinePosition>114</LinePosition>
+                            <SchemaUrl>http://msdn.microsoft.com/en-us/library/ms436075.aspx</SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC042104_MakeFeaturesWithScopeSiteOrWebHidden.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC042104" Name="MakeFeaturesWithScopeSiteOrWebHidden" Severity="CriticalWarning">
+                            <Message>Consider to make Feature 'MyCompany_Intranet_InternalFields' hidden.</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_InternalFields\Feature.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_InternalFields\Feature.xml</WSPRelativeLocation>
+                            <Description>Consider to make Features with scope 'Web' or 'Site' hidden to avoid activation via the UI.</Description>
+                            <ElementName>MyCompany_Intranet_InternalFields</ElementName>
+                            <LineNumber>15</LineNumber>
+                            <LinePosition>107</LinePosition>
+                            <SchemaUrl>http://msdn.microsoft.com/en-us/library/ms436075.aspx</SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC042104_MakeFeaturesWithScopeSiteOrWebHidden.html?version=6.0.5.3298</Help>
+                        </Notification>
+                    </Notifications>
+                </VisitorGroup>
+                <VisitorGroup Name="BestPractice" CriticalErrors="0" Errors="0" CriticalWarnings="4" Warnings="0" Information="4">
+                    <Notifications>
+                        <Notification CheckID="SPC050221" Name="DoNotCallListItemsAddToAddItems" Severity="CriticalWarning">
+                            <Message>Do not call SPList.Items.Add() in method 'EnsureFolder', class 'MyCompany.Intranet.Components.CustomCode.Supression'. Use SPList.AddItem() instead.</Message>
+                            <HiveLocation>[SharePointHive]\MyCompany.Intranet.Components.dll</HiveLocation>
+                            <WSPRelativeLocation>MyCompany.Intranet.Components.dll, type 'MyCompany.Intranet.Components.CustomCode.Supression', method 'EnsureFolder'</WSPRelativeLocation>
+                            <Description>Do not call SPList.Items.Add. Use SPList.AddItem instead.</Description>
+                            <ElementName>MyCompany.Intranet.Components.dll</ElementName>
+                            <LineNumber>0</LineNumber>
+                            <LinePosition>0</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC050221_DoNotCallListItemsAddToAddItems.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC050225" Name="DoNotUseListItemsCount" Severity="CriticalWarning">
+                            <Message>Do not use SPList.Items.Count in method 'TestWithError', class 'MyCompany.Intranet.Components.SPListItemsCount'. Use SPList.ItemCount instead.</Message>
+                            <HiveLocation>[SharePointHive]\MyCompany.Intranet.Components.dll</HiveLocation>
+                            <WSPRelativeLocation>MyCompany.Intranet.Components.dll, type 'MyCompany.Intranet.Components.SPListItemsCount', method 'TestWithError'</WSPRelativeLocation>
+                            <Description>Do not call SPList.Items.Count. Use SPList.ItemCount instead.</Description>
+                            <ElementName>MyCompany.Intranet.Components.dll</ElementName>
+                            <LineNumber>0</LineNumber>
+                            <LinePosition>0</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC050225_DoNotUseListItemsCount.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC050239" Name="DoNotUseGetPublishingPages" Severity="CriticalWarning">
+                            <Message>Do not call PublishingWeb.GetPublishingPages() in method 'CreateNewPage', class 'MyCompany.Intranet.Components.CustomCode.PublishingWebTest'. Use PublishingWeb.GetPublishingPages(SPQuery query) or PublishingWeb.GetPublishingPages(uint rowLimit) instead. Use the alternative methods especially to get all pages including pages in subfolders.</Message>
+                            <HiveLocation>[SharePointHive]\MyCompany.Intranet.Components.dll</HiveLocation>
+                            <WSPRelativeLocation>MyCompany.Intranet.Components.dll, type 'MyCompany.Intranet.Components.CustomCode.PublishingWebTest', method 'CreateNewPage'</WSPRelativeLocation>
+                            <Description>Do not call PublishingWeb.GetPublishingPages(). Use PublishingWeb.GetPublishingPages(SPQuery query) or PublishingWeb.GetPublishingPages(uint rowLimit) instead to improve performance and limit the number of returned pages. Note: PublishingWeb.GetPublishingPages() does not return pages inside subfolders. Use then PublishingWeb.GetPublishingPages(SPQuery query) instead.</Description>
+                            <ElementName>MyCompany.Intranet.Components.dll</ElementName>
+                            <LineNumber>0</LineNumber>
+                            <LinePosition>0</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC050239_DoNotUseGetPublishingPages.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC052101" Name="DoNotActivateFeaturesViaAPI" Severity="CriticalWarning">
+                            <Message>Do not activate or deactivate Features via API in method 'Test1', class 'MyCompany.Intranet.Components.SPFarmModifications'. Consider using PowerShell or Feature Stapling.</Message>
+                            <HiveLocation>[SharePointHive]\MyCompany.Intranet.Components.dll</HiveLocation>
+                            <WSPRelativeLocation>MyCompany.Intranet.Components.dll, type 'MyCompany.Intranet.Components.SPFarmModifications', method 'Test1'</WSPRelativeLocation>
+                            <Description>Do not activate or deactivate Features in code via API. Consider using PowerShell or Feature Stapling.</Description>
+                            <ElementName>MyCompany.Intranet.Components.dll</ElementName>
+                            <LineNumber>0</LineNumber>
+                            <LinePosition>0</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC052101_DoNotActivateFeaturesViaAPI.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC055102" Name="ConsiderAllowDeletionInField" Severity="Information">
+                            <Message>Consider setting the attribute 'AllowDeletion' in Field 'InternalField3' and set the value to FALSE.</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_Actions\InternalField\Elements.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_Actions\InternalField\Elements.xml</WSPRelativeLocation>
+                            <Description>Setting the attribute 'AllowDeletion' to FALSE prevents unintended deletion of a Field by the user or administrator.</Description>
+                            <ElementName>InternalField3</ElementName>
+                            <LineNumber>7</LineNumber>
+                            <LinePosition>3</LinePosition>
+                            <SchemaUrl>http://msdn.microsoft.com/en-us/library/bb266224.aspx</SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC055102_ConsiderAllowDeletionInField.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC055102" Name="ConsiderAllowDeletionInField" Severity="Information">
+                            <Message>Consider setting the attribute 'AllowDeletion' in Field 'HiddenPageField' and set the value to FALSE.</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_InternalFields\HiddenPageField\Elements.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_InternalFields\HiddenPageField\Elements.xml</WSPRelativeLocation>
+                            <Description>Setting the attribute 'AllowDeletion' to FALSE prevents unintended deletion of a Field by the user or administrator.</Description>
+                            <ElementName>HiddenPageField</ElementName>
+                            <LineNumber>7</LineNumber>
+                            <LinePosition>3</LinePosition>
+                            <SchemaUrl>http://msdn.microsoft.com/en-us/library/bb266224.aspx</SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC055102_ConsiderAllowDeletionInField.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC055102" Name="ConsiderAllowDeletionInField" Severity="Information">
+                            <Message>Consider setting the attribute 'AllowDeletion' in Field 'HiddenPageField' and set the value to FALSE.</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_InternalFields\InternalField\Elements.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_InternalFields\InternalField\Elements.xml</WSPRelativeLocation>
+                            <Description>Setting the attribute 'AllowDeletion' to FALSE prevents unintended deletion of a Field by the user or administrator.</Description>
+                            <ElementName>HiddenPageField</ElementName>
+                            <LineNumber>16</LineNumber>
+                            <LinePosition>3</LinePosition>
+                            <SchemaUrl>http://msdn.microsoft.com/en-us/library/bb266224.aspx</SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC055102_ConsiderAllowDeletionInField.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC055102" Name="ConsiderAllowDeletionInField" Severity="Information">
+                            <Message>Consider setting the attribute 'AllowDeletion' in Field 'InternalField' and set the value to FALSE.</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_InternalFields\InternalField\Elements.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_InternalFields\InternalField\Elements.xml</WSPRelativeLocation>
+                            <Description>Setting the attribute 'AllowDeletion' to FALSE prevents unintended deletion of a Field by the user or administrator.</Description>
+                            <ElementName>InternalField</ElementName>
+                            <LineNumber>7</LineNumber>
+                            <LinePosition>3</LinePosition>
+                            <SchemaUrl>http://msdn.microsoft.com/en-us/library/bb266224.aspx</SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC055102_ConsiderAllowDeletionInField.html?version=6.0.5.3298</Help>
+                        </Notification>
+                    </Notifications>
+                </VisitorGroup>
+                <VisitorGroup Name="Deployment" CriticalErrors="0" Errors="1" CriticalWarnings="0" Warnings="5" Information="0">
+                    <Notifications>
+                        <Notification CheckID="SPC060106" Name="DoNotResetWebServer" Severity="Warning">
+                            <Message>Do not set 'ResetWebServer' to TRUE in solution 'MyCompany.Intranet.Components.wsp'.</Message>
+                            <HiveLocation>[SharePointHive]\manifest.xml</HiveLocation>
+                            <WSPRelativeLocation>manifest.xml</WSPRelativeLocation>
+                            <Description>A solution should not reset the webserver.</Description>
+                            <ElementName>MyCompany.Intranet.Components.wsp</ElementName>
+                            <LineNumber>2</LineNumber>
+                            <LinePosition>110</LinePosition>
+                            <SchemaUrl>http://msdn.microsoft.com/en-us/library/ms412929.aspx</SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC060106_DoNotResetWebServer.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC060107" Name="DefineRecycleForResetWebServerModeOnUpgrade" Severity="Warning">
+                            <Message>Specify 'Recycle' in attribute 'ResetWebServerModeOnUpgrade' in Solution 'MyCompany.Intranet.Components.wsp'.</Message>
+                            <HiveLocation>[SharePointHive]\manifest.xml</HiveLocation>
+                            <WSPRelativeLocation>manifest.xml</WSPRelativeLocation>
+                            <Description>To reduce the downtime of a SharePoint farm during deployment the solution should not use default setting 'StartStop' for upgrading solutions. Spedifying 'Recycle' only recycles affected application pools and will not stop them.</Description>
+                            <ElementName>MyCompany.Intranet.Components.wsp</ElementName>
+                            <LineNumber>2</LineNumber>
+                            <LinePosition>60</LinePosition>
+                            <SchemaUrl>http://msdn.microsoft.com/en-us/library/ms412929.aspx</SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC060107_DefineRecycleForResetWebServerModeOnUpgrade.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC060203" Name="DoNotDeployAssemblyWithDebugMode" Severity="Error">
+                            <Message>Build assembly 'MyCompany.Intranet.Components.dll' in RELEASE mode.</Message>
+                            <HiveLocation>[SharePointHive]\MyCompany.Intranet.Components.dll</HiveLocation>
+                            <WSPRelativeLocation>MyCompany.Intranet.Components.dll</WSPRelativeLocation>
+                            <Description>Assembly should be build with RELEASE mode. Main reason is to prevent running code which is defined within #DEBUG preprocessor directive and which typically should not run in productive environments.</Description>
+                            <ElementName>MyCompany.Intranet.Components.dll</ElementName>
+                            <LineNumber>18</LineNumber>
+                            <LinePosition>6</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC060203_DoNotDeployAssemblyWithDebugMode.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC060209" Name="DoNotDeploySPWebConfigModificationsViaFeatures" Severity="Warning">
+                            <Message>Do not deploy SPWebConfigModifications in Feature 'HttpModulePageEventReceiver'.</Message>
+                            <HiveLocation>[SharePointHive]\MyCompany.Intranet.Components.dll</HiveLocation>
+                            <WSPRelativeLocation>MyCompany.Intranet.Components.dll, type 'MyCompany.Intranet.Components.HttpModulePageEventReceiver', method 'ActivateHttpModule_HttpModulePages'</WSPRelativeLocation>
+                            <Description>Deployment of SPWebConfigModifications with a feature receiver should be avoided. The activation of this feature will start a timer job and will initiate the restart of services which may lead to problems during a deployment. Consider deploying of SPWebConfigModifications via PowerShell script or supplemental config file.</Description>
+                            <ElementName>MyCompany.Intranet.Components.dll</ElementName>
+                            <LineNumber>0</LineNumber>
+                            <LinePosition>0</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC060209_DoNotDeploySPWebConfigModificationsViaFeatures.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC060209" Name="DoNotDeploySPWebConfigModificationsViaFeatures" Severity="Warning">
+                            <Message>Do not deploy SPWebConfigModifications in Feature 'HttpModulePageEventReceiver'.</Message>
+                            <HiveLocation>[SharePointHive]\MyCompany.Intranet.Components.dll</HiveLocation>
+                            <WSPRelativeLocation>MyCompany.Intranet.Components.dll, type 'MyCompany.Intranet.Components.HttpModulePageEventReceiver', method 'DeactivateHttpModule_HttpModulePages'</WSPRelativeLocation>
+                            <Description>Deployment of SPWebConfigModifications with a feature receiver should be avoided. The activation of this feature will start a timer job and will initiate the restart of services which may lead to problems during a deployment. Consider deploying of SPWebConfigModifications via PowerShell script or supplemental config file.</Description>
+                            <ElementName>MyCompany.Intranet.Components.dll</ElementName>
+                            <LineNumber>0</LineNumber>
+                            <LinePosition>0</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC060209_DoNotDeploySPWebConfigModificationsViaFeatures.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC060209" Name="DoNotDeploySPWebConfigModificationsViaFeatures" Severity="Warning">
+                            <Message>Do not deploy SPWebConfigModifications in Feature 'HttpModulePageEventReceiver'.</Message>
+                            <HiveLocation>[SharePointHive]\MyCompany.Intranet.Components.dll</HiveLocation>
+                            <WSPRelativeLocation>MyCompany.Intranet.Components.dll, type 'MyCompany.Intranet.Components.HttpModulePageEventReceiver', method 'DeactivateHttpModule_HttpModulePages'</WSPRelativeLocation>
+                            <Description>Deployment of SPWebConfigModifications with a feature receiver should be avoided. The activation of this feature will start a timer job and will initiate the restart of services which may lead to problems during a deployment. Consider deploying of SPWebConfigModifications via PowerShell script or supplemental config file.</Description>
+                            <ElementName>MyCompany.Intranet.Components.dll</ElementName>
+                            <LineNumber>0</LineNumber>
+                            <LinePosition>0</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC060209_DoNotDeploySPWebConfigModificationsViaFeatures.html?version=6.0.5.3298</Help>
+                        </Notification>
+                    </Notifications>
+                </VisitorGroup>
+                <VisitorGroup Name="Localization" CriticalErrors="0" Errors="0" CriticalWarnings="0" Warnings="16" Information="0">
+                    <Notifications>
+                        <Notification CheckID="SPC070001" Name="UseResourcesForLocalizableAttributes" Severity="Warning">
+                            <Message>Make attribute 'Description' in Feature 'MyCompany_Intranet_HttpModulePage' localized (current value: 'HttpModulePages Feature Description').</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_HttpModulePage\Feature.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_HttpModulePage\Feature.xml</WSPRelativeLocation>
+                            <Description>All localizable attributes of SharePoint artifacts like ContentType, Feature etc. should use resources.</Description>
+                            <ElementName>MyCompany_Intranet_HttpModulePage</ElementName>
+                            <LineNumber>15</LineNumber>
+                            <LinePosition>59</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC070001_UseResourcesForLocalizableAttributes.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC070001" Name="UseResourcesForLocalizableAttributes" Severity="Warning">
+                            <Message>Make attribute 'Title' in Feature 'MyCompany_Intranet_HttpModulePage' localized (current value: 'HttpModulePages Feature').</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_HttpModulePage\Feature.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_HttpModulePage\Feature.xml</WSPRelativeLocation>
+                            <Description>All localizable attributes of SharePoint artifacts like ContentType, Feature etc. should use resources.</Description>
+                            <ElementName>MyCompany_Intranet_HttpModulePage</ElementName>
+                            <LineNumber>15</LineNumber>
+                            <LinePosition>531</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC070001_UseResourcesForLocalizableAttributes.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC070001" Name="UseResourcesForLocalizableAttributes" Severity="Warning">
+                            <Message>Make attribute 'Description' in Feature 'MyCompany_Intranet_Actions' localized (current value: 'HideCustomActionPage Feature Description').</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_Actions\Feature.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_Actions\Feature.xml</WSPRelativeLocation>
+                            <Description>All localizable attributes of SharePoint artifacts like ContentType, Feature etc. should use resources.</Description>
+                            <ElementName>MyCompany_Intranet_Actions</ElementName>
+                            <LineNumber>15</LineNumber>
+                            <LinePosition>59</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC070001_UseResourcesForLocalizableAttributes.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC070001" Name="UseResourcesForLocalizableAttributes" Severity="Warning">
+                            <Message>Make attribute 'Title' in Feature 'MyCompany_Intranet_Actions' localized (current value: 'HideCustomActionPage Feature').</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_Actions\Feature.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_Actions\Feature.xml</WSPRelativeLocation>
+                            <Description>All localizable attributes of SharePoint artifacts like ContentType, Feature etc. should use resources.</Description>
+                            <ElementName>MyCompany_Intranet_Actions</ElementName>
+                            <LineNumber>15</LineNumber>
+                            <LinePosition>319</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC070001_UseResourcesForLocalizableAttributes.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC070001" Name="UseResourcesForLocalizableAttributes" Severity="Warning">
+                            <Message>Make attribute 'Group' in Field 'InternalField3' localized (current value: 'MyCompany.Intranet Columns').</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_Actions\InternalField\Elements.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_Actions\InternalField\Elements.xml</WSPRelativeLocation>
+                            <Description>All localizable attributes of SharePoint artifacts like ContentType, Feature etc. should use resources.</Description>
+                            <ElementName>InternalField3</ElementName>
+                            <LineNumber>5</LineNumber>
+                            <LinePosition>3</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC070001_UseResourcesForLocalizableAttributes.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC070001" Name="UseResourcesForLocalizableAttributes" Severity="Warning">
+                            <Message>Make attribute 'DisplayName' in Field 'InternalField3' localized (current value: 'InternalField3 Name').</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_Actions\InternalField\Elements.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_Actions\InternalField\Elements.xml</WSPRelativeLocation>
+                            <Description>All localizable attributes of SharePoint artifacts like ContentType, Feature etc. should use resources.</Description>
+                            <ElementName>InternalField3</ElementName>
+                            <LineNumber>6</LineNumber>
+                            <LinePosition>3</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC070001_UseResourcesForLocalizableAttributes.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC070001" Name="UseResourcesForLocalizableAttributes" Severity="Warning">
+                            <Message>Make attribute 'Description' in Field 'InternalField3' localized (current value: 'InternalField3 Description').</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_Actions\InternalField\Elements.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_Actions\InternalField\Elements.xml</WSPRelativeLocation>
+                            <Description>All localizable attributes of SharePoint artifacts like ContentType, Feature etc. should use resources.</Description>
+                            <ElementName>InternalField3</ElementName>
+                            <LineNumber>14</LineNumber>
+                            <LinePosition>3</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC070001_UseResourcesForLocalizableAttributes.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC070001" Name="UseResourcesForLocalizableAttributes" Severity="Warning">
+                            <Message>Make attribute 'Description' in Feature 'MyCompany_Intranet_InternalFields' localized (current value: 'InternalField Feature Description').</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_InternalFields\Feature.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_InternalFields\Feature.xml</WSPRelativeLocation>
+                            <Description>All localizable attributes of SharePoint artifacts like ContentType, Feature etc. should use resources.</Description>
+                            <ElementName>MyCompany_Intranet_InternalFields</ElementName>
+                            <LineNumber>15</LineNumber>
+                            <LinePosition>59</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC070001_UseResourcesForLocalizableAttributes.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC070001" Name="UseResourcesForLocalizableAttributes" Severity="Warning">
+                            <Message>Make attribute 'Title' in Feature 'MyCompany_Intranet_InternalFields' localized (current value: 'InternalField Feature').</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_InternalFields\Feature.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_InternalFields\Feature.xml</WSPRelativeLocation>
+                            <Description>All localizable attributes of SharePoint artifacts like ContentType, Feature etc. should use resources.</Description>
+                            <ElementName>MyCompany_Intranet_InternalFields</ElementName>
+                            <LineNumber>15</LineNumber>
+                            <LinePosition>313</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC070001_UseResourcesForLocalizableAttributes.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC070001" Name="UseResourcesForLocalizableAttributes" Severity="Warning">
+                            <Message>Make attribute 'Group' in Field 'HiddenPageField' localized (current value: 'MyCompany.Intranet Columns').</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_InternalFields\HiddenPageField\Elements.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_InternalFields\HiddenPageField\Elements.xml</WSPRelativeLocation>
+                            <Description>All localizable attributes of SharePoint artifacts like ContentType, Feature etc. should use resources.</Description>
+                            <ElementName>HiddenPageField</ElementName>
+                            <LineNumber>5</LineNumber>
+                            <LinePosition>3</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC070001_UseResourcesForLocalizableAttributes.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC070001" Name="UseResourcesForLocalizableAttributes" Severity="Warning">
+                            <Message>Make attribute 'DisplayName' in Field 'HiddenPageField' localized (current value: 'HiddenPageField Name').</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_InternalFields\HiddenPageField\Elements.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_InternalFields\HiddenPageField\Elements.xml</WSPRelativeLocation>
+                            <Description>All localizable attributes of SharePoint artifacts like ContentType, Feature etc. should use resources.</Description>
+                            <ElementName>HiddenPageField</ElementName>
+                            <LineNumber>6</LineNumber>
+                            <LinePosition>3</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC070001_UseResourcesForLocalizableAttributes.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC070001" Name="UseResourcesForLocalizableAttributes" Severity="Warning">
+                            <Message>Make attribute 'Description' in Field 'HiddenPageField' localized (current value: 'HiddenPageField Description').</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_InternalFields\HiddenPageField\Elements.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_InternalFields\HiddenPageField\Elements.xml</WSPRelativeLocation>
+                            <Description>All localizable attributes of SharePoint artifacts like ContentType, Feature etc. should use resources.</Description>
+                            <ElementName>HiddenPageField</ElementName>
+                            <LineNumber>14</LineNumber>
+                            <LinePosition>3</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC070001_UseResourcesForLocalizableAttributes.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC070001" Name="UseResourcesForLocalizableAttributes" Severity="Warning">
+                            <Message>Make attribute 'Group' in Field 'HiddenPageField' localized (current value: 'MyCompany.Intranet Columns').</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_InternalFields\InternalField\Elements.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_InternalFields\InternalField\Elements.xml</WSPRelativeLocation>
+                            <Description>All localizable attributes of SharePoint artifacts like ContentType, Feature etc. should use resources.</Description>
+                            <ElementName>HiddenPageField</ElementName>
+                            <LineNumber>14</LineNumber>
+                            <LinePosition>3</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC070001_UseResourcesForLocalizableAttributes.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC070001" Name="UseResourcesForLocalizableAttributes" Severity="Warning">
+                            <Message>Make attribute 'DisplayName' in Field 'HiddenPageField' localized (current value: 'HiddenPageField Name').</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_InternalFields\InternalField\Elements.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_InternalFields\InternalField\Elements.xml</WSPRelativeLocation>
+                            <Description>All localizable attributes of SharePoint artifacts like ContentType, Feature etc. should use resources.</Description>
+                            <ElementName>HiddenPageField</ElementName>
+                            <LineNumber>15</LineNumber>
+                            <LinePosition>3</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC070001_UseResourcesForLocalizableAttributes.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC070001" Name="UseResourcesForLocalizableAttributes" Severity="Warning">
+                            <Message>Make attribute 'Group' in Field 'InternalField' localized (current value: 'MyCompany.Intranet Columns').</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_InternalFields\InternalField\Elements.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_InternalFields\InternalField\Elements.xml</WSPRelativeLocation>
+                            <Description>All localizable attributes of SharePoint artifacts like ContentType, Feature etc. should use resources.</Description>
+                            <ElementName>InternalField</ElementName>
+                            <LineNumber>5</LineNumber>
+                            <LinePosition>3</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC070001_UseResourcesForLocalizableAttributes.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC070001" Name="UseResourcesForLocalizableAttributes" Severity="Warning">
+                            <Message>Make attribute 'DisplayName' in Field 'InternalField' localized (current value: 'InternalField Name').</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_InternalFields\InternalField\Elements.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_InternalFields\InternalField\Elements.xml</WSPRelativeLocation>
+                            <Description>All localizable attributes of SharePoint artifacts like ContentType, Feature etc. should use resources.</Description>
+                            <ElementName>InternalField</ElementName>
+                            <LineNumber>6</LineNumber>
+                            <LinePosition>3</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC070001_UseResourcesForLocalizableAttributes.html?version=6.0.5.3298</Help>
+                        </Notification>
+                    </Notifications>
+                </VisitorGroup>
+            </VisitorGroups>
+        </Solution>
+        <Solution Name="MyCompany.Intranet.FrontEnd.wsp" CriticalErrors="1" Errors="2" CriticalWarnings="14" Warnings="20" Information="4">
+            <VisitorGroups>
+                <VisitorGroup Name="Correctness" CriticalErrors="1" Errors="1" CriticalWarnings="3" Warnings="0" Information="0">
+                    <Notifications>
+                        <Notification CheckID="SPC015209" Name="InheritContentTypeFromExistingParentContentType" Severity="Error">
+                            <Message>The parent ContentType '0x010100EED05E02DB9F4831932432C1B47334B2' of ContentType 'MyContentType' (ID: '0x010100EED05E02DB9F4831932432C1B47334B201') could not be found. Change the ContentType and inherit from an existing ContentType or remove this ContentType. If the parent ContentType is created via API (e.g. in a FeatureReceiver) consider to create also all inherited ContentTypes via API.</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_Lists\PublicPages\schema.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_Lists\PublicPages\schema.xml</WSPRelativeLocation>
+                            <Description>The parent ContentType of a ContentType must be either a SharePoint ContentType or a ContentType within the WSP solutions.</Description>
+                            <ElementName>Basic List</ElementName>
+                            <LineNumber>8</LineNumber>
+                            <LinePosition>20</LinePosition>
+                            <SchemaUrl>http://msdn.microsoft.com/en-us/library/aa544268.aspx</SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC015209_InheritContentTypeFromExistingParentContentType.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC015213" Name="AvoidCommentsInsideContentType" Severity="CriticalWarning">
+                            <Message>Avoid comments inside ContentType 'PublicLocalPage'.</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_PublicPage\PublicLocalPage\Elements.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_PublicPage\PublicLocalPage\Elements.xml</WSPRelativeLocation>
+                            <Description>Comments inside the ContentType definition (XML) can break loading them.</Description>
+                            <ElementName>PublicLocalPage</ElementName>
+                            <LineNumber>15</LineNumber>
+                            <LinePosition>3</LinePosition>
+                            <SchemaUrl>http://msdn.microsoft.com/en-us/library/aa544268.aspx</SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC015213_AvoidCommentsInsideContentType.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC015511" Name="DoNotDeployTaxonomyFieldsInListDefinition" Severity="CriticalError">
+                            <Message>Do not deploy taxonomy field [MyTaxonomyField] using ListTemplate 'PublicPages'.</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_Lists\PublicPages\schema.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_Lists\PublicPages\schema.xml</WSPRelativeLocation>
+                            <Description>Taxonomy fields should be deployed by content types, not inside ListTemplates.</Description>
+                            <ElementName>Basic List</ElementName>
+                            <LineNumber>12</LineNumber>
+                            <LinePosition>81</LinePosition>
+                            <SchemaUrl>http://msdn.microsoft.com/en-us/library/bb266243.aspx</SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC015511_DoNotDeployTaxonomyFieldsInListDefinition.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC017510" Name="DeclareDefaultDescriptionInListDefinition" Severity="CriticalWarning">
+                            <Message>Declare element 'DefaultDescription' in schema of ListTemplate 'Basic List'.</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_Lists\PublicPages\schema.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_Lists\PublicPages\schema.xml</WSPRelativeLocation>
+                            <Description>The element 'DefaultDescription' must be declared in the schema.xml of a ListTemplate.</Description>
+                            <ElementName>Basic List</ElementName>
+                            <LineNumber>2</LineNumber>
+                            <LinePosition>2</LinePosition>
+                            <SchemaUrl>http://msdn.microsoft.com/en-us/library/ms415091.aspx</SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC017510_DeclareDefaultDescriptionInListDefinition.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC017511" Name="DeclareRequiredAttributesInListDefinition" Severity="CriticalWarning">
+                            <Message>Declare element 'Name' in schema of ListTemplate 'Basic List'.</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_Lists\PublicPages\schema.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_Lists\PublicPages\schema.xml</WSPRelativeLocation>
+                            <Description>The attribute 'Title', 'Name' and 'Direction' must be declared in the schema.xml of a ListTemplate.</Description>
+                            <ElementName>Basic List</ElementName>
+                            <LineNumber>2</LineNumber>
+                            <LinePosition>2</LinePosition>
+                            <SchemaUrl>http://msdn.microsoft.com/en-us/library/ms415091.aspx</SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC017511_DeclareRequiredAttributesInListDefinition.html?version=6.0.5.3298</Help>
+                        </Notification>
+                    </Notifications>
+                </VisitorGroup>
+                <VisitorGroup Name="Security" CriticalErrors="0" Errors="0" CriticalWarnings="1" Warnings="0" Information="0">
+                    <Notifications>
+                        <Notification CheckID="SPC026902" Name="AddValidateFormDigestToASPXPage" Severity="CriticalWarning">
+                            <Message>Add 'SharePoint:FormDigest' to ASPX page 'CorePageLayout\CorePageLayout.aspx'.</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_PageLayouts\CorePageLayout\CorePageLayout.aspx</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_PageLayouts\CorePageLayout\CorePageLayout.aspx</WSPRelativeLocation>
+                            <Description>ASPX pages should contain 'SharePoint:FormDigest' to ensure security validation of requests,</Description>
+                            <ElementName>MyCompany_Intranet_PageLayouts\CorePageLayout\CorePageLayout.aspx</ElementName>
+                            <LineNumber>1</LineNumber>
+                            <LinePosition>0</LinePosition>
+                            <SchemaUrl>http://msdn.microsoft.com/en-us/library/ms412929.aspx</SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC026902_AddValidateFormDigestToASPXPage.html?version=6.0.5.3298</Help>
+                        </Notification>
+                    </Notifications>
+                </VisitorGroup>
+                <VisitorGroup Name="Design" CriticalErrors="0" Errors="0" CriticalWarnings="5" Warnings="4" Information="0">
+                    <Notifications>
+                        <Notification CheckID="SPC040102" Name="DeclareTitleAndDescriptionInSolutions" Severity="Warning">
+                            <Message>Add attribute 'Title' to Solution 'MyCompany.Intranet.FrontEnd.wsp'.</Message>
+                            <HiveLocation>[SharePointHive]\manifest.xml</HiveLocation>
+                            <WSPRelativeLocation>manifest.xml</WSPRelativeLocation>
+                            <Description>To make it easier to identify Solutions in the Solution Gallery in SharePoint the attributes 'Title' and 'Description' should be declared.</Description>
+                            <ElementName>MyCompany.Intranet.FrontEnd.wsp</ElementName>
+                            <LineNumber>2</LineNumber>
+                            <LinePosition>60</LinePosition>
+                            <SchemaUrl>http://msdn.microsoft.com/en-us/library/ms412929.aspx</SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC040102_DeclareTitleAndDescriptionInSolutions.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC040102" Name="DeclareTitleAndDescriptionInSolutions" Severity="Warning">
+                            <Message>Add attribute 'Description' to Solution 'MyCompany.Intranet.FrontEnd.wsp'.</Message>
+                            <HiveLocation>[SharePointHive]\manifest.xml</HiveLocation>
+                            <WSPRelativeLocation>manifest.xml</WSPRelativeLocation>
+                            <Description>To make it easier to identify Solutions in the Solution Gallery in SharePoint the attributes 'Title' and 'Description' should be declared.</Description>
+                            <ElementName>MyCompany.Intranet.FrontEnd.wsp</ElementName>
+                            <LineNumber>2</LineNumber>
+                            <LinePosition>60</LinePosition>
+                            <SchemaUrl>http://msdn.microsoft.com/en-us/library/ms412929.aspx</SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC040102_DeclareTitleAndDescriptionInSolutions.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC042104" Name="MakeFeaturesWithScopeSiteOrWebHidden" Severity="CriticalWarning">
+                            <Message>Consider to make Feature 'MyCompany_Intranet_PageLayouts' hidden.</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_PageLayouts\Feature.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_PageLayouts\Feature.xml</WSPRelativeLocation>
+                            <Description>Consider to make Features with scope 'Web' or 'Site' hidden to avoid activation via the UI.</Description>
+                            <ElementName>MyCompany_Intranet_PageLayouts</ElementName>
+                            <LineNumber>15</LineNumber>
+                            <LinePosition>108</LinePosition>
+                            <SchemaUrl>http://msdn.microsoft.com/en-us/library/ms436075.aspx</SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC042104_MakeFeaturesWithScopeSiteOrWebHidden.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC042104" Name="MakeFeaturesWithScopeSiteOrWebHidden" Severity="CriticalWarning">
+                            <Message>Consider to make Feature 'MyCompany_Intranet_MasterPages' hidden.</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_MasterPages\Feature.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_MasterPages\Feature.xml</WSPRelativeLocation>
+                            <Description>Consider to make Features with scope 'Web' or 'Site' hidden to avoid activation via the UI.</Description>
+                            <ElementName>MyCompany_Intranet_MasterPages</ElementName>
+                            <LineNumber>15</LineNumber>
+                            <LinePosition>108</LinePosition>
+                            <SchemaUrl>http://msdn.microsoft.com/en-us/library/ms436075.aspx</SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC042104_MakeFeaturesWithScopeSiteOrWebHidden.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC042104" Name="MakeFeaturesWithScopeSiteOrWebHidden" Severity="CriticalWarning">
+                            <Message>Consider to make Feature 'MyCompany_Intranet_Lists' hidden.</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_Lists\Feature.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_Lists\Feature.xml</WSPRelativeLocation>
+                            <Description>Consider to make Features with scope 'Web' or 'Site' hidden to avoid activation via the UI.</Description>
+                            <ElementName>MyCompany_Intranet_Lists</ElementName>
+                            <LineNumber>15</LineNumber>
+                            <LinePosition>105</LinePosition>
+                            <SchemaUrl>http://msdn.microsoft.com/en-us/library/ms436075.aspx</SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC042104_MakeFeaturesWithScopeSiteOrWebHidden.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC042104" Name="MakeFeaturesWithScopeSiteOrWebHidden" Severity="CriticalWarning">
+                            <Message>Consider to make Feature 'MyCompany_Intranet_PublicPage' hidden.</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_PublicPage\Feature.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_PublicPage\Feature.xml</WSPRelativeLocation>
+                            <Description>Consider to make Features with scope 'Web' or 'Site' hidden to avoid activation via the UI.</Description>
+                            <ElementName>MyCompany_Intranet_PublicPage</ElementName>
+                            <LineNumber>15</LineNumber>
+                            <LinePosition>104</LinePosition>
+                            <SchemaUrl>http://msdn.microsoft.com/en-us/library/ms436075.aspx</SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC042104_MakeFeaturesWithScopeSiteOrWebHidden.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC045201" Name="DeclareAttributeInheritsInContentType" Severity="CriticalWarning">
+                            <Message>Add attribute 'Inherits' to ContentType 'MyContentType'.</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_Lists\PublicPages\schema.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_Lists\PublicPages\schema.xml</WSPRelativeLocation>
+                            <Description>In SharePoint 2010 the new attribute 'Inherits' for ContentTypes defines whether fields of the parent ContentType are inherited to the ContentType. For compatibility reasons to SharePoint 2007 this attribute should be specified.</Description>
+                            <ElementName>Basic List</ElementName>
+                            <LineNumber>8</LineNumber>
+                            <LinePosition>8</LinePosition>
+                            <SchemaUrl>http://msdn.microsoft.com/en-us/library/aa544268.aspx</SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC045201_DeclareAttributeInheritsInContentType.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC046903" Name="AvoidInlineCSSInASPXPage" Severity="Warning">
+                            <Message>Avoid inline CSS code in page 'CorePageLayout\CorePageLayout.aspx'. Use separate .CSS files instead.</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_PageLayouts\CorePageLayout\CorePageLayout.aspx</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_PageLayouts\CorePageLayout\CorePageLayout.aspx</WSPRelativeLocation>
+                            <Description>ASPX pages should not contain CSS code. Use separate .CSS files instead.</Description>
+                            <ElementName>MyCompany_Intranet_PageLayouts\CorePageLayout\CorePageLayout.aspx</ElementName>
+                            <LineNumber>9</LineNumber>
+                            <LinePosition>4</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC046903_AvoidInlineCSSInASPXPage.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC046903" Name="AvoidInlineCSSInASPXPage" Severity="Warning">
+                            <Message>Avoid inline CSS code in page 'CorePageLayout\CorePageLayout.aspx'. Use separate .CSS files instead.</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_PageLayouts\CorePageLayout\CorePageLayout.aspx</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_PageLayouts\CorePageLayout\CorePageLayout.aspx</WSPRelativeLocation>
+                            <Description>ASPX pages should not contain CSS code. Use separate .CSS files instead.</Description>
+                            <ElementName>MyCompany_Intranet_PageLayouts\CorePageLayout\CorePageLayout.aspx</ElementName>
+                            <LineNumber>30</LineNumber>
+                            <LinePosition>4</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC046903_AvoidInlineCSSInASPXPage.html?version=6.0.5.3298</Help>
+                        </Notification>
+                    </Notifications>
+                </VisitorGroup>
+                <VisitorGroup Name="BestPractice" CriticalErrors="0" Errors="0" CriticalWarnings="2" Warnings="0" Information="4">
+                    <Notifications>
+                        <Notification CheckID="SPC055102" Name="ConsiderAllowDeletionInField" Severity="Information">
+                            <Message>Consider setting the attribute 'AllowDeletion' in Field 'MyTaxonomyField' and set the value to FALSE.</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_Lists\PublicPages\schema.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_Lists\PublicPages\schema.xml</WSPRelativeLocation>
+                            <Description>Setting the attribute 'AllowDeletion' to FALSE prevents unintended deletion of a Field by the user or administrator.</Description>
+                            <ElementName>Basic List</ElementName>
+                            <LineNumber>12</LineNumber>
+                            <LinePosition>14</LinePosition>
+                            <SchemaUrl>http://msdn.microsoft.com/en-us/library/bb266224.aspx</SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC055102_ConsiderAllowDeletionInField.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC055202" Name="ConsiderSealedInContentType" Severity="Information">
+                            <Message>Consider setting the attribute 'Sealed' in ContentType 'MyContentType' and set the value to TRUE.</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_Lists\PublicPages\schema.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_Lists\PublicPages\schema.xml</WSPRelativeLocation>
+                            <Description>Setting the attribute 'Sealed' to TRUE prevents unintended changes of a ContentType by the user or administrator.</Description>
+                            <ElementName>Basic List</ElementName>
+                            <LineNumber>8</LineNumber>
+                            <LinePosition>8</LinePosition>
+                            <SchemaUrl>http://msdn.microsoft.com/en-us/library/aa544268.aspx</SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC055202_ConsiderSealedInContentType.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC055202" Name="ConsiderSealedInContentType" Severity="Information">
+                            <Message>Consider setting the attribute 'Sealed' in ContentType 'PublicLocalPage' and set the value to TRUE.</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_PublicPage\PublicLocalPage\Elements.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_PublicPage\PublicLocalPage\Elements.xml</WSPRelativeLocation>
+                            <Description>Setting the attribute 'Sealed' to TRUE prevents unintended changes of a ContentType by the user or administrator.</Description>
+                            <ElementName>PublicLocalPage</ElementName>
+                            <LineNumber>15</LineNumber>
+                            <LinePosition>3</LinePosition>
+                            <SchemaUrl>http://msdn.microsoft.com/en-us/library/aa544268.aspx</SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC055202_ConsiderSealedInContentType.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC055502" Name="AddEnsureFolderContentTypeInListDefinition" Severity="CriticalWarning">
+                            <Message>Add ContentType '0x0120' for folders to ListTemplate 'PublicPages'.</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_Lists\PublicPages\schema.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_Lists\PublicPages\schema.xml</WSPRelativeLocation>
+                            <Description>A custom ListTemplate should contain the folder ContentType to work properly.</Description>
+                            <ElementName>Basic List</ElementName>
+                            <LineNumber>0</LineNumber>
+                            <LinePosition>0</LinePosition>
+                            <SchemaUrl>http://msdn.microsoft.com/en-us/library/bb266243.aspx</SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC055502_AddEnsureFolderContentTypeInListDefinition.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC055503" Name="AvoidContentTypesInListDefinitions" Severity="CriticalWarning">
+                            <Message>Do not define the ContentType 'MyContentType' directly in ListTemplate 'PublicPages'. Better define the ContentType separately and reference it in the ListTemplate.</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_Lists\PublicPages\schema.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_Lists\PublicPages\schema.xml</WSPRelativeLocation>
+                            <Description>ContentTypes which are defined in a ListTemplate are not re-usable. Better define the ContentType separately and reference the ContentType in the ListTemplate.</Description>
+                            <ElementName>Basic List</ElementName>
+                            <LineNumber>8</LineNumber>
+                            <LinePosition>68</LinePosition>
+                            <SchemaUrl>http://msdn.microsoft.com/en-us/library/bb266243.aspx</SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC055503_AvoidContentTypesInListDefinitions.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC055504" Name="ConsiderAllowDeletionInListTemplate" Severity="Information">
+                            <Message>Consider setting the attribute 'AllowDeletion' in ListTemplate 'PublicPages' and set the value to FALSE.</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_Lists\PublicPages\Elements.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_Lists\PublicPages\Elements.xml</WSPRelativeLocation>
+                            <Description>Setting the attribute 'AllowDeletion' to FALSE prevents unintended deletion of a ListTemplate by the user or administrator.</Description>
+                            <ElementName>PublicPages</ElementName>
+                            <LineNumber>4</LineNumber>
+                            <LinePosition>3</LinePosition>
+                            <SchemaUrl>http://msdn.microsoft.com/en-us/library/bb266243.aspx</SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC055504_ConsiderAllowDeletionInListTemplate.html?version=6.0.5.3298</Help>
+                        </Notification>
+                    </Notifications>
+                </VisitorGroup>
+                <VisitorGroup Name="Deployment" CriticalErrors="0" Errors="1" CriticalWarnings="3" Warnings="2" Information="0">
+                    <Notifications>
+                        <Notification CheckID="SPC060101" Name="DoNotDeploySolutionGlobally" Severity="CriticalWarning">
+                            <Message>Consider to deploy solution 'MyCompany.Intranet.FrontEnd.wsp' per web application and not globally.</Message>
+                            <HiveLocation>[SharePointHive]\manifest.xml</HiveLocation>
+                            <WSPRelativeLocation>manifest.xml</WSPRelativeLocation>
+                            <Description>Solution should not be deployed globally to reduce the impact of the solution for the SharePoint farm. Note: this guidance does not apply to SharePoint 2013 and further.</Description>
+                            <ElementName>MyCompany.Intranet.FrontEnd.wsp</ElementName>
+                            <LineNumber>2</LineNumber>
+                            <LinePosition>2</LinePosition>
+                            <SchemaUrl>http://msdn.microsoft.com/en-us/library/ms412929.aspx</SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC060101_DoNotDeploySolutionGlobally.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC060107" Name="DefineRecycleForResetWebServerModeOnUpgrade" Severity="Warning">
+                            <Message>Specify 'Recycle' in attribute 'ResetWebServerModeOnUpgrade' in Solution 'MyCompany.Intranet.FrontEnd.wsp'.</Message>
+                            <HiveLocation>[SharePointHive]\manifest.xml</HiveLocation>
+                            <WSPRelativeLocation>manifest.xml</WSPRelativeLocation>
+                            <Description>To reduce the downtime of a SharePoint farm during deployment the solution should not use default setting 'StartStop' for upgrading solutions. Spedifying 'Recycle' only recycles affected application pools and will not stop them.</Description>
+                            <ElementName>MyCompany.Intranet.FrontEnd.wsp</ElementName>
+                            <LineNumber>2</LineNumber>
+                            <LinePosition>60</LinePosition>
+                            <SchemaUrl>http://msdn.microsoft.com/en-us/library/ms412929.aspx</SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC060107_DefineRecycleForResetWebServerModeOnUpgrade.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC060203" Name="DoNotDeployAssemblyWithDebugMode" Severity="Error">
+                            <Message>Build assembly 'MyCompany.Intranet.FrontEnd.dll' in RELEASE mode.</Message>
+                            <HiveLocation>[SharePointHive]\MyCompany.Intranet.FrontEnd.dll</HiveLocation>
+                            <WSPRelativeLocation>MyCompany.Intranet.FrontEnd.dll</WSPRelativeLocation>
+                            <Description>Assembly should be build with RELEASE mode. Main reason is to prevent running code which is defined within #DEBUG preprocessor directive and which typically should not run in productive environments.</Description>
+                            <ElementName>MyCompany.Intranet.FrontEnd.dll</ElementName>
+                            <LineNumber>4</LineNumber>
+                            <LinePosition>6</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC060203_DoNotDeployAssemblyWithDebugMode.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC060206" Name="DoNotDeployEmptyAssemblies" Severity="Warning">
+                            <Message>Remove Assembly 'MyCompany.Intranet.FrontEnd.dll' from Solution because it is empty.</Message>
+                            <HiveLocation>[SharePointHive]\MyCompany.Intranet.FrontEnd.dll</HiveLocation>
+                            <WSPRelativeLocation>MyCompany.Intranet.FrontEnd.dll</WSPRelativeLocation>
+                            <Description>Assemblies without custom classes should not be deployed to SharePoint. This helps to reduce unneeded IISResets during deployment.</Description>
+                            <ElementName>MyCompany.Intranet.FrontEnd.dll</ElementName>
+                            <LineNumber>4</LineNumber>
+                            <LinePosition>6</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC060206_DoNotDeployEmptyAssemblies.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC062111" Name="DoNotDeployEmptyElementManifests" Severity="CriticalWarning">
+                            <Message>The ElementManifest 'PublicGlobalPage\Elements.xml' in Feature 'MyCompany_Intranet_PublicPage' contains no elements. Remove the ElementManifest from the Feature because it has no purpose.</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_PublicPage\PublicGlobalPage\Elements.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_PublicPage\PublicGlobalPage\Elements.xml</WSPRelativeLocation>
+                            <Description>ElementManifests files in Features which do not contain any element have no purpose and should be removed from the solution.</Description>
+                            <ElementName>MyCompany_Intranet_PublicPage\PublicGlobalPage\Elements.xml</ElementName>
+                            <LineNumber>17</LineNumber>
+                            <LinePosition>6</LinePosition>
+                            <SchemaUrl>http://msdn.microsoft.com/en-us/library/ms436075.aspx</SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC062111_DoNotDeployEmptyElementManifests.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC062111" Name="DoNotDeployEmptyElementManifests" Severity="CriticalWarning">
+                            <Message>The ElementManifest 'InternalContentType\Elements.xml' in Feature 'MyCompany_Intranet_PublicPage' contains no elements. Remove the ElementManifest from the Feature because it has no purpose.</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_PublicPage\InternalContentType\Elements.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_PublicPage\InternalContentType\Elements.xml</WSPRelativeLocation>
+                            <Description>ElementManifests files in Features which do not contain any element have no purpose and should be removed from the solution.</Description>
+                            <ElementName>MyCompany_Intranet_PublicPage\InternalContentType\Elements.xml</ElementName>
+                            <LineNumber>21</LineNumber>
+                            <LinePosition>6</LinePosition>
+                            <SchemaUrl>http://msdn.microsoft.com/en-us/library/ms436075.aspx</SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC062111_DoNotDeployEmptyElementManifests.html?version=6.0.5.3298</Help>
+                        </Notification>
+                    </Notifications>
+                </VisitorGroup>
+                <VisitorGroup Name="Localization" CriticalErrors="0" Errors="0" CriticalWarnings="0" Warnings="14" Information="0">
+                    <Notifications>
+                        <Notification CheckID="SPC070001" Name="UseResourcesForLocalizableAttributes" Severity="Warning">
+                            <Message>Make attribute 'Description' in Feature 'MyCompany_Intranet_PageLayouts' localized (current value: 'CorePageLayout Feature Description').</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_PageLayouts\Feature.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_PageLayouts\Feature.xml</WSPRelativeLocation>
+                            <Description>All localizable attributes of SharePoint artifacts like ContentType, Feature etc. should use resources.</Description>
+                            <ElementName>MyCompany_Intranet_PageLayouts</ElementName>
+                            <LineNumber>15</LineNumber>
+                            <LinePosition>59</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC070001_UseResourcesForLocalizableAttributes.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC070001" Name="UseResourcesForLocalizableAttributes" Severity="Warning">
+                            <Message>Make attribute 'Title' in Feature 'MyCompany_Intranet_PageLayouts' localized (current value: 'CorePageLayout Feature').</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_PageLayouts\Feature.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_PageLayouts\Feature.xml</WSPRelativeLocation>
+                            <Description>All localizable attributes of SharePoint artifacts like ContentType, Feature etc. should use resources.</Description>
+                            <ElementName>MyCompany_Intranet_PageLayouts</ElementName>
+                            <LineNumber>15</LineNumber>
+                            <LinePosition>312</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC070001_UseResourcesForLocalizableAttributes.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC070001" Name="UseResourcesForLocalizableAttributes" Severity="Warning">
+                            <Message>Make attribute 'Description' in Feature 'MyCompany_Intranet_MasterPages' localized (current value: 'CoreMasterPage Feature Description').</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_MasterPages\Feature.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_MasterPages\Feature.xml</WSPRelativeLocation>
+                            <Description>All localizable attributes of SharePoint artifacts like ContentType, Feature etc. should use resources.</Description>
+                            <ElementName>MyCompany_Intranet_MasterPages</ElementName>
+                            <LineNumber>15</LineNumber>
+                            <LinePosition>59</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC070001_UseResourcesForLocalizableAttributes.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC070001" Name="UseResourcesForLocalizableAttributes" Severity="Warning">
+                            <Message>Make attribute 'Title' in Feature 'MyCompany_Intranet_MasterPages' localized (current value: 'CoreMasterPage Feature').</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_MasterPages\Feature.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_MasterPages\Feature.xml</WSPRelativeLocation>
+                            <Description>All localizable attributes of SharePoint artifacts like ContentType, Feature etc. should use resources.</Description>
+                            <ElementName>MyCompany_Intranet_MasterPages</ElementName>
+                            <LineNumber>15</LineNumber>
+                            <LinePosition>312</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC070001_UseResourcesForLocalizableAttributes.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC070001" Name="UseResourcesForLocalizableAttributes" Severity="Warning">
+                            <Message>Make attribute 'Description' in Feature 'MyCompany_Intranet_Lists' localized (current value: 'PublicPages Feature Description').</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_Lists\Feature.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_Lists\Feature.xml</WSPRelativeLocation>
+                            <Description>All localizable attributes of SharePoint artifacts like ContentType, Feature etc. should use resources.</Description>
+                            <ElementName>MyCompany_Intranet_Lists</ElementName>
+                            <LineNumber>15</LineNumber>
+                            <LinePosition>59</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC070001_UseResourcesForLocalizableAttributes.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC070001" Name="UseResourcesForLocalizableAttributes" Severity="Warning">
+                            <Message>Make attribute 'Title' in Feature 'MyCompany_Intranet_Lists' localized (current value: 'Lists Feature').</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_Lists\Feature.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_Lists\Feature.xml</WSPRelativeLocation>
+                            <Description>All localizable attributes of SharePoint artifacts like ContentType, Feature etc. should use resources.</Description>
+                            <ElementName>MyCompany_Intranet_Lists</ElementName>
+                            <LineNumber>15</LineNumber>
+                            <LinePosition>293</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC070001_UseResourcesForLocalizableAttributes.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC070001" Name="UseResourcesForLocalizableAttributes" Severity="Warning">
+                            <Message>Make attribute 'Description' in ListTemplate 'PublicPages' localized (current value: 'Template to create a PublicPages').</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_Lists\PublicPages\Elements.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_Lists\PublicPages\Elements.xml</WSPRelativeLocation>
+                            <Description>All localizable attributes of SharePoint artifacts like ContentType, Feature etc. should use resources.</Description>
+                            <ElementName>PublicPages</ElementName>
+                            <LineNumber>7</LineNumber>
+                            <LinePosition>3</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC070001_UseResourcesForLocalizableAttributes.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC070001" Name="UseResourcesForLocalizableAttributes" Severity="Warning">
+                            <Message>Make attribute 'DisplayName' in ListTemplate 'PublicPages' localized (current value: 'PublicPages').</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_Lists\PublicPages\Elements.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_Lists\PublicPages\Elements.xml</WSPRelativeLocation>
+                            <Description>All localizable attributes of SharePoint artifacts like ContentType, Feature etc. should use resources.</Description>
+                            <ElementName>PublicPages</ElementName>
+                            <LineNumber>6</LineNumber>
+                            <LinePosition>3</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC070001_UseResourcesForLocalizableAttributes.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC070001" Name="UseResourcesForLocalizableAttributes" Severity="Warning">
+                            <Message>Make attribute 'Name' in ContentType 'MyContentType' localized (current value: 'MyContentType').</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_Lists\PublicPages\schema.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_Lists\PublicPages\schema.xml</WSPRelativeLocation>
+                            <Description>All localizable attributes of SharePoint artifacts like ContentType, Feature etc. should use resources.</Description>
+                            <ElementName>Basic List</ElementName>
+                            <LineNumber>8</LineNumber>
+                            <LinePosition>68</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC070001_UseResourcesForLocalizableAttributes.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC070001" Name="UseResourcesForLocalizableAttributes" Severity="Warning">
+                            <Message>Make attribute 'Description' in Feature 'MyCompany_Intranet_PublicPage' localized (current value: 'PublicPage Feature Description').</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_PublicPage\Feature.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_PublicPage\Feature.xml</WSPRelativeLocation>
+                            <Description>All localizable attributes of SharePoint artifacts like ContentType, Feature etc. should use resources.</Description>
+                            <ElementName>MyCompany_Intranet_PublicPage</ElementName>
+                            <LineNumber>15</LineNumber>
+                            <LinePosition>59</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC070001_UseResourcesForLocalizableAttributes.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC070001" Name="UseResourcesForLocalizableAttributes" Severity="Warning">
+                            <Message>Make attribute 'Title' in Feature 'MyCompany_Intranet_PublicPage' localized (current value: 'Public Components').</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_PublicPage\Feature.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_PublicPage\Feature.xml</WSPRelativeLocation>
+                            <Description>All localizable attributes of SharePoint artifacts like ContentType, Feature etc. should use resources.</Description>
+                            <ElementName>MyCompany_Intranet_PublicPage</ElementName>
+                            <LineNumber>15</LineNumber>
+                            <LinePosition>302</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC070001_UseResourcesForLocalizableAttributes.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC070001" Name="UseResourcesForLocalizableAttributes" Severity="Warning">
+                            <Message>Make attribute 'Description' in ContentType 'PublicLocalPage' localized (current value: 'PublicLocalPage Description').</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_PublicPage\PublicLocalPage\Elements.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_PublicPage\PublicLocalPage\Elements.xml</WSPRelativeLocation>
+                            <Description>All localizable attributes of SharePoint artifacts like ContentType, Feature etc. should use resources.</Description>
+                            <ElementName>PublicLocalPage</ElementName>
+                            <LineNumber>18</LineNumber>
+                            <LinePosition>3</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC070001_UseResourcesForLocalizableAttributes.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC070001" Name="UseResourcesForLocalizableAttributes" Severity="Warning">
+                            <Message>Make attribute 'Group' in ContentType 'PublicLocalPage' localized (current value: 'Custom Content Types').</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_PublicPage\PublicLocalPage\Elements.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_PublicPage\PublicLocalPage\Elements.xml</WSPRelativeLocation>
+                            <Description>All localizable attributes of SharePoint artifacts like ContentType, Feature etc. should use resources.</Description>
+                            <ElementName>PublicLocalPage</ElementName>
+                            <LineNumber>19</LineNumber>
+                            <LinePosition>3</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC070001_UseResourcesForLocalizableAttributes.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC070001" Name="UseResourcesForLocalizableAttributes" Severity="Warning">
+                            <Message>Make attribute 'Name' in ContentType 'PublicLocalPage' localized (current value: 'PublicLocalPage').</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_PublicPage\PublicLocalPage\Elements.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_PublicPage\PublicLocalPage\Elements.xml</WSPRelativeLocation>
+                            <Description>All localizable attributes of SharePoint artifacts like ContentType, Feature etc. should use resources.</Description>
+                            <ElementName>PublicLocalPage</ElementName>
+                            <LineNumber>17</LineNumber>
+                            <LinePosition>3</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC070001_UseResourcesForLocalizableAttributes.html?version=6.0.5.3298</Help>
+                        </Notification>
+                    </Notifications>
+                </VisitorGroup>
+            </VisitorGroups>
+        </Solution>
+        <Solution Name="MyCompany.Intranet.BaseContentTypes.wsp" CriticalErrors="0" Errors="1" CriticalWarnings="4" Warnings="15" Information="3">
+            <VisitorGroups>
+                <VisitorGroup Name="Design" CriticalErrors="0" Errors="0" CriticalWarnings="1" Warnings="2" Information="0">
+                    <Notifications>
+                        <Notification CheckID="SPC040102" Name="DeclareTitleAndDescriptionInSolutions" Severity="Warning">
+                            <Message>Add attribute 'Title' to Solution 'MyCompany.Intranet.BaseContentTypes.wsp'.</Message>
+                            <HiveLocation>[SharePointHive]\manifest.xml</HiveLocation>
+                            <WSPRelativeLocation>manifest.xml</WSPRelativeLocation>
+                            <Description>To make it easier to identify Solutions in the Solution Gallery in SharePoint the attributes 'Title' and 'Description' should be declared.</Description>
+                            <ElementName>MyCompany.Intranet.BaseContentTypes.wsp</ElementName>
+                            <LineNumber>2</LineNumber>
+                            <LinePosition>60</LinePosition>
+                            <SchemaUrl>http://msdn.microsoft.com/en-us/library/ms412929.aspx</SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC040102_DeclareTitleAndDescriptionInSolutions.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC040102" Name="DeclareTitleAndDescriptionInSolutions" Severity="Warning">
+                            <Message>Add attribute 'Description' to Solution 'MyCompany.Intranet.BaseContentTypes.wsp'.</Message>
+                            <HiveLocation>[SharePointHive]\manifest.xml</HiveLocation>
+                            <WSPRelativeLocation>manifest.xml</WSPRelativeLocation>
+                            <Description>To make it easier to identify Solutions in the Solution Gallery in SharePoint the attributes 'Title' and 'Description' should be declared.</Description>
+                            <ElementName>MyCompany.Intranet.BaseContentTypes.wsp</ElementName>
+                            <LineNumber>2</LineNumber>
+                            <LinePosition>60</LinePosition>
+                            <SchemaUrl>http://msdn.microsoft.com/en-us/library/ms412929.aspx</SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC040102_DeclareTitleAndDescriptionInSolutions.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC042104" Name="MakeFeaturesWithScopeSiteOrWebHidden" Severity="CriticalWarning">
+                            <Message>Consider to make Feature 'MyCompany_Intranet_BasePage' hidden.</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_BasePage\Feature.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_BasePage\Feature.xml</WSPRelativeLocation>
+                            <Description>Consider to make Features with scope 'Web' or 'Site' hidden to avoid activation via the UI.</Description>
+                            <ElementName>MyCompany_Intranet_BasePage</ElementName>
+                            <LineNumber>15</LineNumber>
+                            <LinePosition>104</LinePosition>
+                            <SchemaUrl>http://msdn.microsoft.com/en-us/library/ms436075.aspx</SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC042104_MakeFeaturesWithScopeSiteOrWebHidden.html?version=6.0.5.3298</Help>
+                        </Notification>
+                    </Notifications>
+                </VisitorGroup>
+                <VisitorGroup Name="BestPractice" CriticalErrors="0" Errors="0" CriticalWarnings="0" Warnings="1" Information="3">
+                    <Notifications>
+                        <Notification CheckID="SPC055202" Name="ConsiderSealedInContentType" Severity="Information">
+                            <Message>Consider setting the attribute 'Sealed' in ContentType 'LocalPage' and set the value to TRUE.</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_BasePage\LocalPage\Elements.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_BasePage\LocalPage\Elements.xml</WSPRelativeLocation>
+                            <Description>Setting the attribute 'Sealed' to TRUE prevents unintended changes of a ContentType by the user or administrator.</Description>
+                            <ElementName>LocalPage</ElementName>
+                            <LineNumber>15</LineNumber>
+                            <LinePosition>3</LinePosition>
+                            <SchemaUrl>http://msdn.microsoft.com/en-us/library/aa544268.aspx</SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC055202_ConsiderSealedInContentType.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC055202" Name="ConsiderSealedInContentType" Severity="Information">
+                            <Message>Consider setting the attribute 'Sealed' in ContentType 'GlobalPage' and set the value to TRUE.</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_BasePage\GlobalPage\Elements.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_BasePage\GlobalPage\Elements.xml</WSPRelativeLocation>
+                            <Description>Setting the attribute 'Sealed' to TRUE prevents unintended changes of a ContentType by the user or administrator.</Description>
+                            <ElementName>GlobalPage</ElementName>
+                            <LineNumber>15</LineNumber>
+                            <LinePosition>3</LinePosition>
+                            <SchemaUrl>http://msdn.microsoft.com/en-us/library/aa544268.aspx</SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC055202_ConsiderSealedInContentType.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC055202" Name="ConsiderSealedInContentType" Severity="Information">
+                            <Message>Consider setting the attribute 'Sealed' in ContentType 'BasePage' and set the value to TRUE.</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_BasePage\BasePage\Elements.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_BasePage\BasePage\Elements.xml</WSPRelativeLocation>
+                            <Description>Setting the attribute 'Sealed' to TRUE prevents unintended changes of a ContentType by the user or administrator.</Description>
+                            <ElementName>BasePage</ElementName>
+                            <LineNumber>15</LineNumber>
+                            <LinePosition>3</LinePosition>
+                            <SchemaUrl>http://msdn.microsoft.com/en-us/library/aa544268.aspx</SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC055202_ConsiderSealedInContentType.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC056003" Name="DoNotInstantiateSPSiteInEventReceiver" Severity="Warning">
+                            <Message>Do not instantiate new SPSite in method 'ItemUpdating', class 'MyCompany.Intranet.BaseContentTypes.LocalPageEventReceivers' if the SPSite could be retrieved via the event properties.</Message>
+                            <HiveLocation>[SharePointHive]\MyCompany.Intranet.BaseContentTypes.dll</HiveLocation>
+                            <WSPRelativeLocation>MyCompany.Intranet.BaseContentTypes.dll, type 'MyCompany.Intranet.BaseContentTypes.LocalPageEventReceivers', method 'ItemUpdating'</WSPRelativeLocation>
+                            <Description>Do not instantiate an SPSite object within an event receiver.</Description>
+                            <ElementName>MyCompany.Intranet.BaseContentTypes.dll</ElementName>
+                            <LineNumber>0</LineNumber>
+                            <LinePosition>0</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC056003_DoNotInstantiateSPSiteInEventReceiver.html?version=6.0.5.3298</Help>
+                        </Notification>
+                    </Notifications>
+                </VisitorGroup>
+                <VisitorGroup Name="Deployment" CriticalErrors="0" Errors="1" CriticalWarnings="1" Warnings="1" Information="0">
+                    <Notifications>
+                        <Notification CheckID="SPC060101" Name="DoNotDeploySolutionGlobally" Severity="CriticalWarning">
+                            <Message>Consider to deploy solution 'MyCompany.Intranet.BaseContentTypes.wsp' per web application and not globally.</Message>
+                            <HiveLocation>[SharePointHive]\manifest.xml</HiveLocation>
+                            <WSPRelativeLocation>manifest.xml</WSPRelativeLocation>
+                            <Description>Solution should not be deployed globally to reduce the impact of the solution for the SharePoint farm. Note: this guidance does not apply to SharePoint 2013 and further.</Description>
+                            <ElementName>MyCompany.Intranet.BaseContentTypes.wsp</ElementName>
+                            <LineNumber>2</LineNumber>
+                            <LinePosition>2</LinePosition>
+                            <SchemaUrl>http://msdn.microsoft.com/en-us/library/ms412929.aspx</SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC060101_DoNotDeploySolutionGlobally.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC060107" Name="DefineRecycleForResetWebServerModeOnUpgrade" Severity="Warning">
+                            <Message>Specify 'Recycle' in attribute 'ResetWebServerModeOnUpgrade' in Solution 'MyCompany.Intranet.BaseContentTypes.wsp'.</Message>
+                            <HiveLocation>[SharePointHive]\manifest.xml</HiveLocation>
+                            <WSPRelativeLocation>manifest.xml</WSPRelativeLocation>
+                            <Description>To reduce the downtime of a SharePoint farm during deployment the solution should not use default setting 'StartStop' for upgrading solutions. Spedifying 'Recycle' only recycles affected application pools and will not stop them.</Description>
+                            <ElementName>MyCompany.Intranet.BaseContentTypes.wsp</ElementName>
+                            <LineNumber>2</LineNumber>
+                            <LinePosition>60</LinePosition>
+                            <SchemaUrl>http://msdn.microsoft.com/en-us/library/ms412929.aspx</SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC060107_DefineRecycleForResetWebServerModeOnUpgrade.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC060203" Name="DoNotDeployAssemblyWithDebugMode" Severity="Error">
+                            <Message>Build assembly 'MyCompany.Intranet.BaseContentTypes.dll' in RELEASE mode.</Message>
+                            <HiveLocation>[SharePointHive]\MyCompany.Intranet.BaseContentTypes.dll</HiveLocation>
+                            <WSPRelativeLocation>MyCompany.Intranet.BaseContentTypes.dll</WSPRelativeLocation>
+                            <Description>Assembly should be build with RELEASE mode. Main reason is to prevent running code which is defined within #DEBUG preprocessor directive and which typically should not run in productive environments.</Description>
+                            <ElementName>MyCompany.Intranet.BaseContentTypes.dll</ElementName>
+                            <LineNumber>4</LineNumber>
+                            <LinePosition>6</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC060203_DoNotDeployAssemblyWithDebugMode.html?version=6.0.5.3298</Help>
+                        </Notification>
+                    </Notifications>
+                </VisitorGroup>
+                <VisitorGroup Name="Localization" CriticalErrors="0" Errors="0" CriticalWarnings="0" Warnings="11" Information="0">
+                    <Notifications>
+                        <Notification CheckID="SPC070001" Name="UseResourcesForLocalizableAttributes" Severity="Warning">
+                            <Message>Make attribute 'Description' in Feature 'MyCompany_Intranet_BasePage' localized (current value: 'Deploys the core content types').</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_BasePage\Feature.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_BasePage\Feature.xml</WSPRelativeLocation>
+                            <Description>All localizable attributes of SharePoint artifacts like ContentType, Feature etc. should use resources.</Description>
+                            <ElementName>MyCompany_Intranet_BasePage</ElementName>
+                            <LineNumber>15</LineNumber>
+                            <LinePosition>59</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC070001_UseResourcesForLocalizableAttributes.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC070001" Name="UseResourcesForLocalizableAttributes" Severity="Warning">
+                            <Message>Make attribute 'Title' in Feature 'MyCompany_Intranet_BasePage' localized (current value: 'CoreContentTypes').</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_BasePage\Feature.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_BasePage\Feature.xml</WSPRelativeLocation>
+                            <Description>All localizable attributes of SharePoint artifacts like ContentType, Feature etc. should use resources.</Description>
+                            <ElementName>MyCompany_Intranet_BasePage</ElementName>
+                            <LineNumber>15</LineNumber>
+                            <LinePosition>495</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC070001_UseResourcesForLocalizableAttributes.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC070001" Name="UseResourcesForLocalizableAttributes" Severity="Warning">
+                            <Message>Make attribute 'Description' in ContentType 'LocalPage' localized (current value: 'LocalPage Description').</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_BasePage\LocalPage\Elements.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_BasePage\LocalPage\Elements.xml</WSPRelativeLocation>
+                            <Description>All localizable attributes of SharePoint artifacts like ContentType, Feature etc. should use resources.</Description>
+                            <ElementName>LocalPage</ElementName>
+                            <LineNumber>18</LineNumber>
+                            <LinePosition>3</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC070001_UseResourcesForLocalizableAttributes.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC070001" Name="UseResourcesForLocalizableAttributes" Severity="Warning">
+                            <Message>Make attribute 'Group' in ContentType 'LocalPage' localized (current value: 'MyCompany Content Types').</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_BasePage\LocalPage\Elements.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_BasePage\LocalPage\Elements.xml</WSPRelativeLocation>
+                            <Description>All localizable attributes of SharePoint artifacts like ContentType, Feature etc. should use resources.</Description>
+                            <ElementName>LocalPage</ElementName>
+                            <LineNumber>19</LineNumber>
+                            <LinePosition>3</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC070001_UseResourcesForLocalizableAttributes.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC070001" Name="UseResourcesForLocalizableAttributes" Severity="Warning">
+                            <Message>Make attribute 'Name' in ContentType 'LocalPage' localized (current value: 'LocalPage').</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_BasePage\LocalPage\Elements.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_BasePage\LocalPage\Elements.xml</WSPRelativeLocation>
+                            <Description>All localizable attributes of SharePoint artifacts like ContentType, Feature etc. should use resources.</Description>
+                            <ElementName>LocalPage</ElementName>
+                            <LineNumber>17</LineNumber>
+                            <LinePosition>3</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC070001_UseResourcesForLocalizableAttributes.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC070001" Name="UseResourcesForLocalizableAttributes" Severity="Warning">
+                            <Message>Make attribute 'Description' in ContentType 'GlobalPage' localized (current value: 'GlobalPage Description').</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_BasePage\GlobalPage\Elements.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_BasePage\GlobalPage\Elements.xml</WSPRelativeLocation>
+                            <Description>All localizable attributes of SharePoint artifacts like ContentType, Feature etc. should use resources.</Description>
+                            <ElementName>GlobalPage</ElementName>
+                            <LineNumber>18</LineNumber>
+                            <LinePosition>3</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC070001_UseResourcesForLocalizableAttributes.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC070001" Name="UseResourcesForLocalizableAttributes" Severity="Warning">
+                            <Message>Make attribute 'Group' in ContentType 'GlobalPage' localized (current value: 'Custom Content Types').</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_BasePage\GlobalPage\Elements.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_BasePage\GlobalPage\Elements.xml</WSPRelativeLocation>
+                            <Description>All localizable attributes of SharePoint artifacts like ContentType, Feature etc. should use resources.</Description>
+                            <ElementName>GlobalPage</ElementName>
+                            <LineNumber>19</LineNumber>
+                            <LinePosition>3</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC070001_UseResourcesForLocalizableAttributes.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC070001" Name="UseResourcesForLocalizableAttributes" Severity="Warning">
+                            <Message>Make attribute 'Name' in ContentType 'GlobalPage' localized (current value: 'GlobalPage').</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_BasePage\GlobalPage\Elements.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_BasePage\GlobalPage\Elements.xml</WSPRelativeLocation>
+                            <Description>All localizable attributes of SharePoint artifacts like ContentType, Feature etc. should use resources.</Description>
+                            <ElementName>GlobalPage</ElementName>
+                            <LineNumber>17</LineNumber>
+                            <LinePosition>3</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC070001_UseResourcesForLocalizableAttributes.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC070001" Name="UseResourcesForLocalizableAttributes" Severity="Warning">
+                            <Message>Make attribute 'Description' in ContentType 'BasePage' localized (current value: 'BasePage Description').</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_BasePage\BasePage\Elements.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_BasePage\BasePage\Elements.xml</WSPRelativeLocation>
+                            <Description>All localizable attributes of SharePoint artifacts like ContentType, Feature etc. should use resources.</Description>
+                            <ElementName>BasePage</ElementName>
+                            <LineNumber>18</LineNumber>
+                            <LinePosition>3</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC070001_UseResourcesForLocalizableAttributes.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC070001" Name="UseResourcesForLocalizableAttributes" Severity="Warning">
+                            <Message>Make attribute 'Group' in ContentType 'BasePage' localized (current value: 'MyCompany Content Types').</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_BasePage\BasePage\Elements.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_BasePage\BasePage\Elements.xml</WSPRelativeLocation>
+                            <Description>All localizable attributes of SharePoint artifacts like ContentType, Feature etc. should use resources.</Description>
+                            <ElementName>BasePage</ElementName>
+                            <LineNumber>19</LineNumber>
+                            <LinePosition>3</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC070001_UseResourcesForLocalizableAttributes.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC070001" Name="UseResourcesForLocalizableAttributes" Severity="Warning">
+                            <Message>Make attribute 'Name' in ContentType 'BasePage' localized (current value: 'BasePage').</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_BasePage\BasePage\Elements.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_BasePage\BasePage\Elements.xml</WSPRelativeLocation>
+                            <Description>All localizable attributes of SharePoint artifacts like ContentType, Feature etc. should use resources.</Description>
+                            <ElementName>BasePage</ElementName>
+                            <LineNumber>17</LineNumber>
+                            <LinePosition>3</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC070001_UseResourcesForLocalizableAttributes.html?version=6.0.5.3298</Help>
+                        </Notification>
+                    </Notifications>
+                </VisitorGroup>
+                <VisitorGroup Name="MemoryDisposal" CriticalErrors="0" Errors="0" CriticalWarnings="2" Warnings="0" Information="0">
+                    <Notifications>
+                        <Notification CheckID="SPC110201" Name="DisposeCreatedSPSiteObject" Severity="CriticalWarning">
+                            <Message>Dispose created SPSite in method 'ItemUpdating', class 'MyCompany.Intranet.BaseContentTypes.LocalPageEventReceivers'.</Message>
+                            <HiveLocation>[SharePointHive]\MyCompany.Intranet.BaseContentTypes.dll</HiveLocation>
+                            <WSPRelativeLocation>MyCompany.Intranet.BaseContentTypes.dll, type 'MyCompany.Intranet.BaseContentTypes.LocalPageEventReceivers', method 'ItemUpdating'</WSPRelativeLocation>
+                            <Description>When you create a SPSite object with a new operator, the creating application must dispose of it.</Description>
+                            <ElementName>MyCompany.Intranet.BaseContentTypes.dll</ElementName>
+                            <LineNumber>0</LineNumber>
+                            <LinePosition>0</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC110201_DisposeCreatedSPSiteObject.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC110203" Name="DisposeSPWebCreatedByOpenWeb" Severity="CriticalWarning">
+                            <Message>Dispose created SPWeb returned by SPSite.OpenWeb in method 'ItemUpdating', class 'MyCompany.Intranet.BaseContentTypes.LocalPageEventReceivers'.</Message>
+                            <HiveLocation>[SharePointHive]\MyCompany.Intranet.BaseContentTypes.dll</HiveLocation>
+                            <WSPRelativeLocation>MyCompany.Intranet.BaseContentTypes.dll, type 'MyCompany.Intranet.BaseContentTypes.LocalPageEventReceivers', method 'ItemUpdating'</WSPRelativeLocation>
+                            <Description>The OpenWeb method create an SPWeb object and return it to the caller. This new object is not stored in the SPSite object and is not disposed of anywhere in the SPSite class. For this reason, you should dispose of any object created via these methods.</Description>
+                            <ElementName>MyCompany.Intranet.BaseContentTypes.dll</ElementName>
+                            <LineNumber>0</LineNumber>
+                            <LinePosition>0</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC110203_DisposeSPWebCreatedByOpenWeb.html?version=6.0.5.3298</Help>
+                        </Notification>
+                    </Notifications>
+                </VisitorGroup>
+            </VisitorGroups>
+        </Solution>
+        <Solution Name="MyCompany.Intranet.WebParts.wsp" CriticalErrors="0" Errors="1" CriticalWarnings="5" Warnings="11" Information="0">
+            <VisitorGroups>
+                <VisitorGroup Name="Design" CriticalErrors="0" Errors="0" CriticalWarnings="3" Warnings="2" Information="0">
+                    <Notifications>
+                        <Notification CheckID="SPC040102" Name="DeclareTitleAndDescriptionInSolutions" Severity="Warning">
+                            <Message>Add attribute 'Title' to Solution 'MyCompany.Intranet.WebParts.wsp'.</Message>
+                            <HiveLocation>[SharePointHive]\manifest.xml</HiveLocation>
+                            <WSPRelativeLocation>manifest.xml</WSPRelativeLocation>
+                            <Description>To make it easier to identify Solutions in the Solution Gallery in SharePoint the attributes 'Title' and 'Description' should be declared.</Description>
+                            <ElementName>MyCompany.Intranet.WebParts.wsp</ElementName>
+                            <LineNumber>2</LineNumber>
+                            <LinePosition>60</LinePosition>
+                            <SchemaUrl>http://msdn.microsoft.com/en-us/library/ms412929.aspx</SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC040102_DeclareTitleAndDescriptionInSolutions.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC040102" Name="DeclareTitleAndDescriptionInSolutions" Severity="Warning">
+                            <Message>Add attribute 'Description' to Solution 'MyCompany.Intranet.WebParts.wsp'.</Message>
+                            <HiveLocation>[SharePointHive]\manifest.xml</HiveLocation>
+                            <WSPRelativeLocation>manifest.xml</WSPRelativeLocation>
+                            <Description>To make it easier to identify Solutions in the Solution Gallery in SharePoint the attributes 'Title' and 'Description' should be declared.</Description>
+                            <ElementName>MyCompany.Intranet.WebParts.wsp</ElementName>
+                            <LineNumber>2</LineNumber>
+                            <LinePosition>60</LinePosition>
+                            <SchemaUrl>http://msdn.microsoft.com/en-us/library/ms412929.aspx</SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC040102_DeclareTitleAndDescriptionInSolutions.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC040213" Name="DoNotInheritWebPartsFromSharePoint" Severity="CriticalWarning">
+                            <Message>Do not inherit Webpart 'SharePointWebPartPages' from Microsoft.SharePoint.WebPartPages.WebPart in Assembly 'MyCompany.Intranet.WebParts.dll'. Inherit from System.Web.UI.WebControls.WebParts.WebPart.</Message>
+                            <HiveLocation>[SharePointHive]\MyCompany.Intranet.WebParts.dll</HiveLocation>
+                            <WSPRelativeLocation>MyCompany.Intranet.WebParts.dll</WSPRelativeLocation>
+                            <Description>WebParts should be inherited from the ASP.NET Webpart (System.Web.UI.WebControls.WebParts.WebPart). Do not inherit from the SharePoint WebPart.</Description>
+                            <ElementName>MyCompany.Intranet.WebParts.dll</ElementName>
+                            <LineNumber>18</LineNumber>
+                            <LinePosition>6</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC040213_DoNotInheritWebPartsFromSharePoint.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC042104" Name="MakeFeaturesWithScopeSiteOrWebHidden" Severity="CriticalWarning">
+                            <Message>Consider to make Feature 'MyCompany_Intranet_SimpleWorkflow' hidden.</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_SimpleWorkflow\Feature.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_SimpleWorkflow\Feature.xml</WSPRelativeLocation>
+                            <Description>Consider to make Features with scope 'Web' or 'Site' hidden to avoid activation via the UI.</Description>
+                            <ElementName>MyCompany_Intranet_SimpleWorkflow</ElementName>
+                            <LineNumber>15</LineNumber>
+                            <LinePosition>109</LinePosition>
+                            <SchemaUrl>http://msdn.microsoft.com/en-us/library/ms436075.aspx</SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC042104_MakeFeaturesWithScopeSiteOrWebHidden.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC042104" Name="MakeFeaturesWithScopeSiteOrWebHidden" Severity="CriticalWarning">
+                            <Message>Consider to make Feature 'MyCompany_Intranet_Webparts' hidden.</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_Webparts\Feature.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_Webparts\Feature.xml</WSPRelativeLocation>
+                            <Description>Consider to make Features with scope 'Web' or 'Site' hidden to avoid activation via the UI.</Description>
+                            <ElementName>MyCompany_Intranet_Webparts</ElementName>
+                            <LineNumber>15</LineNumber>
+                            <LinePosition>109</LinePosition>
+                            <SchemaUrl>http://msdn.microsoft.com/en-us/library/ms436075.aspx</SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC042104_MakeFeaturesWithScopeSiteOrWebHidden.html?version=6.0.5.3298</Help>
+                        </Notification>
+                    </Notifications>
+                </VisitorGroup>
+                <VisitorGroup Name="BestPractice" CriticalErrors="0" Errors="0" CriticalWarnings="2" Warnings="0" Information="0">
+                    <Notifications>
+                        <Notification CheckID="SPC056401" Name="DeclareAllowCloseInWebPart" Severity="CriticalWarning">
+                            <Message>Webpart 'SharePointWebPartPages.webpart' should contain property 'AllowClose=False'.</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_Webparts\SharePointWebPartPages\SharePointWebPartPages.webpart</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_Webparts\SharePointWebPartPages\SharePointWebPartPages.webpart</WSPRelativeLocation>
+                            <Description>A WebPart should contain the attribute 'AllowClose' with value False to prevent that users close the webpart. In this case the webpart would be disappear from the UI but will remain inside the page.</Description>
+                            <ElementName>MyCompany_Intranet_Webparts\SharePointWebPartPages\SharePointWebPartPages.webpart</ElementName>
+                            <LineNumber>20</LineNumber>
+                            <LinePosition>6</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC056401_DeclareAllowCloseInWebPart.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC056401" Name="DeclareAllowCloseInWebPart" Severity="CriticalWarning">
+                            <Message>Webpart 'ASPWebPartPages.webpart' should contain property 'AllowClose=False'.</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_Webparts\ASPWebPartPages\ASPWebPartPages.webpart</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_Webparts\ASPWebPartPages\ASPWebPartPages.webpart</WSPRelativeLocation>
+                            <Description>A WebPart should contain the attribute 'AllowClose' with value False to prevent that users close the webpart. In this case the webpart would be disappear from the UI but will remain inside the page.</Description>
+                            <ElementName>MyCompany_Intranet_Webparts\ASPWebPartPages\ASPWebPartPages.webpart</ElementName>
+                            <LineNumber>18</LineNumber>
+                            <LinePosition>6</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC056401_DeclareAllowCloseInWebPart.html?version=6.0.5.3298</Help>
+                        </Notification>
+                    </Notifications>
+                </VisitorGroup>
+                <VisitorGroup Name="Deployment" CriticalErrors="0" Errors="1" CriticalWarnings="0" Warnings="1" Information="0">
+                    <Notifications>
+                        <Notification CheckID="SPC060107" Name="DefineRecycleForResetWebServerModeOnUpgrade" Severity="Warning">
+                            <Message>Specify 'Recycle' in attribute 'ResetWebServerModeOnUpgrade' in Solution 'MyCompany.Intranet.WebParts.wsp'.</Message>
+                            <HiveLocation>[SharePointHive]\manifest.xml</HiveLocation>
+                            <WSPRelativeLocation>manifest.xml</WSPRelativeLocation>
+                            <Description>To reduce the downtime of a SharePoint farm during deployment the solution should not use default setting 'StartStop' for upgrading solutions. Spedifying 'Recycle' only recycles affected application pools and will not stop them.</Description>
+                            <ElementName>MyCompany.Intranet.WebParts.wsp</ElementName>
+                            <LineNumber>2</LineNumber>
+                            <LinePosition>60</LinePosition>
+                            <SchemaUrl>http://msdn.microsoft.com/en-us/library/ms412929.aspx</SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC060107_DefineRecycleForResetWebServerModeOnUpgrade.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC060203" Name="DoNotDeployAssemblyWithDebugMode" Severity="Error">
+                            <Message>Build assembly 'MyCompany.Intranet.WebParts.dll' in RELEASE mode.</Message>
+                            <HiveLocation>[SharePointHive]\MyCompany.Intranet.WebParts.dll</HiveLocation>
+                            <WSPRelativeLocation>MyCompany.Intranet.WebParts.dll</WSPRelativeLocation>
+                            <Description>Assembly should be build with RELEASE mode. Main reason is to prevent running code which is defined within #DEBUG preprocessor directive and which typically should not run in productive environments.</Description>
+                            <ElementName>MyCompany.Intranet.WebParts.dll</ElementName>
+                            <LineNumber>18</LineNumber>
+                            <LinePosition>6</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC060203_DoNotDeployAssemblyWithDebugMode.html?version=6.0.5.3298</Help>
+                        </Notification>
+                    </Notifications>
+                </VisitorGroup>
+                <VisitorGroup Name="Localization" CriticalErrors="0" Errors="0" CriticalWarnings="0" Warnings="8" Information="0">
+                    <Notifications>
+                        <Notification CheckID="SPC070001" Name="UseResourcesForLocalizableAttributes" Severity="Warning">
+                            <Message>Make attribute 'Description' in Feature 'MyCompany_Intranet_SimpleWorkflow' localized (current value: 'SimpleWorkflow1 Feature Description').</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_SimpleWorkflow\Feature.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_SimpleWorkflow\Feature.xml</WSPRelativeLocation>
+                            <Description>All localizable attributes of SharePoint artifacts like ContentType, Feature etc. should use resources.</Description>
+                            <ElementName>MyCompany_Intranet_SimpleWorkflow</ElementName>
+                            <LineNumber>15</LineNumber>
+                            <LinePosition>59</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC070001_UseResourcesForLocalizableAttributes.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC070001" Name="UseResourcesForLocalizableAttributes" Severity="Warning">
+                            <Message>Make attribute 'Title' in Feature 'MyCompany_Intranet_SimpleWorkflow' localized (current value: 'SimpleWorkflow1 Feature').</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_SimpleWorkflow\Feature.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_SimpleWorkflow\Feature.xml</WSPRelativeLocation>
+                            <Description>All localizable attributes of SharePoint artifacts like ContentType, Feature etc. should use resources.</Description>
+                            <ElementName>MyCompany_Intranet_SimpleWorkflow</ElementName>
+                            <LineNumber>15</LineNumber>
+                            <LinePosition>317</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC070001_UseResourcesForLocalizableAttributes.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC070001" Name="UseResourcesForLocalizableAttributes" Severity="Warning">
+                            <Message>Make attribute 'Description' in Feature 'MyCompany_Intranet_Webparts' localized (current value: 'ASPWebPartPages Feature Description').</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_Webparts\Feature.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_Webparts\Feature.xml</WSPRelativeLocation>
+                            <Description>All localizable attributes of SharePoint artifacts like ContentType, Feature etc. should use resources.</Description>
+                            <ElementName>MyCompany_Intranet_Webparts</ElementName>
+                            <LineNumber>15</LineNumber>
+                            <LinePosition>59</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC070001_UseResourcesForLocalizableAttributes.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC070001" Name="UseResourcesForLocalizableAttributes" Severity="Warning">
+                            <Message>Make attribute 'Title' in Feature 'MyCompany_Intranet_Webparts' localized (current value: 'ASPWebPartPages Feature').</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_Webparts\Feature.xml</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_Webparts\Feature.xml</WSPRelativeLocation>
+                            <Description>All localizable attributes of SharePoint artifacts like ContentType, Feature etc. should use resources.</Description>
+                            <ElementName>MyCompany_Intranet_Webparts</ElementName>
+                            <LineNumber>15</LineNumber>
+                            <LinePosition>491</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC070001_UseResourcesForLocalizableAttributes.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC070001" Name="UseResourcesForLocalizableAttributes" Severity="Warning">
+                            <Message>Make attribute 'Description' in WebPart 'SharePointWebPartPages.webpart' localized (current value: 'SharePointWebPartPages Description').</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_Webparts\SharePointWebPartPages\SharePointWebPartPages.webpart</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_Webparts\SharePointWebPartPages\SharePointWebPartPages.webpart</WSPRelativeLocation>
+                            <Description>All localizable attributes of SharePoint artifacts like ContentType, Feature etc. should use resources.</Description>
+                            <ElementName>MyCompany_Intranet_Webparts\SharePointWebPartPages\SharePointWebPartPages.webpart</ElementName>
+                            <LineNumber>20</LineNumber>
+                            <LinePosition>6</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC070001_UseResourcesForLocalizableAttributes.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC070001" Name="UseResourcesForLocalizableAttributes" Severity="Warning">
+                            <Message>Make attribute 'Title' in WebPart 'SharePointWebPartPages.webpart' localized (current value: 'SharePointWebPartPages Title').</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_Webparts\SharePointWebPartPages\SharePointWebPartPages.webpart</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_Webparts\SharePointWebPartPages\SharePointWebPartPages.webpart</WSPRelativeLocation>
+                            <Description>All localizable attributes of SharePoint artifacts like ContentType, Feature etc. should use resources.</Description>
+                            <ElementName>MyCompany_Intranet_Webparts\SharePointWebPartPages\SharePointWebPartPages.webpart</ElementName>
+                            <LineNumber>20</LineNumber>
+                            <LinePosition>6</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC070001_UseResourcesForLocalizableAttributes.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC070001" Name="UseResourcesForLocalizableAttributes" Severity="Warning">
+                            <Message>Make attribute 'Description' in WebPart 'ASPWebPartPages.webpart' localized (current value: 'ASPWebPartPages Description').</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_Webparts\ASPWebPartPages\ASPWebPartPages.webpart</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_Webparts\ASPWebPartPages\ASPWebPartPages.webpart</WSPRelativeLocation>
+                            <Description>All localizable attributes of SharePoint artifacts like ContentType, Feature etc. should use resources.</Description>
+                            <ElementName>MyCompany_Intranet_Webparts\ASPWebPartPages\ASPWebPartPages.webpart</ElementName>
+                            <LineNumber>18</LineNumber>
+                            <LinePosition>6</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC070001_UseResourcesForLocalizableAttributes.html?version=6.0.5.3298</Help>
+                        </Notification>
+                        <Notification CheckID="SPC070001" Name="UseResourcesForLocalizableAttributes" Severity="Warning">
+                            <Message>Make attribute 'Title' in WebPart 'ASPWebPartPages.webpart' localized (current value: 'ASPWebPartPages Title').</Message>
+                            <HiveLocation>[SharePointHive]\SharePointRoot\TEMPLATE\FEATURES\MyCompany_Intranet_Webparts\ASPWebPartPages\ASPWebPartPages.webpart</HiveLocation>
+                            <WSPRelativeLocation>MyCompany_Intranet_Webparts\ASPWebPartPages\ASPWebPartPages.webpart</WSPRelativeLocation>
+                            <Description>All localizable attributes of SharePoint artifacts like ContentType, Feature etc. should use resources.</Description>
+                            <ElementName>MyCompany_Intranet_Webparts\ASPWebPartPages\ASPWebPartPages.webpart</ElementName>
+                            <LineNumber>18</LineNumber>
+                            <LinePosition>6</LinePosition>
+                            <SchemaUrl></SchemaUrl>
+                            <Analyzer>SPCop</Analyzer>
+                            <AnalyzerUrl>http://www.spcop.de</AnalyzerUrl>
+                            <Help>http://docs.spcaf.com/v6/SPC070001_UseResourcesForLocalizableAttributes.html?version=6.0.5.3298</Help>
+                        </Notification>
+                    </Notifications>
+                </VisitorGroup>
+            </VisitorGroups>
+        </Solution>
+    </Solutions>
+    <!-- End Section Analysis Results -->
+    <!-- Start Section Analysis Settings -->
+    <Files>
+        <File>C:\wspfiles\MyCompanyWithoutPDB\MyCompany.Intranet.BaseContentTypes.wsp</File>
+        <File>C:\wspfiles\MyCompanyWithoutPDB\MyCompany.Intranet.Components.wsp</File>
+        <File>C:\wspfiles\MyCompanyWithoutPDB\MyCompany.Intranet.FrontEnd.wsp</File>
+        <File>C:\wspfiles\MyCompanyWithoutPDB\MyCompany.Intranet.WebParts.wsp</File>
+    </Files>
+    <!-- End Section Analysis Settings -->
+    <!-- Start Section Suppressed Messages -->
+    <!-- Suppressions -->
+    <!-- End Section Suppressed Messages -->
+    <!-- Start Section Exceptions -->
+    <!-- End Section Exceptions -->
+</RulesReport>

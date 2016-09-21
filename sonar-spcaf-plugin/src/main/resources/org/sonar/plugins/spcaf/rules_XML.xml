@@ -1,0 +1,2820 @@
+
+<rules>
+                        <rule>
+                            <key>SPC010101</key>
+                            <priority>CRITICAL</priority>
+                            <name><![CDATA[Fix schema errors]]></name>
+                            <description>
+                                <![CDATA[The XML files within a wsp solution should not contain schema errors.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC010101_FixSchemaErrorsInSolution">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC010102</key>
+                            <priority>CRITICAL</priority>
+                            <name><![CDATA[Declare required attribute 'SolutionId' in Solution]]></name>
+                            <description>
+                                <![CDATA[Required attribute 'SolutionId' must be declared in Solution.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC010102_DeclareRequiredAttributesInSolution">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC010103</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Define a valid GUID for attribute 'SolutionId' in Solution]]></name>
+                            <description>
+                                <![CDATA[The attribute 'SolutionId' in Solution must be a valid GUID. Otherwise the deployment or retraction of the solution may not work properly.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC010103_DefineSolutionIdAsTypeGUID">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC010104</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Remove unused files from Solution package]]></name>
+                            <description>
+                                <![CDATA[Files in the solution package which are not listed in manifest.xml or in a feature.xml should be removed from the package.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC010104_RemoveUnusedFilesFromPackage">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC010301</key>
+                            <priority>MINOR</priority>
+                            <name><![CDATA[Remove empty Resource files]]></name>
+                            <description>
+                                <![CDATA[If Resource files (.resx) are empty they could be removed.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC010301_RemoveEmptyResourceFiles">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC010302</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Avoid duplicate keys in Resource file]]></name>
+                            <description>
+                                <![CDATA[Using duplicate keys in a Resource file (.resx) could lead to unexpected results.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC010302_AvoidDuplicateKeysInResourceFiles">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC010701</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Declare required attributes in SiteDefinition]]></name>
+                            <description>
+                                <![CDATA[Required attributes Title and ListDir must be declared in SiteDefinition.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC010701_DeclareRequiredAttributesInSiteDefinition">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC010702</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Declare element 'SiteDefinition' in Solution]]></name>
+                            <description>
+                                <![CDATA[A deployed SiteDefinition should be included correctly in manifest.xml of the Solution. <p>
+                                    <a href="https://docs.spcaf.com/v6/SPC010702_DeclareSiteDefinitionElementInSolution">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC010703</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Do not reference WebApplication Feature in attribute 'VisibilityFeatureDependency']]></name>
+                            <description>
+                                <![CDATA[The attribute 'VisibilityFeatureDependency' is not supported for Features with Web application scope.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC010703_DoNotAddDependencyToWebAppFeatureInSiteDefinition">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC012101</key>
+                            <priority>CRITICAL</priority>
+                            <name><![CDATA[Declare required attributes in Feature]]></name>
+                            <description>
+                                <![CDATA[Required attributes Id and Scope must be declared in Feature.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC012101_DeclareRequiredAttributesInFeature">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC012102</key>
+                            <priority>CRITICAL</priority>
+                            <name><![CDATA[Define a valid GUID for attribute 'Id' in Feature]]></name>
+                            <description>
+                                <![CDATA[The attribute 'Id' in Feature must be a valid GUID.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC012102_DefineFeatureIdAsTypeGUID">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC012103</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Remove spaces from Feature folder]]></name>
+                            <description>
+                                <![CDATA[SharePoint Foundation supports no spaces for Feature folder and file names.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC012103_RemoveSpacesFromFeatureFolder">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC012104</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Define attribute 'Title' in Feature with max. 255 characters]]></name>
+                            <description>
+                                <![CDATA[The attribute 'Title' of a Feature is limited to 255 characters.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC012104_DefineFeatureTitleWithMax255Characters">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC012111</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Do not define attribute 'ActiveOnDefault' in Feature with Scope 'Web' or 'Site']]></name>
+                            <description>
+                                <![CDATA[Attribute 'ActivateOnDefault' cannot be 'TRUE' for Feature with Scope 'Web' or 'Site', except in Sandboxed solutions. In Sandboxed solutions the attribute is used during activation of the solution to activate Feature with scope 'Site'. This behaviour is not documented in MSDN and may be unexpected und unintended.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC012111_DoNotDefineActiveOnDefaultInWebOrSiteFeatures">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC012112</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Do not define attribute 'AutoActivateInCentralAdmin' in Feature with Scope 'Farm']]></name>
+                            <description>
+                                <![CDATA[AutoActivateInCentralAdmin cannot be TRUE for Feature with Scope 'Farm'.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC012112_DoNotDefineAutoActivateInCentralAdminInFarmFeatures">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC012113</key>
+                            <priority>CRITICAL</priority>
+                            <name><![CDATA[Define required attributes for Feature receiver]]></name>
+                            <description>
+                                <![CDATA[Attributes 'ReceiverAssembly' and 'ReceiverClass' must be defined in conjunction.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC012113_DefineAllRequiredAttributesForFeatureReceiver">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC012114</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Define correct SolutionId in Feature]]></name>
+                            <description>
+                                <![CDATA[All features in a solution must correctly reference their parent solution via the SolutionId property.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC012114_DefineCorrectSolutionIdInFeatures">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC012115</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Define ReceiverAssembly in Feature correctly]]></name>
+                            <description>
+                                <![CDATA[ReceiverAssembly in Feature should contain the full qualified name of the referenced assembly.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC012115_DefineCorrectReceiverAssemblyInFeature">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC012116</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Define Version in Feature correctly]]></name>
+                            <description>
+                                <![CDATA[Version in Feature should contain a correct version number.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC012116_DefineCorrectVersionInFeature">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC012121</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Add missing assembly for 'ReceiverAssembly' in Feature]]></name>
+                            <description>
+                                <![CDATA[If a Feature references an assembly in attribute 'ReceiverAssembly' the assembly should be available.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC012121_AddMissingAssemblyForFeatureReceiverAssembly">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC012122</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Deploy the 'ReceiverAssembly' of a Feature to GAC]]></name>
+                            <description>
+                                <![CDATA[If a Feature references an assembly in attribute 'ReceiverAssembly' the assembly must be deployed to GAC. Otherwise the assembly could not be loaded during feature activation.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC012122_DeployFeatureReceiverAssemblyToGAC">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC012131</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Declare attribute 'Title' in Feature]]></name>
+                            <description>
+                                <![CDATA[A Feature should have a Title.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC012131_DeclareFeatureTitle">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC012133</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Do not define Feature Id with curly brackets]]></name>
+                            <description>
+                                <![CDATA[A Feature Id should not contain curly brackets at the beginning and end.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC012133_DefineFeatureIdWithoutCurlyBrackets">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC012141</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Add Resources when DefaultResourceFile is declared]]></name>
+                            <description>
+                                <![CDATA[If attribute 'DefaultResourceFile' is declared the necessary Resource files must be available.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC012141_AddResourcesWhenDefaultResourceFileIsDeclared">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC012201</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Declare required fields in FieldType]]></name>
+                            <description>
+                                <![CDATA[Required fields Filterable, ParentType, Sortable, TypeDisplayName and TypeName must be declared in FieldType<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC012201_DeclareRequiredAttributesInFieldType">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC012202</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Do not declare field 'InternalType' in FieldTypes]]></name>
+                            <description>
+                                <![CDATA[Do not use a &lt;Field Name="InternalType"&gt; element in a custom field type definition.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC012202_DoNotDeclareInternalTypeInFieldTypes">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC012203</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Do not declare field 'SQLType' in FieldTypes]]></name>
+                            <description>
+                                <![CDATA[Do not use a &lt;Field Name="SQLType"&gt; element in a custom field type definition. The field represents the SQL data type that will be used to store the data in the content database, but cannot be used in custom field types.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC012203_DoNotDeclareSQLTypeInFieldTypes">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC012206</key>
+                            <priority>CRITICAL</priority>
+                            <name><![CDATA[Declare field 'FieldTypeClass' in FieldType]]></name>
+                            <description>
+                                <![CDATA[Field &lt;Field Name="FieldTypeClass" /&gt; is an optional element, but required for all custom field types. Represents the strong name of the field type class library.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC012206_DeclareFieldTypeClassInFieldType">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC012211</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Do not use obsolete RenderPattern in FieldTypes]]></name>
+                            <description>
+                                <![CDATA[RenderPattern in FieldTypes is obsolete.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC012211_DoNotUseRenderPatternInFieldTypes">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC012212</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Do not use PropertySchema in FieldTypes]]></name>
+                            <description>
+                                <![CDATA[PropertySchema in FieldTypes is obsolete.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC012212_DoNotUsePropertySchemaInFieldTypes">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC015101</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Do not define Field in Feature with scope 'WebApplication' or 'Farm']]></name>
+                            <description>
+                                <![CDATA[Field can only be deployed with Features of scope 'Web' or 'Site'. <p>
+                                    <a href="https://docs.spcaf.com/v6/SPC015101_DoNotDefineFieldInFeatureWithWrongScope">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC015102</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Add curly brackets to Field ID]]></name>
+                            <description>
+                                <![CDATA[Field ID must contain curly brackets.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC015102_AddCurlyBracketsToFieldId">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC015103</key>
+                            <priority>CRITICAL</priority>
+                            <name><![CDATA[Define a unique Field ID]]></name>
+                            <description>
+                                <![CDATA[The ID of a Field must be unique in the farm. <p>
+                                    <a href="https://docs.spcaf.com/v6/SPC015103_DefineUniqueFieldId">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC015104</key>
+                            <priority>CRITICAL</priority>
+                            <name><![CDATA[Define Field ID as valid GUID]]></name>
+                            <description>
+                                <![CDATA[Field ID must be a valid GUID.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC015104_DefineFieldIdAsGUID">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC015105</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Declare required attributes in Field]]></name>
+                            <description>
+                                <![CDATA[Required attributes ID, Name and Type must be declared in Field.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC015105_DeclareAllRequiredAttributesInFields">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC015106</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Define Field DisplayName with max. 255 characters]]></name>
+                            <description>
+                                <![CDATA[The DisplayName of a Field is limited to 255 characters.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC015106_DefineDisplayNameInFieldWithMax255Characters">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC015107</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Do not use deprecated attribute 'FromBaseType']]></name>
+                            <description>
+                                <![CDATA[Attribute 'FromBaseType' is deprecated in favor of the Sealed attribute.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC015107_DoNotUseDeprecatedAttributeFromBaseTypeInField">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC015108</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Declare all recommended attributes in Field]]></name>
+                            <description>
+                                <![CDATA[All recommended attributes ID, Type, Name, DisplayName, and Group should be declared in Field.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC015108_DeclareAllRecommendedAttributesInFields">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC015109</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Do not define lower case attribute 'Id' in Field]]></name>
+                            <description>
+                                <![CDATA[The Field ID must be define in upper case attribute 'ID', not in the lower case attribute 'Id'.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC015109_DoNotDefineLowerCaseFieldId">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC015111</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Declare attribute 'Mult' for Type 'LookupMulti' and 'UserMulti']]></name>
+                            <description>
+                                <![CDATA[If attribute 'Type' of a field is 'LookupMulti' or 'UserMulti' the attribute 'Mult' must be set to TRUE.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC015111_DeclareAttributeMultForMultipleValueFields">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC015112</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Define a unique Field Name]]></name>
+                            <description>
+                                <![CDATA[The Name of a Field should be unique in the farm. <p>
+                                    <a href="https://docs.spcaf.com/v6/SPC015112_DefineUniqueFieldName">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC015113</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Define a unique Field StaticName]]></name>
+                            <description>
+                                <![CDATA[The StaticName of a Field should be unique in the farm. <p>
+                                    <a href="https://docs.spcaf.com/v6/SPC015113_DefineUniqueFieldStaticName">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC015201</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Do not define ContentType ID longer than 1024 characters]]></name>
+                            <description>
+                                <![CDATA[Content type IDs have a maximum length of 512 bytes. Because two hexadecimal characters can fit in each byte, each content type ID has an effective maximum length of 1024 characters.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC015201_DoNotDefineContentTypeIDWithMoreThan1024Characters">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC015202</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Do not define ContentType in Feature with scope 'WebApplication' or 'Farm']]></name>
+                            <description>
+                                <![CDATA[ContentType can only be deployed with Features of scope 'Web' or 'Site'. <p>
+                                    <a href="https://docs.spcaf.com/v6/SPC015202_DoNotDefineContentTypeInFeatureWithWrongScope">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC015203</key>
+                            <priority>CRITICAL</priority>
+                            <name><![CDATA[Declare required attributes in ContentType]]></name>
+                            <description>
+                                <![CDATA[Required attributes ID and Name must be declared in ContentType.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC015203_DeclareRequiredAttributesInContentType">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC015204</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Do not define duplicate ContentType ID]]></name>
+                            <description>
+                                <![CDATA[ContentType ID must be unique.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC015204_DoNotDefineDuplicateContentTypeID">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC015205</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Do not define ContentType Name longer than 124 characters]]></name>
+                            <description>
+                                <![CDATA[Length of attribute 'Name' in content types is limited to 124 characters. The name itself cannot be longer than 128 characters and cannot contain the characters \ / : * ? " # % &lt; &gt; { } | ~ &, two consecutive periods (..), or special characters such as a tab.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC015205_DoNotDefineContentTypeNameWithMoreThan124Characters">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC015206</key>
+                            <priority>MINOR</priority>
+                            <name><![CDATA[Define ContentTypes ID as hexadecimal GUID]]></name>
+                            <description>
+                                <![CDATA[It is recommended to use the GUID approach to identify any content types that are direct children of content types you did not create. Use the GUID approach if the parent content type is one of the following. That way, you are assured that the content type ID is unique and will not be duplicated later by the developer of the parent content type.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC015206_DefineContentTypeIDAsHexadecimalGUID">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC015207</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Do not declare attributes in ContentType which are reserved for internal use]]></name>
+                            <description>
+                                <![CDATA[The attribute 'BaseType' is reserved for internal use and should not be declared in ContentType.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC015207_DoNotDeclareInternalAttributesInContentType">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC015208</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Do not declare obsolete attributes in ContentType]]></name>
+                            <description>
+                                <![CDATA[The attributes 'ResourceFolder' and 'DocumentTemplate' are obsolete and should not be declared in ContentType.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC015208_DoNotDeclareObsoleteAttributesInContentType">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC015209</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Inherit ContentType from existing parent ContentType]]></name>
+                            <description>
+                                <![CDATA[The parent ContentType of a ContentType must be either a SharePoint ContentType or a ContentType within the WSP solutions.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC015209_InheritContentTypeFromExistingParentContentType">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC015210</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Define correct parent FeatureId in ContentType]]></name>
+                            <description>
+                                <![CDATA[If ContentType defines attribute 'FeatureId' the value must be correct and include braces.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC015210_DefineCorrectParentFeatureId">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC015211</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Define attribute 'Inherits' to FALSE in ContentType if RemoveFieldRef are used]]></name>
+                            <description>
+                                <![CDATA[A content type should not have attribute 'Inherits' set to 'TRUE' if elements of type 'RemoveFieldRef' are used. Set Inherits to 'FALSE' or hide the not used columns with Hidden=TRUE to remove fields from a content type.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC015211_DefineInheritsInContentTypeWithRemoveFiedRef">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC015212</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Define attribute 'Inherits' to FALSE in ContentType if Custom Forms are used]]></name>
+                            <description>
+                                <![CDATA[A content type should not have attribute 'Inherits' set to 'TRUE' if custom forms are used. Set Inherits to 'FALSE' or remove the custom form from a content type.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC015212_DefineInheritsToFalseInContentTypeWithForms">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC015213</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Avoid XML comments inside a ContentType definition]]></name>
+                            <description>
+                                <![CDATA[Comments inside the ContentType definition (XML) can break loading them.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC015213_AvoidCommentsInsideContentType">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC015301</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Do not define Module in Feature with scope 'WebApplication' or 'Farm']]></name>
+                            <description>
+                                <![CDATA[Module can only be deployed with Features of scope 'Web' or 'Site'. <p>
+                                    <a href="https://docs.spcaf.com/v6/SPC015301_DoNotDefineModuleInFeatureWithWrongScope">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC015302</key>
+                            <priority>CRITICAL</priority>
+                            <name><![CDATA[Add missing referenced File for Module]]></name>
+                            <description>
+                                <![CDATA[A Module in a Feature deploys files which are included in the feature as ElementFile. The rule checks if this referenced file is available or not.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC015302_AddMissingModuleFileToFeature">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC015303</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Declare File element in Module]]></name>
+                            <description>
+                                <![CDATA[A Module should contain at least one File element as child. Otherwise the Module has no need and should be removed.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC015303_DeclareFileElementInModule">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC015401</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Do not define ListInstance in Feature with scope 'WebApplication' or 'Farm']]></name>
+                            <description>
+                                <![CDATA[ListInstance can only be deployed with Features of scope 'Web' or 'Site'. <p>
+                                    <a href="https://docs.spcaf.com/v6/SPC015401_DoNotDefineListInstanceInFeatureWithWrongScope">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC015402</key>
+                            <priority>CRITICAL</priority>
+                            <name><![CDATA[Declare required attributes in ListInstance]]></name>
+                            <description>
+                                <![CDATA[Required attributes TemplateType, Title and Url be declared in ListInstance.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC015402_DeclareRequiredAttributesInListInstance">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC015403</key>
+                            <priority>CRITICAL</priority>
+                            <name><![CDATA[Define unique value for attribute 'Id' in ListInstance]]></name>
+                            <description>
+                                <![CDATA[If a value is defined for attribute 'Id' is defined in a ListInstance the value must be unique within the same Feature.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC015403_DefineUniqueIdInListInstance">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC015404</key>
+                            <priority>CRITICAL</priority>
+                            <name><![CDATA[Deploy missing ListTemplate for ListInstance]]></name>
+                            <description>
+                                <![CDATA[A ListInstance instantiates lists based on a ListTemplate. This ListTemplate must be either a SharePoint default ListTemplate or a custom ListTemplate which must be deployed.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC015404_DeployMissingListTemplateForListInstance">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC015405</key>
+                            <priority>MINOR</priority>
+                            <name><![CDATA[Remove curly brackets from attribute FeatureId in ListInstance]]></name>
+                            <description>
+                                <![CDATA[Curly brackets should be removed from attribute 'FeatureId' in ListInstance.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC015405_RemoveCurlyBracketsFromFeatureIdInListInstance">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC015406</key>
+                            <priority>CRITICAL</priority>
+                            <name><![CDATA[Deploy missing ListDefinition in CustomSchema of ListInstance]]></name>
+                            <description>
+                                <![CDATA[A ListInstance can directly reference a ListDefinition in attribute 'CustomSchema'. This ListDefinition must be depoyed in the same Feature as ElementFile.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC015406_DeployMissingCustomSchemaForListInstance">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC015501</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Do not define ListTemplate in Feature with scope 'WebApplication' or 'Farm']]></name>
+                            <description>
+                                <![CDATA[ListTemplate can only be deployed with Features of scope 'Web' or 'Site'. <p>
+                                    <a href="https://docs.spcaf.com/v6/SPC015501_DoNotDefineListTemplateInFeatureWithWrongScope">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC015502</key>
+                            <priority>CRITICAL</priority>
+                            <name><![CDATA[Declare required attributes in ListTemplate]]></name>
+                            <description>
+                                <![CDATA[Required attributes BaseType, DisplayName and Name must be declared in ListTemplate.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC015502_DeclareRequiredAttributesInListTemplate">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC015505</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Do not define ListTemplate Name with spaces]]></name>
+                            <description>
+                                <![CDATA[Name of ListTemplate cannot contain spaces or special characters.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC015505_DoNotDefineListNameWithSpaces">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC015506</key>
+                            <priority>CRITICAL</priority>
+                            <name><![CDATA[Define unique attribute 'Type' for ListTemplate]]></name>
+                            <description>
+                                <![CDATA[The attribute 'Type' must be unique within the Feature.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC015506_DefineUniqueListTemplateType">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC015510</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Deploy missing Image in ListTemplate]]></name>
+                            <description>
+                                <![CDATA[If a ListTemplate references a file in attribute 'Image' (e.g. an icon) the file must be deployed.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC015510_DeployMissingImageOfListTemplate">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC015511</key>
+                            <priority>CRITICAL</priority>
+                            <name><![CDATA[Do not deploy Taxonomy fields using ListTemplate.]]></name>
+                            <description>
+                                <![CDATA[Taxonomy fields should be deployed by content types, not inside ListTemplates.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC015511_DoNotDeployTaxonomyFieldsInListDefinition">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC015601</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Do not define ContentTypeBinding in Feature with scope 'WebApplication' or 'Farm']]></name>
+                            <description>
+                                <![CDATA[ContentTypeBinding can only be deployed with Features of scope 'Web' or 'Site'. <p>
+                                    <a href="https://docs.spcaf.com/v6/SPC015601_DoNotDefineContentTypeBindingInFeatureWithWrongScope">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC015701</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Declare required attribute in CustomAction]]></name>
+                            <description>
+                                <![CDATA[Required attribute 'Title' must be declared in CustomAction.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC015701_DeclareRequiredAttributesInCustomAction">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC015702</key>
+                            <priority>CRITICAL</priority>
+                            <name><![CDATA[Define unique value for 'Id' in CustomAction]]></name>
+                            <description>
+                                <![CDATA[Define a unique value for attribute 'Id' in CustomAction. The ID may be a GUID, or it may be a unique term.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC015702_DefineUniqueIDInCustomAction">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC015703</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Deploy missing file in UrlAction for CustomAction]]></name>
+                            <description>
+                                <![CDATA[If a CustomAction references a file in attribute 'UrlAction' (e.g. ASPX page) the file must be deployed. Otherwise a click on this CustomAction will lead to 404 error.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC015703_DeployMissingUrlActionFileOfCustomAction">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC015704</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Deploy missing file in ImageUrl for CustomAction]]></name>
+                            <description>
+                                <![CDATA[If a CustomAction references a file in attribute 'ImageUrl' (e.g. an icon) the file must be deployed.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC015704_DeployMissingImageOfCustomAction">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC015705</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Deploy missing file in Ribbon for CustomAction]]></name>
+                            <description>
+                                <![CDATA[If a CustomAction references a file in ribbon (e.g. an icon) the file must be deployed.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC015705_DeployMissingRibbonImageOfCustomAction">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC015706</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Deploy missing file in CommandUIHandler for CustomAction]]></name>
+                            <description>
+                                <![CDATA[If a CustomAction references a file in ribbon CommandUIHandler (e.g. a page) the file must be deployed.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC015706_DeployMissingRibbonCommandUIHandlerOfCustomAction">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC015801</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Declare required attributes in CustomActionGroup]]></name>
+                            <description>
+                                <![CDATA[Required attributes 'Location' and 'Title' must be declared in CustomActionGroup.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC015801_DeclareRequiredAttributesInCustomActionGroup">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC016001</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Do not define Receiver in Feature with scope 'WebApplication' or 'Farm']]></name>
+                            <description>
+                                <![CDATA[Receiver can only be deployed with Features of scope 'Web' or 'Site'. <p>
+                                    <a href="https://docs.spcaf.com/v6/SPC016001_DoNotDefineReceiverInFeatureWithWrongScope">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC016002</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Declare Scope for Receivers in Site Features]]></name>
+                            <description>
+                                <![CDATA[If event receivers are used within a feature with scope 'Site' the attribute 'Scope' should be specified.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC016002_DeclareScopeForReceiversInSiteFeatures">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC016003</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Do not define Receiver 'EmailReceived' on SiteCollection level.]]></name>
+                            <description>
+                                <![CDATA[If email event receivers are used within a feature with scope 'Site' the attribute 'Scope' must be set to 'Web' or the event receiver must be deployed via a web scopes feature.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC016003_DoNotDefineEmailEventReceiverInSiteCollectionLevel">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC016101</key>
+                            <priority>CRITICAL</priority>
+                            <name><![CDATA[Define ControlAssembly and ControlClass in DelegateControl]]></name>
+                            <description>
+                                <![CDATA[When implementing a server control (DelegateControl), use both the ControlAssembly and ControlClass attributes.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC016101_DefineControlAssemblyAndClass">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC016102</key>
+                            <priority>CRITICAL</priority>
+                            <name><![CDATA[Deploy missing assembly from attribute ControlAssembly]]></name>
+                            <description>
+                                <![CDATA[When using attribute ControlAssembly the referenced assembly must be deployed to SharePoint or must be a SharePoint assembly.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC016102_DeployMissingControlAssembly">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC016103</key>
+                            <priority>CRITICAL</priority>
+                            <name><![CDATA[Deploy missing control from attribute ControlSrc]]></name>
+                            <description>
+                                <![CDATA[When using attribute ControlSrc the referenced ascx control must be deployed to SharePoint or must be a SharePoint control.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC016103_DeployMissingControlTemplate">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC016201</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Do not define Worfklow in Feature with scope 'Web', 'WebApplication' or 'Farm']]></name>
+                            <description>
+                                <![CDATA[Worfklow can only be deployed with Features of scope 'Site'. <p>
+                                    <a href="https://docs.spcaf.com/v6/SPC016201_DoNotDefineWorkflowInFeatureWithWrongScope">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC016202</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Declare required attributes in Workflow]]></name>
+                            <description>
+                                <![CDATA[Required attributes Name, CodeBesideAssembly, CodeBesideClass and Id must be declared in Workflow.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC016202_DeclareRequiredAttributesInWorkflow">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC016203</key>
+                            <priority>CRITICAL</priority>
+                            <name><![CDATA[Define a valid GUID for attribute 'Id' in Workflow]]></name>
+                            <description>
+                                <![CDATA[The attribute 'Id' in Workflow must be a valid GUID.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC016203_DefineWorkflowIdAsTypeGUID">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC016301</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Do not define DocumentConveter in Feature with scope 'Web', 'Site' or 'Farm']]></name>
+                            <description>
+                                <![CDATA[DocumentConveter can only be deployed with Features of scope 'WebApplication'. <p>
+                                    <a href="https://docs.spcaf.com/v6/SPC016301_DoNotDefineDocumentConverterInFeatureWithWrongScope">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC016401</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Declare property 'Title' in WebParts]]></name>
+                            <description>
+                                <![CDATA[WebPart should contain a title which is visible to the user in SharePoint.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC016401_DeclareTitleInWebPartDefinition">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC016501</key>
+                            <priority>CRITICAL</priority>
+                            <name><![CDATA[Declare required attributes in FieldRef]]></name>
+                            <description>
+                                <![CDATA[Required attributes ID, Name must be declared in FieldRef.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC016501_DeclareRequiredAttributesInFieldRef">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC016502</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Define attribute 'ID' with curly brackets in FieldRef]]></name>
+                            <description>
+                                <![CDATA[The attribute 'ID' in elements of type 'FieldRef' should start and end with '}'. Otherwise they may not work correctly.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC016502_DefineValidIDInFieldRef">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC016503</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Define attribute 'ID' in FieldRef in correct casing]]></name>
+                            <description>
+                                <![CDATA[The attribute 'ID' in elements of type 'FieldRef' is case sensitive. It must use the same casing as the ID of the referenced field.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC016503_DefineFieldRefInCorrectCasing">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC016601</key>
+                            <priority>CRITICAL</priority>
+                            <name><![CDATA[Declare required attributes in RemoveFieldRef]]></name>
+                            <description>
+                                <![CDATA[Required attributes ID must be declared in RemoveFieldRef.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC016601_DeclareRequiredAttributesInRemoveFieldRef">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC016602</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Do not declare ignored attributes in RemoveFieldRef]]></name>
+                            <description>
+                                <![CDATA[Do not declare attributes except ID in RemoveFieldRef. All other attributes are ignored by SharePoint.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC016602_NotDeclareIgnoredAttributesInRemoveFieldRef">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC016603</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Define attribute 'ID' with curly brackets in RemoveFieldRef]]></name>
+                            <description>
+                                <![CDATA[The attribute 'ID' in elements of type 'RemoveFieldRef' should start and end with '}'. Otherwise they may not work correctly.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC016603_DefineValidIDInRemoveFiedRef">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC017001</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Do not define TemplateAssociation in Feature with scope 'Web']]></name>
+                            <description>
+                                <![CDATA[TemplateAssociation (FeatureSiteTemplateAssociationDefinition) can only be deployed with Features of scope 'Site', 'WebApplication' or 'Farm'. <p>
+                                    <a href="https://docs.spcaf.com/v6/SPC017001_DoNotDefineTemplateAssocationInFeatureWithWrongScope">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC017002</key>
+                            <priority>CRITICAL</priority>
+                            <name><![CDATA[Declare required attributes in TemplateAssocation]]></name>
+                            <description>
+                                <![CDATA[Required attributes Id and TemplateName must be declared in TemplateAssocation.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC017002_DeclareRequiredAttributesInTemplateAssociation">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC017101</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Do not define PropertyBag in Feature with scope 'WebApplication' or 'Farm']]></name>
+                            <description>
+                                <![CDATA[PropertyBag can only be deployed with Features of scope 'Web' or 'Site'. <p>
+                                    <a href="https://docs.spcaf.com/v6/SPC017101_DoNotDefinePropertyBagInFeatureWithWrongScope">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC017401</key>
+                            <priority>CRITICAL</priority>
+                            <name><![CDATA[Declare required attributes in FeatureActivationDependency]]></name>
+                            <description>
+                                <![CDATA[Required attribute FeatureId must be declared in FeatureActivationDependency.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC017401_DeclareRequiredAttributesInFeatureActivationDependency">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC017402</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Define optional attributes in FeatureActivationDependency correctly]]></name>
+                            <description>
+                                <![CDATA[If optional attributes in FeatureActivationDependency are defined (like the target 'FeatureTitle') the values must be the same.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC017402_DefineOptionalAttributesInFeatureActivationDependencyCorrectly">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC017411</key>
+                            <priority>CRITICAL</priority>
+                            <name><![CDATA[Do not add ActivationDependency to hidden Feature]]></name>
+                            <description>
+                                <![CDATA[Features with ActivationDependency cannot be hidden.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC017411_DoNotAddActivationDependencyToHiddenFeature">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC017412</key>
+                            <priority>CRITICAL</priority>
+                            <name><![CDATA[Do not add ActivationDependency to a Feature with a more restrictive scope]]></name>
+                            <description>
+                                <![CDATA[A Feature cannot have an ActivationDependency to a more restrictive scope. For example, a site collection-scoped Feature cannot have an ActivationDependency on a Web site-scoped Feature.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC017412_DoNotAddActivationDependencyToMoreRestrictiveScope">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC017413</key>
+                            <priority>CRITICAL</priority>
+                            <name><![CDATA[Do not add cross-scope ActivationDependency to a hidden Feature]]></name>
+                            <description>
+                                <![CDATA[A Feature cannot have an cross-scope ActivationDependency to a hidden Feature. For example, a Web site-scoped feature cannot be dependent on a site collection–scoped Feature that is not visible in the user interface.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC017413_DoNotAddCrossScopeActivationDependencyToHiddenFeature">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC017414</key>
+                            <priority>CRITICAL</priority>
+                            <name><![CDATA[Do not chain ActivationDependencies of Features when last Feature is visible]]></name>
+                            <description>
+                                <![CDATA[ActivationDependencies can work only one level deep. SharePoint Foundation does not support more than one level in activation dependencies if the last Feature is visible.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC017414_DoNotChainActivationDependencies">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC017415</key>
+                            <priority>CRITICAL</priority>
+                            <name><![CDATA[Do not create circular chain of FeatureActivationDependencies]]></name>
+                            <description>
+                                <![CDATA[ActivationDependencies between Features can result in a circular dependency which is not allowed.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC017415_DoNotCreateCircularChaingOfActivationDependencies">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC017510</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Declare element 'DefaultDescription' in schema of ListTemplate]]></name>
+                            <description>
+                                <![CDATA[The element 'DefaultDescription' must be declared in the schema.xml of a ListTemplate.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC017510_DeclareDefaultDescriptionInListDefinition">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC017511</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Declare required attributes in schema of ListTemplate]]></name>
+                            <description>
+                                <![CDATA[The attribute 'Title', 'Name' and 'Direction' must be declared in the schema.xml of a ListTemplate.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC017511_DeclareRequiredAttributesInListDefinition">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC017601</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Deploy missing assembly for WebService (.svc)]]></name>
+                            <description>
+                                <![CDATA[A WCF Webservice (.svc) file references an assembly which handles the requests for the WebService. This assembly should be present in the solution.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC017601_DeployMissingAssemblyInWCFWebService">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC017701</key>
+                            <priority>CRITICAL</priority>
+                            <name><![CDATA[Declare required attributes in WebTemplate]]></name>
+                            <description>
+                                <![CDATA[Required attributes BaseTemplateID, BaseTemplateName, BaseConfigurationID and Name must be declared in WebTemplate.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC017701_DeclareRequiredAttributesInWebTemplate">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC017702</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Derive WebTemplate from an existing Template]]></name>
+                            <description>
+                                <![CDATA[A WebTemplate must derive from an existing Template, e.g from a template in TEMPLATE\1033\XML\WEBTEMP.xml.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC017702_DefineValidParentWebTemplate">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC017711</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Declare recommended attributes in WebTemplate]]></name>
+                            <description>
+                                <![CDATA[Attributes Title and Description should be declared in WebTemplate.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC017711_DeclareRecommendedAttributesInWebTemplate">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC019901</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Do not declare obsolete attributes]]></name>
+                            <description>
+                                <![CDATA[Obsolete attributes should not be declared and should be removed from the code.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC019901_DoNotDeclareObsoleteAttributes">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC019902</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Define Boolean attributes in upper case]]></name>
+                            <description>
+                                <![CDATA[Boolean attributes should be define in upper case letters (TRUE or FALSE).<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC019902_DefineBooleanAttributesInUpperCase">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC019903</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Remove spaces from resource keys]]></name>
+                            <description>
+                                <![CDATA[If attributes in SharePoint elements are localized with resources the resource key cannot contains spaces.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC019903_RemoveSpacesFromResourceKey">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC019904</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Add translation for a resource key]]></name>
+                            <description>
+                                <![CDATA[If attributes in SharePoint elements are localized with resources the resource key must be available in a resx file.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC019904_AddTranslationForResourceKey">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC020602</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[CAS Policy 'Maschine' with access='Administer' is not allowed]]></name>
+                            <description>
+                                <![CDATA[The CAS Policy 'Maschine' with access='Administer' is not allowed.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC020602_PolicyMachineAccessAdministerNotAllowed">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC020603</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Policy Permission Impersonate not allowed]]></name>
+                            <description>
+                                <![CDATA[The CAS Policy for Microsoft.SharePoint.Security.SharePointPermission with settings Impersonate=true is not allowed.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC020603_PolicyPermissionImpersonateNotAllowed">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC020611</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Do not define 'FileIOPermission' with 'Unrestricted=true']]></name>
+                            <description>
+                                <![CDATA[The CAS Policy for System.Security.Permissions.FileIOPermission with setting 'Unrestricted=true' is not allowed. This means read and write permission to all locations on the SharePoint system. Limit the permission to certain folders, e.g. TEMP.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC020611_DoNotDefineUnrestrictedFileIOPermission">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC020612</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Do not define 'RegistryPermission' with 'Unrestricted=true']]></name>
+                            <description>
+                                <![CDATA[The CAS Policy for System.Security.Permissions.RegistryPermission with setting 'Unrestricted=true' is not allowed.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC020612_DoNotDefineUnrestrictedRegistryPermission">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC020613</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Do not define 'SecurityPermission' with 'Unrestricted=true']]></name>
+                            <description>
+                                <![CDATA[The CAS Policy for System.Security.Permissions.SecurityPermission with setting 'Unrestricted=true' is not allowed.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC020613_DoNotDefineUnrestrictedSecurityPermission">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC020614</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Do not define 'EnvironmentPermission' with 'Unrestricted=true']]></name>
+                            <description>
+                                <![CDATA[The CAS Policy for System.Security.Permissions.EnvironmentPermission with setting 'Unrestricted=true' is not allowed.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC020614_DoNotDefineUnrestrictedEnvironmentPermission">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC020615</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Do not define 'SmtpPermission' with 'Unrestricted=true']]></name>
+                            <description>
+                                <![CDATA[The CAS Policy for System.Net.Mail.SmtpPermission with setting 'Unrestricted=true' is not allowed.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC020615_DoNotDefineUnrestrictedSMTPPermission">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC025501</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Do not set 'AllowEveryoneViewItems' to TRUE in ListDefinition]]></name>
+                            <description>
+                                <![CDATA[The attribute ListAllowEveryoneViewItems of a ListDefinition should not be set to true, as it allows every authenticated user of the web application to access the list items when the URL is known.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC025501_DoNotSetAllowEveryoneViewItemsToTrue">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC030101</key>
+                            <priority>CRITICAL</priority>
+                            <name><![CDATA[Do not override SharePoint system files]]></name>
+                            <description>
+                                <![CDATA[Solutions must not override system files. If this solution is deployed it could damage the SharePoint farm and make it unreachable.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC030101_DoNotOverrideSystemFiles">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC040102</key>
+                            <priority>MINOR</priority>
+                            <name><![CDATA[Declare attribute 'Title' and 'Description' in Solutions]]></name>
+                            <description>
+                                <![CDATA[To make it easier to identify Solutions in the Solution Gallery in SharePoint the attributes 'Title' and 'Description' should be declared.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC040102_DeclareTitleAndDescriptionInSolutions">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC040701</key>
+                            <priority>MINOR</priority>
+                            <name><![CDATA[Do not make SiteDefinition visible in the whole farm]]></name>
+                            <description>
+                                <![CDATA[Site definitions are visible in the whole farm by default. The attribute 'VisibilityFeatureDependency' provides a way to hide the site definition depending on an activated feature.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC040701_TemplateConfigurationShouldNotBeVisibleInWholeFarm">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC042101</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Declare attribute 'Description' in Features]]></name>
+                            <description>
+                                <![CDATA[A Feature should contain a description of the purpose of a Feature in attribute 'Description'.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC042101_DeclareDescriptionInFeatures">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC042102</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Declare attribute 'Version' in Features]]></name>
+                            <description>
+                                <![CDATA[A feature should contain a valid version number in attribute 'Version'. This may be necessary to use FeatureUpgrade method to allow updates in the future.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC042102_DeclareVersionInFeatures">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC042103</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Make Features with scope 'Farm' or 'WebApplication' visible]]></name>
+                            <description>
+                                <![CDATA[Feature of scope 'Farm' or 'WebApplication' should not be hidden. They are not visible for the farm administrator in the Central Administration and cannot be deactivated via the UI e.g. in case of problems. If the feature is visible in the Central Administration the farm administrator can easier identify available and activated features.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC042103_MakeFeaturesWithScopeFarmOrWebAppVisible">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC042104</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Consider to make Feature with scope 'Web' or 'Site' hidden]]></name>
+                            <description>
+                                <![CDATA[Consider to make Features with scope 'Web' or 'Site' hidden to avoid activation via the UI.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC042104_MakeFeaturesWithScopeSiteOrWebHidden">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC042106</key>
+                            <priority>MINOR</priority>
+                            <name><![CDATA[Declare attribute 'Title' and 'Description' in FeatureActivitationDependencies]]></name>
+                            <description>
+                                <![CDATA[To make it easier to identify feature activation dependencies the attributes title and description should contain the title and description of the referenced feature.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC042106_FeatureActivitationDependenciesShouldContainTitleAndDescription">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC042107</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Define attribute 'ReceiverAssembly' in Feature as full qualified assembly name]]></name>
+                            <description>
+                                <![CDATA[If a Feature references an Assembly in attribute 'ReceiverAssembly' the given value should be a full qualified assembly name (e.g. 'System.Data, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'). Although the order of the values in the assembly name is not mandatory a well-formed assembly name improves readability of the XML code.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC042107_DefineFeatureReceiverAssemblyAsFQN">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC042201</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Declare all FieldTypes in a single file]]></name>
+                            <description>
+                                <![CDATA[If multiple FieldTypes are deployed by a Solution these FieldTypes should be store in a single XML file to avoid unnecessary files.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC042201_DeclareFieldTypesInASingleFile">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC045201</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Declare attribute 'Inherits' in ContentTypes]]></name>
+                            <description>
+                                <![CDATA[In SharePoint 2010 the new attribute 'Inherits' for ContentTypes defines whether fields of the parent ContentType are inherited to the ContentType. For compatibility reasons to SharePoint 2007 this attribute should be specified.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC045201_DeclareAttributeInheritsInContentType">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC045203</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Define attribute 'ID' in ContentTypes uppercase]]></name>
+                            <description>
+                                <![CDATA[The ID of a ContentType should by a GUID in uppercase letters to avoid problems when accessing ContentTypes in code.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC045203_DeclareContentTypeIDUpperCase">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC045401</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Declare 'TemplateType' and 'FeatureId' for external ListInstance]]></name>
+                            <description>
+                                <![CDATA[If the ListInstance seems to be used for an external list, the correct TemplateType (600) should be used.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC045401_DeclareTemplateTypeForExternalList">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC045801</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Declare attribute 'Description' in CustomActionGroup]]></name>
+                            <description>
+                                <![CDATA[CustomActionGroup should define attribute Description.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC045801_DeclareDescriptionInCustomActionGroup">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC046101</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Declare attribute 'Sequence' in DelegateControl.]]></name>
+                            <description>
+                                <![CDATA[Attribute 'Sequence' should be declared to specify the sequence number for the control, which determines whether the control is added to the control tree for a page. The control with the lowest sequence number is added to the tree.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC046101_DeclareAttributeSequenceInControl">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC046102</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Declare attribute 'Id' in DelegateControl.]]></name>
+                            <description>
+                                <![CDATA[Attribute 'Id' should be declared. Otherwise the delegate control will never be added to a control container.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC046102_DeclareAttributeIdInControl">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC046401</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Declare property 'Title' and 'Description' in WebPart]]></name>
+                            <description>
+                                <![CDATA[A WebPart should contain the attribute title and description to provide meaningfull information to the end user which would add the web part to a page.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC046401_DeclareTitleAndDescriptionInWebPart">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC050101</key>
+                            <priority>MINOR</priority>
+                            <name><![CDATA[Do not use spaces in file or folders names]]></name>
+                            <description>
+                                <![CDATA[Files should be stored in subfolders which are named after the solution, or start with the solution. Avoid using dots or spaces in pathnames.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC050101_DoNotUseSpacesInFilePaths">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC052201</key>
+                            <priority>MINOR</priority>
+                            <name><![CDATA[Custom field types should not be user creatable]]></name>
+                            <description>
+                                <![CDATA[Custom field types should not be user creatable because in this case they are visible in the complete farm which may not be the intention.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC052201_CustomFieldTypesShouldNotBeUserCreatable">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC055101</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Attribute 'Name' and 'StaticName' should have the same value in Field]]></name>
+                            <description>
+                                <![CDATA[The value of attribute 'Name' and 'StaticName' should be the same in a Field. Otherwise it might lead to confusion when requesting the field via REST, in managed code etc.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC055101_DefineSameStaticAndInternalNameInField">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC055102</key>
+                            <priority>INFO</priority>
+                            <name><![CDATA[Consider setting attibute 'AllowDeletion' to FALSE in Field to prevent deletion by users]]></name>
+                            <description>
+                                <![CDATA[Setting the attribute 'AllowDeletion' to FALSE prevents unintended deletion of a Field by the user or administrator.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC055102_ConsiderAllowDeletionInField">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC055202</key>
+                            <priority>INFO</priority>
+                            <name><![CDATA[Consider setting attibute 'Sealed' to TRUE in ContentType to prevent changes by users]]></name>
+                            <description>
+                                <![CDATA[Setting the attribute 'Sealed' to TRUE prevents unintended changes of a ContentType by the user or administrator.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC055202_ConsiderSealedInContentType">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC055501</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Define Type of ListTemplate greater than 10000]]></name>
+                            <description>
+                                <![CDATA[The ListTemplate Type should be greater than 10000. This makes it easier to identify custom ListTemplates.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC055501_DefineListTemplateTypeGreaterThan10000">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC055502</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Add ContentType for folders to ListTemplate]]></name>
+                            <description>
+                                <![CDATA[A custom ListTemplate should contain the folder ContentType to work properly.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC055502_AddEnsureFolderContentTypeInListDefinition">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC055503</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Avoid definition of ContentTypes in ListTemplates.]]></name>
+                            <description>
+                                <![CDATA[ContentTypes which are defined in a ListTemplate are not re-usable. Better define the ContentType separately and reference the ContentType in the ListTemplate.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC055503_AvoidContentTypesInListDefinitions">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC055504</key>
+                            <priority>INFO</priority>
+                            <name><![CDATA[Consider setting attibute 'AllowDeletion' to FALSE in ListTemplate to prevent deletion by users]]></name>
+                            <description>
+                                <![CDATA[Setting the attribute 'AllowDeletion' to FALSE prevents unintended deletion of a ListTemplate by the user or administrator.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC055504_ConsiderAllowDeletionInListTemplate">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC056401</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Declare property 'AllowClose' in WebPart to prevent closing of webpart by the user]]></name>
+                            <description>
+                                <![CDATA[A WebPart should contain the attribute 'AllowClose' with value False to prevent that users close the webpart. In this case the webpart would be disappear from the UI but will remain inside the page.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC056401_DeclareAllowCloseInWebPart">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC060101</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Consider the deployment of solution per web application and not globally]]></name>
+                            <description>
+                                <![CDATA[Solution should not be deployed globally to reduce the impact of the solution for the SharePoint farm. Note: this guidance does not apply to SharePoint 2013 and further.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC060101_DoNotDeploySolutionGlobally">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC060103</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Do not deploy prohibited assemblies]]></name>
+                            <description>
+                                <![CDATA[In some case WSPBuilder includes prohibited assemblies into the package, e.g. 'ssocli.dll'.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC060103_DoNotDeployProhibitedAssemblies">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC060105</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Do not deploy thumbs.db]]></name>
+                            <description>
+                                <![CDATA[In some case the file thumbs.db is generated in a Visual Studio project. This file should not be included in the WSP package.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC060105_DoNotDeployThumbsDB">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC060106</key>
+                            <priority>MINOR</priority>
+                            <name><![CDATA[Do not reset webserver]]></name>
+                            <description>
+                                <![CDATA[A solution should not reset the webserver.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC060106_DoNotResetWebServer">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC060107</key>
+                            <priority>MINOR</priority>
+                            <name><![CDATA[Define mode 'Recycle' for Solution upgrade]]></name>
+                            <description>
+                                <![CDATA[To reduce the downtime of a SharePoint farm during deployment the solution should not use default setting 'StartStop' for upgrading solutions. Spedifying 'Recycle' only recycles affected application pools and will not stop them.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC060107_DefineRecycleForResetWebServerModeOnUpgrade">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC060108</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Do not deploy files directly into system folder]]></name>
+                            <description>
+                                <![CDATA[Solutions should not write in folders of system files directly. If you need to deploy a file in a system folder, use a project specific subfolder.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC060108_DoNotDeployFilesDirectlyIntoSystemFolder">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC060111</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Do not deploy batch files (.bat)]]></name>
+                            <description>
+                                <![CDATA[Batch files should not be included in the WSP package.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC060111_DoNotDeployBatchFiles">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC060112</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Do not deploy PowerShell scripts (.ps1)]]></name>
+                            <description>
+                                <![CDATA[PowerShell scripts should not be included in the WSP package.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC060112_DoNotDeployPowerShellScripts">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC060113</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Do not deploy setups (.msi)]]></name>
+                            <description>
+                                <![CDATA[Setups like .msi files should not be included in the WSP package.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC060113_DoNotDeployMSIFiles">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC060303</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Do not deploy RootFile to TEMPLATE folder]]></name>
+                            <description>
+                                <![CDATA[Deploy a RootFile not to the TEMPLATE folder. Deploy this file as TemplateFile in the solution.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC060303_DoNotDeployRootFileToTemplatesFolder">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC060304</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Do not deploy RootFile multiple times]]></name>
+                            <description>
+                                <![CDATA[Deploy a RootFile only once to SharePoint. Do not deploy the file by different solutions because this could lead to problems if one solution is retracted and removes the file.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC060304_DoNotDeployRootFileMultipleTimes">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC060401</key>
+                            <priority>MINOR</priority>
+                            <name><![CDATA[Do not deploy Images to LAYOUTS folder]]></name>
+                            <description>
+                                <![CDATA[Do not deploy Images to LAYOUTS folder. Deploy to IMAGES folder instead.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC060401_DoNotDeployImagesToLayouts">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC060402</key>
+                            <priority>MINOR</priority>
+                            <name><![CDATA[Deploy only Images to IMAGES folder]]></name>
+                            <description>
+                                <![CDATA[Deploy only Images to IMAGES folder. For files which are not images choose a different folder (e.g. LAYOUTS).<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC060402_DeployOnlyImageToImagesFolder">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC060403</key>
+                            <priority>MINOR</priority>
+                            <name><![CDATA[Deploy binary files (like Assemblies) to ClientBin folder]]></name>
+                            <description>
+                                <![CDATA[Binary files should be deployed to LAYOUTS/ClientBin folder. This helps to find these files at the correct location.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC060403_DeployBinaryFilesToClientBin">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC060404</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Do not deploy TemplateFile multiple times]]></name>
+                            <description>
+                                <![CDATA[Deploy a TemplateFile only once to SharePoint. Do not deploy the file by different solutions because this could lead to problems if one solution is retracted and removes the file.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC060404_DoNotDeployTemplateFileMultipleTimes">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC060405</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Do not deploy files of a Feature as TemplateFile]]></name>
+                            <description>
+                                <![CDATA[File which are deployed into the folder of a Feature should not be deployed as TemplateFile. Either deploy the files as ElementFiles in the Feature (preferred) or as Resources in manifest.xml.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC060405_DoNotDeployFeatureFilesAsTemplateFile">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC060501</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Do not deploy Features ElementFiles as Resources]]></name>
+                            <description>
+                                <![CDATA[Resource files can be used to deploy resources to an existing Feature folder. If the target Feature is part of the same solution package binary files should be deployed as ElementFile in the Feature. If the target Feature is not part of the package it does make sense to use Resources (e.g. to deploy additional languages to existing features).<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC060501_DoNotDeployFeatureFilesAsResource">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC062101</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Deploy missing image for Feature]]></name>
+                            <description>
+                                <![CDATA[If a custom icon for a Feature is defined in attribute 'ImageUrl' the file should be deployed to SharePoint if not a SharePoint default image is used.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC062101_DeployMissingImageForFeature">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC062102</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Deploy missing ElementManifest or ElementFile in Feature]]></name>
+                            <description>
+                                <![CDATA[If ElementManifests or ElementFile are listed in the feature.xml these files must be deployed within the solution package.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC062102_DeployMissingElementFile">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC062103</key>
+                            <priority>CRITICAL</priority>
+                            <name><![CDATA[Do not deploy feature with same folder name multiple times]]></name>
+                            <description>
+                                <![CDATA[In some case the same feature is included in different WSP packages.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC062103_DoNotDeployFeatureMultipleTimes">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC062104</key>
+                            <priority>CRITICAL</priority>
+                            <name><![CDATA[Do not deploy feature with same ID name multiple times]]></name>
+                            <description>
+                                <![CDATA[In some case the same feature is included in different WSP packages.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC062104_DoNotDeployFeatureWithSameIDMultipleTimes">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC062111</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Do not deploy empty ElementManifests in Features]]></name>
+                            <description>
+                                <![CDATA[ElementManifests files in Features which do not contain any element have no purpose and should be removed from the solution.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC062111_DoNotDeployEmptyElementManifests">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC062112</key>
+                            <priority>CRITICAL</priority>
+                            <name><![CDATA[Do not deploy SharePoint assemblies as ElementFile]]></name>
+                            <description>
+                                <![CDATA[In some case Visual Studio or WSPBuilder include SharePoint assemblies into the package (e.g. Microsoft.Search.dll). This is not allowed.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC062112_DoNotDeploySharePointAssembliesAsElementFile">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC067201</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Do not deploy Webservice (.asmx) to LAYOUTS folder]]></name>
+                            <description>
+                                <![CDATA[A Webservice (.asmx) should not be deployed to '\TEMPLATE\LAYOUTS\' folder (url: '../_layouts/..'). It should be deployed to '\ISAPI\' instead (url '../vti_bin/..').<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC067201_DoNoDeployWebServiceToLAYOUTS">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC067202</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Do not deploy Administration Webservice (.asmx) to ADMIN folder]]></name>
+                            <description>
+                                <![CDATA[A Administration Webservice (.asmx) should not be deployed to '\TEMPLATE\ADMIN\' folder (url: '../_admin/..'). It should be deployed to '\ADMISAPI\' instead (url '../vti_adm/..').<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC067202_DotNoDeployAdministrationWebServiceToADMIN">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC067601</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Do not deploy a WCF Webservice (.svc) to LAYOUTS folder]]></name>
+                            <description>
+                                <![CDATA[A WCF Webservice (.svc) should not be deployed to '\TEMPLATE\LAYOUTS\' folder (url: '../_layouts/..'). It should be deployed to '\ISAPI\' instead (url '../vti_bin/..').<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC067601_DoNotDeployWCFWebServiceToLAYOUTS">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC067602</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Do not deploy a WCF Administration Webservice (.svc) to ADMIN folder]]></name>
+                            <description>
+                                <![CDATA[A WCF Administration Webservice (.svc) should not be deployed to '\TEMPLATE\ADMIN\' folder (url: '../_admin/..'). It should be deployed to '\ADMISAPI\' instead (url '../vti_adm/..').<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC067602_DoNotDeployWCFAdministrationWebServiceToADMIN">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC067701</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Deploy missing image for WebTemplate]]></name>
+                            <description>
+                                <![CDATA[If a custom icon for a WebTemplate is defined in attribute 'ImageUrl' the file should be deployed to SharePoint if not a SharePoint default image is used.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC067701_DeployMissingImageForWebTemplate">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC070001</key>
+                            <priority>MINOR</priority>
+                            <name><![CDATA[Use resources for localizable attributes]]></name>
+                            <description>
+                                <![CDATA[All localizable attributes of SharePoint artifacts like ContentType, Feature etc. should use resources.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC070001_UseResourcesForLocalizableAttributes">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC070002</key>
+                            <priority>MINOR</priority>
+                            <name><![CDATA[Move resource key of ElementManifest to Feature resources]]></name>
+                            <description>
+                                <![CDATA[Localized attributes in ElementManifests (like ContentType) should use resources in the parent Feature, not in a RootFile (like '15\Resources\ResourceFile.resx').<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC070002_UseFeatureResourcesForElements">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC076401</key>
+                            <priority>MINOR</priority>
+                            <name><![CDATA[Localize property 'Title' and 'Description' in WebPart]]></name>
+                            <description>
+                                <![CDATA[Properties 'Title' and 'Description' in WebParts should be localized with .resx file.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC076401_LocalizeTitleAndDescriptionInWebPart">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC080101</key>
+                            <priority>MINOR</priority>
+                            <name><![CDATA[Define Solution name as valid namespace]]></name>
+                            <description>
+                                <![CDATA[To make it easier to identify the correct wsp solution in the solution store the name of the solution should be a valid namespace (e.g. 'Company.Project.Components.wsp').<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC080101_DefineSolutionNameAsValidNamespace">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC080102</key>
+                            <priority>MINOR</priority>
+                            <name><![CDATA[Files or Folders should contain the name of the parent solution]]></name>
+                            <description>
+                                <![CDATA[Files or their folders should be named after the solution. This helps do make the file location unique to prevent overwriting of existing files and it is easier to see which WSP solution deployed the file. The rule is case sensitive.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC080102_SolutionShouldNameFilesOrTheirFoldersAfterTheSolution">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC080103</key>
+                            <priority>MINOR</priority>
+                            <name><![CDATA[Solution name should start with company name]]></name>
+                            <description>
+                                <![CDATA[The solution name should start with company name to follow the rule 'CompanyName.ApplicationName.ComponentName.wsp'.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC080103_SolutionNameShouldStartWithCompanyName">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC080801</key>
+                            <priority>MINOR</priority>
+                            <name><![CDATA[WebTemplate file in site definitions should start with 'WEBTEMP']]></name>
+                            <description>
+                                <![CDATA[The name of the WebTemplate files should start with 'WEBTEMP'.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC080801_WebTempFileShouldStartWithWEBTEMP">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC082101</key>
+                            <priority>MINOR</priority>
+                            <name><![CDATA[Feature name should start with solution name]]></name>
+                            <description>
+                                <![CDATA[A feature name should be prefixed with the name of the parent solution. This helps to make the feature name unique and it is easier to see which WSP solution deployed the feature. The rule is case sensitive.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC082101_FeatureNameShouldStartWithSolutionName">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC082201</key>
+                            <priority>MINOR</priority>
+                            <name><![CDATA[Declare FieldType in File 'fldtypes_[namespace].xml']]></name>
+                            <description>
+                                <![CDATA[The XML file which contains FieldTypes should follow the pattern 'fldtypes_[Namespace].xml'. [Namespace] represents the name of the WSP solution with replaced '.' with underscore. Reason: All FieldTypes are deployed to folder /SharePointRoot/Templates/XML and therefore must be stored in a file with a unique filename to avoid overriding existing FieldTypes from SharePoint or other custom solutions.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC082201_DeclareFieldTypeInCorrectlyNamedFile">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC090101</key>
+                            <priority>MINOR</priority>
+                            <name><![CDATA[Do not deploy ControlTemplates]]></name>
+                            <description>
+                                <![CDATA[Depending on the customization policy Solutions should not deploy controltemplates.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC090101_DoNotDeployControlTemplates">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC090102</key>
+                            <priority>MINOR</priority>
+                            <name><![CDATA[Do not deploy Feature with scope 'Farm']]></name>
+                            <description>
+                                <![CDATA[Depending on the customization policy Solutions should not contain farm features.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC090102_DoNotDeployFarmFeatures">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC090103</key>
+                            <priority>MINOR</priority>
+                            <name><![CDATA[Do not deploy Feature with scope 'WebApplication']]></name>
+                            <description>
+                                <![CDATA[Depending on the customization policy Solutions should not contain webapplication features.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC090103_DoNotDeployWebApplicatonFeatures">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC090701</key>
+                            <priority>MINOR</priority>
+                            <name><![CDATA[Do not implement SiteDefinition]]></name>
+                            <description>
+                                <![CDATA[Depending on the customization policy do not implement a SiteDefinition.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC090701_DoNotImplementSiteDefinition">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC092201</key>
+                            <priority>MINOR</priority>
+                            <name><![CDATA[Do not implement FieldType]]></name>
+                            <description>
+                                <![CDATA[Depending on the customization policy do not implement a custom FieldType.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC092201_DoNotImplementFieldType">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC095101</key>
+                            <priority>MINOR</priority>
+                            <name><![CDATA[Do not implement Field]]></name>
+                            <description>
+                                <![CDATA[Depending on the customization policy do not implement a Field. <p>
+                                    <a href="https://docs.spcaf.com/v6/SPC095101_DoNotImplementField">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC095201</key>
+                            <priority>MINOR</priority>
+                            <name><![CDATA[Do not implement ContentType]]></name>
+                            <description>
+                                <![CDATA[Depending on the customization policy do not implement a ContentType.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC095201_DoNotImplementContentType">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC095501</key>
+                            <priority>MINOR</priority>
+                            <name><![CDATA[Do not implement ListDefinition]]></name>
+                            <description>
+                                <![CDATA[Depending on the customization policy do not implement a ListDefinition. <p>
+                                    <a href="https://docs.spcaf.com/v6/SPC095501_DoNotImplementListTemplate">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC095701</key>
+                            <priority>MINOR</priority>
+                            <name><![CDATA[Do not implement CustomAction]]></name>
+                            <description>
+                                <![CDATA[Depending on the customization policy do not implement a CustomAction.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC095701_DoNotImplementCustomAction">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC095801</key>
+                            <priority>MINOR</priority>
+                            <name><![CDATA[Do not implement CustomActionGroup]]></name>
+                            <description>
+                                <![CDATA[Depending on the customization policy do not implement a CustomActionGroup.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC095801_DoNotImplementCustomActionGroup">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC096001</key>
+                            <priority>MINOR</priority>
+                            <name><![CDATA[Do not implement Event Receiver]]></name>
+                            <description>
+                                <![CDATA[Depending on the customization policy do not implement an Event Receiver. <p>
+                                    <a href="https://docs.spcaf.com/v6/SPC096001_DoNotImplementReceiver">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC096101</key>
+                            <priority>MINOR</priority>
+                            <name><![CDATA[Do not implement DelegateControl]]></name>
+                            <description>
+                                <![CDATA[Depending on the customization policy do not implement a DelegateControl.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC096101_DoNotImplementDelegateControl">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC096201</key>
+                            <priority>MINOR</priority>
+                            <name><![CDATA[Do not implement Coded Worfklow]]></name>
+                            <description>
+                                <![CDATA[Depending on the customization policy do not implement a Coded Worfklow.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC096201_DoNotImplementWorkflow">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC096301</key>
+                            <priority>MINOR</priority>
+                            <name><![CDATA[Do not implement DocumentConverter]]></name>
+                            <description>
+                                <![CDATA[Depending on the customization policy do not implement a DocumentConveter.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC096301_DoNotImplementDocumentConverter">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC097001</key>
+                            <priority>MINOR</priority>
+                            <name><![CDATA[Do not implement FeatureTemplateAssocation]]></name>
+                            <description>
+                                <![CDATA[Depending on the customization policy do not implement a FeatureTemplateAssocation.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC097001_DoNotImplementTemplateAssociation">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC100301</key>
+                            <priority>CRITICAL</priority>
+                            <name><![CDATA[Do not deploy RootFiles]]></name>
+                            <description>
+                                <![CDATA[RootFiles cannot be deployed in a sandboxed solution.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC100301_DoNotDeployRootFiles">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC100401</key>
+                            <priority>CRITICAL</priority>
+                            <name><![CDATA[Do not deploy TemplateFiles]]></name>
+                            <description>
+                                <![CDATA[TemplateFiles cannot be deployed in a sandboxed solution.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC100401_DoNotDeployTemplateFiles">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC100501</key>
+                            <priority>CRITICAL</priority>
+                            <name><![CDATA[Do not deploy Resources]]></name>
+                            <description>
+                                <![CDATA[Resources cannot be deployed in a sandboxed solution.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC100501_DoNotDeployResources">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC102101</key>
+                            <priority>CRITICAL</priority>
+                            <name><![CDATA[Do not deploy Farm Features]]></name>
+                            <description>
+                                <![CDATA[Features with scope 'Farm' cannot be deployed in a sandboxed solution.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC102101_DoNotDeployFarmFeatures">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC102102</key>
+                            <priority>CRITICAL</priority>
+                            <name><![CDATA[Do not deploy WebApplication Features]]></name>
+                            <description>
+                                <![CDATA[Features with scope 'WebApplication' cannot be deployed in a sandboxed solution.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC102102_DoNotDeployWebAppFeatures">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC105801</key>
+                            <priority>CRITICAL</priority>
+                            <name><![CDATA[Do not deploy CustomActionGroup]]></name>
+                            <description>
+                                <![CDATA[CustomActionGroup cannot be deployed in a sandboxed solution.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC105801_DoNotDeployCustomActionGroup">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC105901</key>
+                            <priority>MINOR</priority>
+                            <name><![CDATA[Do not deploy HideCustomAction]]></name>
+                            <description>
+                                <![CDATA[You cannot deploy a HideCustomAction element in a sandboxed solution.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC105901_DoNotDeployHideCustomAction">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC106101</key>
+                            <priority>MINOR</priority>
+                            <name><![CDATA[Do not deploy Delegate Control]]></name>
+                            <description>
+                                <![CDATA[You cannot register a control candidate for a delegate control (Control element) in a sandboxed solution.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC106101_DoNotDeployControl">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC150101</key>
+                            <priority>MINOR</priority>
+                            <name><![CDATA[Do not define CAS Policies]]></name>
+                            <description>
+                                <![CDATA[The assemblies in a farm solution in SharePoint 2010 could be deployed with Custom Access Security (CAS) policies. Such policies are ignored in SharePoint 2013; all assemblies in farm solutions in SharePoint 2013 run with full trust.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC150101_DoNotDeployCASPolicies">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC150102</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Declare attribute SharePointProductVersion='15.0' in Solution]]></name>
+                            <description>
+                                <![CDATA[The attribute 'SharePointProductVersion' with value '15.0' must be declared if files in 15 hive should be loaded. If not declared SharePoint assumes version '14.0'.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC150102_DeclareSharePointVersionInSolution">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC155501</key>
+                            <priority>MINOR</priority>
+                            <name><![CDATA[Reference 15 hive in attribute 'Image' in ListTemplate]]></name>
+                            <description>
+                                <![CDATA[A ListTemplate can reference an image (like an icon) in attribute 'Image'. Ensure that the URL points to the 15 hive.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC155501_Reference15HiveInImageInListTemplate">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC155701</key>
+                            <priority>MINOR</priority>
+                            <name><![CDATA[Reference 15 hive in all images in CustomAction]]></name>
+                            <description>
+                                <![CDATA[A CustomAction can reference several images (like icons). Ensure that the URLs for these images points to the 15 hive.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC155701_Reference15HiveInURLsInCustomAction">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC155702</key>
+                            <priority>MINOR</priority>
+                            <name><![CDATA[Reference 15 hive in attribute 'UrlAction' in CustomAction]]></name>
+                            <description>
+                                <![CDATA[A CustomAction can reference a page in attribute 'UrlAction'. Ensure that the URL points to the 15 hive.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC155702_Reference15HiveInURLActionInCustomAction">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC155703</key>
+                            <priority>MINOR</priority>
+                            <name><![CDATA[Reference 15 hive in attribute 'ScriptSrc' in CustomAction]]></name>
+                            <description>
+                                <![CDATA[A CustomAction can reference a script (e.g. .js) in attribute 'ScriptSrc'. Ensure that the URL points to the 15 hive.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC155703_Reference15HiveInScriptSrcInCustomAction">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC156101</key>
+                            <priority>MINOR</priority>
+                            <name><![CDATA[Reference 15 hive in attribute 'ControlSrc' in DelegateControl]]></name>
+                            <description>
+                                <![CDATA[A DelegateControl can reference a control template in attribute 'ControlSrc'. Ensure that the URL points to the 15 hive.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC156101_Reference15HiveInControlSrcInControl">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC157001</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Do not define TemplateAssociation to template 'Document Workspace']]></name>
+                            <description>
+                                <![CDATA[The site template for 'Document Workspace' (STS#2) is not available in SP 2013.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC157001_DoNotAssociateFeatureToDocumentWorkspace">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC157002</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Do not define TemplateAssociation to templates for 'Meeting Workspace']]></name>
+                            <description>
+                                <![CDATA[The site templates for 'Meeting Workspace' (MPS#*) is not available in SP 2013. This includes the Basic Meeting Workspace, Blank Meeting Workspace, Decision Meeting Workspace, Social Meeting Workspace, and Multipage Meeting Workspace.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC157002_DoNotAssociateFeatureToMeetingWorkspaces">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC157003</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Do not define TemplateAssociation to template 'Personalization Site']]></name>
+                            <description>
+                                <![CDATA[The site template for 'Personalization Site' (SPSMSITE#0) is not available in SP 2013.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC157003_DoNotAssociateFeatureToPersonalizationSite">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC157004</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Do not define TemplateAssociation to templates for 'Group Work']]></name>
+                            <description>
+                                <![CDATA[The site templates for 'Group Work' (SGS) is not available in SP 2013. <p>
+                                    <a href="https://docs.spcaf.com/v6/SPC157004_DoNotAssociateFeatureToGroupWorkTemplates">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC159906</key>
+                            <priority>MINOR</priority>
+                            <name><![CDATA[Reference 15 hive within all XSLT files (.xslt)]]></name>
+                            <description>
+                                <![CDATA[Paths in XSLT files to '/_controltemplates/', '/_layouts/' and '/_layouts/images/' should point to 15 hive.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC159906_Reference15HiveInXSLT">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC011021</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Do not define element 'SupportedLanguages']]></name>
+                            <description>
+                                <![CDATA[Do not define the element 'SupportedLanguages'. It has been deprecated in favor of the 'SupportedLocales' element.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC011021_DoNotUseSupportedLanguages">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC011031</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Remove WSP from Provider-hosted App]]></name>
+                            <description>
+                                <![CDATA[If an App is deployed as Provider-hosted the App should not contain a WSP. WSPs are only needed for SharePoint-hosted Apps.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC011031_RemoveWSPFromProviderHostedApp">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC011041</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Provide a valid PNG Image as AppIcon]]></name>
+                            <description>
+                                <![CDATA[Each app must contain a valid AppIcon in format PNG.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC011041_ProvideValidPNGAppIcon">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC011051</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Do not define more than 25 'SupportedLocales']]></name>
+                            <description>
+                                <![CDATA[A maximum of 25 locales is supported in element 'SupportedLocales'.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC011051_DoNotDefineMoreThan25SupportedLocales">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC051011</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Define App as Provider-hosted if AppWeb remains empty]]></name>
+                            <description>
+                                <![CDATA[If no Features are deployed to the AppWeb change the type of the App to Provider-hosted instead of SharePoint-hosted.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC051011_DefineAppAsProviderHostedIfAppWebIsEmpty">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC058721</key>
+                            <priority>MINOR</priority>
+                            <name><![CDATA[Consider to reference external files without the scheme in web pages]]></name>
+                            <description>
+                                <![CDATA[The url to external files (.js, .css or images) should be used without the scheme (http, https). This prevents conflicts if the page is called either with http or https.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC058721_ReferenceExternalFilesWithoutProtocol">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC062152</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Deploy missing ElementManifest or ElementFile in Feature (AppWeb)]]></name>
+                            <description>
+                                <![CDATA[If ElementManifests or ElementFile are listed in the feature.xml these files must be deployed within the solution package.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC062152_DeployMissingElementFileInAppWebFeature">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC062161</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Do not deploy empty ElementManifests in Features (AppWeb)]]></name>
+                            <description>
+                                <![CDATA[ElementManifests files in Features which do not contain any element have no purpose and should be removed from the solution.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC062161_DoNotDeployEmptyElementManifestsInAppWebFeature">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC062182</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Deploy missing ElementManifest or ElementFile in Feature (HostWeb)]]></name>
+                            <description>
+                                <![CDATA[If ElementManifests or ElementFile are listed in the feature.xml these files must be deployed within the solution package.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC062182_DeployMissingElementFileInHostWebFeature">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC062191</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Do not deploy empty ElementManifests in Features (HostWeb)]]></name>
+                            <description>
+                                <![CDATA[ElementManifests files in Features which do not contain any element have no purpose and should be removed from the solution.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC062191_DoNotDeployEmptyElementManifestsInHostWebFeature">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC071011</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Deploy all necessary .resx files for the supported locales]]></name>
+                            <description>
+                                <![CDATA[For each supported locale in element 'SupportedLocales' a corresponding .resx file must be exist in the App.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC071011_DeployDefinedResourcesFiles">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC071012</key>
+                            <priority>MINOR</priority>
+                            <name><![CDATA[Deployed .resx files should have a corresponding entry 'SupportLocale']]></name>
+                            <description>
+                                <![CDATA[For each .resx file in an App a corresponding entry 'SupportLocale' in AppManifest should exist (except for 'Resources.resx'). Otherwise the .resx file should be removed from the App package.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC071012_DoNotDeployUnneededResourcesFile">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC071013</key>
+                            <priority>MINOR</priority>
+                            <name><![CDATA[Deploy a invariant language resource file ('Resources.resx')]]></name>
+                            <description>
+                                <![CDATA[A invariant language resource file, (without a specific locale) should be contained in the App package with default values for all localized attributes.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC071013_DeployDefaultResourcesFile">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC071021</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Localize the title of an App]]></name>
+                            <description>
+                                <![CDATA[Localize the attribute 'Title' of SharePoint apps to fully support localization. The title is what users see on the 'Your Apps' page.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC071021_LocalizeTitleOfApps">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC161001</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Do not use DebugInfo element in app mainfest]]></name>
+                            <description>
+                                <![CDATA[The manifest for your app for SharePoint must not include the DebugInfo element.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC161001_DoNotUseDebugInfoElementInAppManifest">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC161002</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Do not request full-control permission]]></name>
+                            <description>
+                                <![CDATA[An app for SharePoint cannot request full-control permission. Apps for SharePoint that request full-control permissions are not accepted in the Office Store.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC161002_DoNotUseFullControlPermission">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC161021</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Define element 'SupportedLocales' in Apps]]></name>
+                            <description>
+                                <![CDATA[Localization support information is required in apps for SharePoint store through element 'SupportedLocales'.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC161021_DefineSupportedLocales">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SMA260401</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Deploy TemplateFile as Module]]></name>
+                            <description>
+                                <![CDATA[TemplateFile is a file referenced in the package manifest manifest.xml. A module will allow for controlled deployment through features, without a module, the WSP will be blocked from deployment.<p>
+                                    <a href="https://docs.spcaf.com/v6/SMA260401_LayoutFilesRecommendations">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SMA262101</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Avoid deployment of Feature via Feature Framework]]></name>
+                            <description>
+                                <![CDATA[The Feature Framework creates dependencies on the provisioning XML files. Break this dependency to help future migrations, and updates by using the Remote Provisioning techniques from Microsoft.<p>
+                                    <a href="https://docs.spcaf.com/v6/SMA262101_FeatureRecommendations">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SMA265101</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Avoid deployment of Fields via Feature Framework]]></name>
+                            <description>
+                                <![CDATA[Deploying fields through the Feature Framework creates dependencies on the provisioning XML files. Break this dependency to help future migrations, and updates by using the Remote Provisioning techniques from Microsoft.<p>
+                                    <a href="https://docs.spcaf.com/v6/SMA265101_FieldRecommendations">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SMA265201</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Avoid deployment of ContentTypes via Feature Framework]]></name>
+                            <description>
+                                <![CDATA[Deploying ContentTypes through the Feature Framework creates dependencies on the provisioning XML files. Break this dependency to help future migrations, and updates by using the Remote Provisioning techniques from Microsoft.<p>
+                                    <a href="https://docs.spcaf.com/v6/SMA265201_ContentTypeRecommendations">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SMA265401</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Avoid deployment of List Instances via Feature Framework]]></name>
+                            <description>
+                                <![CDATA[Deploying List Instances through the Feature Framework creates dependencies on the provisioning XML files. Break this dependency to help future migrations, and updates by using the Remote Provisioning techniques from Microsoft.<p>
+                                    <a href="https://docs.spcaf.com/v6/SMA265401_ListInstanceRecommendations">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SMA265501</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Avoid deployment of List Definition via Feature Framework]]></name>
+                            <description>
+                                <![CDATA[Deploying List Definitions through the Feature Framework creates dependencies on the provisioning XML files. Break this dependency to help future migrations, and updates by using the Remote Provisioning techniques from Microsoft.<p>
+                                    <a href="https://docs.spcaf.com/v6/SMA265501_ListDefinitionRecommendations">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SMA265601</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Avoid deployment of ContentTypeBindingDefinition via Feature Framework]]></name>
+                            <description>
+                                <![CDATA[Deploying ContentTypeBindingDefinition through the Feature Framework creates dependencies on the provisioning XML files. Break this dependency to help future migrations, and updates by using the Remote Provisioning techniques from Microsoft.<p>
+                                    <a href="https://docs.spcaf.com/v6/SMA265601_ContentTypeBindingRecommendations">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SMA267001</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Avoid deployment of Feature Staplings via Feature Framework]]></name>
+                            <description>
+                                <![CDATA[Using the Feature Stapling Feature of the Feature Framework creates dependencies on the provisioning XML files. Break this dependency to help future migrations, and updates by using the Remote Provisioning techniques from Microsoft.<p>
+                                    <a href="https://docs.spcaf.com/v6/SMA267001_FeatureStaplingRecommendations">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SMA267701</key>
+                            <priority>CRITICAL</priority>
+                            <name><![CDATA[Consider different implementation of WebTemplate]]></name>
+                            <description>
+                                <![CDATA[There is no direct replacement for WebTemplate in the App Model. WebTemplate are used during creation of a site and provisions ListTemplates, ContentTypes etc. The alternative implementation focusses on a completely different approach for site provisiong.<p>
+                                    <a href="https://docs.spcaf.com/v6/SMA267701_WebTemplateRecommendations">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SMA267801</key>
+                            <priority>CRITICAL</priority>
+                            <name><![CDATA[Consider different implementation of SiteDefinitions]]></name>
+                            <description>
+                                <![CDATA[There is no direct replacement for SiteDefinitions in the App Model. SiteDefinitions are used during creation of a site and provisions ListTemplates, ContentTypes etc. The alternative implementation focusses on a completely different approach for site provisiong.<p>
+                                    <a href="https://docs.spcaf.com/v6/SMA267801_SiteDefinitionRecommendations">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SMA285701</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Deploy CustomAction via App Model]]></name>
+                            <description>
+                                <![CDATA[Custom Actions are Deployable through the App Model, however the Schema is limited and some customisations through this will not be viable.<p>
+                                    <a href="https://docs.spcaf.com/v6/SMA285701_CustomActionRecommendations">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SMA285801</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[CustomActionGroup are not migratable]]></name>
+                            <description>
+                                <![CDATA[Custom Actions are Deployable through the App Model, however the Schema is limited and some customisations such as CustomActionGroup through this will not be viable.<p>
+                                    <a href="https://docs.spcaf.com/v6/SMA285801_CustomActionGroupRecommendations">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SMA285901</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[HideCustomActions are not migratable]]></name>
+                            <description>
+                                <![CDATA[Custom Actions are Deployable through the App Model, however the Schema is limited and some customisations such as HideCustomActions through this will not be viable.<p>
+                                    <a href="https://docs.spcaf.com/v6/SMA285901_HideCustomActionRecommendations">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SMA286001</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Change implementation of ItemEventReceiver to RemoteEventReceiver]]></name>
+                            <description>
+                                <![CDATA[Event Receivers are deployed to the farm, causing slowdown in other components, and decreasing flexibility when migrating, updating, and in disaster recovery.<p>
+                                    <a href="https://docs.spcaf.com/v6/SMA286001_ItemEventReceiverRecommendations">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SMA286002</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Change implementation of ListEventReceiver to RemoteEventReceiver]]></name>
+                            <description>
+                                <![CDATA[Event Receivers are deployed to the farm, causing slowdown in other components, and decreasing flexibility when migrating, updating, and in disaster recovery.<p>
+                                    <a href="https://docs.spcaf.com/v6/SMA286002_ListEventReceiverRecommendations">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SMA286003</key>
+                            <priority>CRITICAL</priority>
+                            <name><![CDATA[Remove WebEventReceiver]]></name>
+                            <description>
+                                <![CDATA[Event Receivers are deployed to the farm, causing slowdown in other components, and decreasing flexibility when migrating, updating, and in disaster recovery.<p>
+                                    <a href="https://docs.spcaf.com/v6/SMA286003_WebEventReceiverRecommendations">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SMA292202</key>
+                            <priority>CRITICAL</priority>
+                            <name><![CDATA[Consider different implementation of FieldType]]></name>
+                            <description>
+                                <![CDATA[FieldTypes have been superceeded by JSLink style reformatting of fields in SharePoint 2013.<p>
+                                    <a href="https://docs.spcaf.com/v6/SMA292202_FieldTypeRecommendations">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+
+</rules>

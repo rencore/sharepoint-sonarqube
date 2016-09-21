@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.sonarsource.sonar-plugins</groupId>
+    <artifactId>parent</artifactId>
+    <version>22</version>
+  </parent>
+
+  <groupId>org.sonarsource.sonar-plugins.spcaf</groupId>
+  <artifactId>sonar-spcaf-plugin</artifactId>
+  <version>1.0.4-beta.6_5_1</version>
+  <packaging>sonar-plugin</packaging>
+
+  <name>SonarQube SPCAF Plugin</name>
+  <description>Enables the use of spcaf rules on SharePoint customisation code.</description>
+  <url>http://www.spcaf.de</url>
+  <inceptionYear>2014</inceptionYear>
+  <organization>
+    <name>SonarSource</name>
+    <url>http://www.sonarsource.com</url>
+  </organization>
+
+  <developers>
+    <developer>
+      <id>hwood</id>
+      <name>Hugh AJ Wood</name>
+      <organization>http://www.rencore.com</organization>
+    </developer>
+    <developer>
+      <id>tmandelkow</id>
+      <name>Torsten Mandelkow</name>
+      <organization>http://www.rencore.com</organization>
+    </developer>
+  </developers>
+
+  <properties>
+    <sonar.pluginName>spcaf</sonar.pluginName>
+    <sonar.pluginClass>org.sonar.plugins.spcaf.spcafPlugin</sonar.pluginClass>
+    <sonarqube.version>4.5.2</sonarqube.version>
+    <sslrSquidVersion>2.6</sslrSquidVersion>
+	<bintray.package>sonar-spcaf</bintray.package>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.codehaus.sonar</groupId>
+      <artifactId>sonar-plugin-api</artifactId>
+      <scope>provided</scope>
+      <version>${sonarqube.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.codehaus.sonar.sslr-squid-bridge</groupId>
+      <artifactId>sslr-squid-bridge</artifactId>
+      <version>${sslrSquidVersion}</version>
+      <exclusions>
+        <exclusion>
+          <groupId>org.codehaus.sonar.sslr</groupId>
+          <artifactId>sslr-xpath</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>org.codehaus.sonar.sslr</groupId>
+          <artifactId>sslr-core</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>jaxen</groupId>
+          <artifactId>jaxen</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.maven</groupId>
+      <artifactId>maven-project</artifactId>
+      <scope>test</scope>
+      <version>2.2.0</version>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <scope>test</scope>
+      <version>4.10</version>
+    </dependency>
+    <dependency>
+      <groupId>org.easytesting</groupId>
+      <artifactId>fest-assert</artifactId>
+      <scope>test</scope>
+      <version>1.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-all</artifactId>
+      <scope>test</scope>
+      <version>1.9.0</version>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <finalName>${project.artifactId}</finalName>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-enforcer-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>enforce-plugin-size</id>
+            <goals>
+              <goal>enforce</goal>
+            </goals>
+            <phase>verify</phase>
+            <configuration>
+              <rules>
+                <requireFilesSize>
+                  <maxsize>210000</maxsize>
+                  <minsize>160000</minsize>
+                  <files>
+                    <file>${project.build.directory}/${project.build.finalName}.jar</file>
+                  </files>
+                </requireFilesSize>
+              </rules>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+
+</project>
