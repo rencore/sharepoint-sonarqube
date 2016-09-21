@@ -1,5 +1,16 @@
 #SonarQube SPCAF Plugins
 
+##What is SPCAF?
+SPCAF is the SharePoint Code Analysis Framework which is for Microsoft SharePoint and Office. SPCAF scans all files in WSPs, Add-in packages, Javascript and PowerShell script files and applies several hundred rules. If a violation against one of these rules is detected a notification is added to the report.
+
+The notification are reported with their severity e.g. CriticalError, Error, CriticalWarning, Warning or Information
+
+The generated report aggregates the notifications and displays each violation with filename, line number and source code (if available) to make it easier to solve the issue.
+
+Please see [https://www.spcaf.copm](https://www.spcaf.copm) for more information.
+
+##SonarQube Integration
+
 SonarQube allows you to use MSBuild to run static code analysis tools. This plugin by Rencore GmbH the creators of SharePoint Code Analysis Framework (SPCAF) allows you to configure a build task to import code analysis results after a build has been completed.
 
 The source is included in the repository and it is required that you take the sub version which matches your SPCAF version in order to work.
