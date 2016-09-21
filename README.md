@@ -7,7 +7,7 @@ The notification are reported with their severity e.g. CriticalError, Error, Cri
 
 The generated report aggregates the notifications and displays each violation with filename, line number and source code (if available) to make it easier to solve the issue.
 
-Please see [https://www.spcaf.copm](https://www.spcaf.copm) for more information.
+Please see [https://www.spcaf.com](https://www.spcaf.com) for more information.
 
 ##SonarQube Integration
 
