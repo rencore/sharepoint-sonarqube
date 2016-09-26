@@ -13,7 +13,7 @@
   <version>1.0.4-beta</version>
   <packaging>sonar-plugin</packaging>
 
-  <name>SonarQube SPCAF Plugin</name>
+  <name>SonarQube XML Plugin</name>
   <description>Enables the use of XML rules.</description>
   <url>http://www.spcaf.de</url>
   <inceptionYear>2014</inceptionYear>
