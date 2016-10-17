@@ -10,7 +10,7 @@
 
   <groupId>org.sonarsource.sonar-plugins.spcaf</groupId>
   <artifactId>sonar-rencore-language-powershell</artifactId>
-  <version>1.0.4-beta</version>
+  <version>1.0.5-rc</version>
   <packaging>sonar-plugin</packaging>
 
   <name>SonarQube PowerShell Plugin</name>
