@@ -1,4 +1,4 @@
-SonarQube Rencore CSS Plugin
+SonarQube Rencore PowerShell Plugin
 ============================
 
 Install this if you don't already have a plugin which covers PowerShell in your SonarQube install.
