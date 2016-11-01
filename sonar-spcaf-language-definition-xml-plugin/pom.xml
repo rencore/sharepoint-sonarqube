@@ -10,7 +10,7 @@
 
   <groupId>org.sonarsource.sonar-plugins.spcaf</groupId>
   <artifactId>sonar-rencore-language-xml</artifactId>
-  <version>1.0.5-rc</version>
+  <version>1.0.5</version>
   <packaging>sonar-plugin</packaging>
 
   <name>SonarQube XML Plugin</name>
