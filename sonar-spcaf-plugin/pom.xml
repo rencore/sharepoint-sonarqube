@@ -10,7 +10,7 @@
 
   <groupId>org.sonarsource.sonar-plugins.spcaf</groupId>
   <artifactId>sonar-spcaf-plugin</artifactId>
-  <version>1.0.5.6.8.1.2810</version>
+  <version>1.0.5.6.9.1.2001</version>
   <packaging>sonar-plugin</packaging>
 
   <name>SonarQube SPCAF Plugin</name>
