@@ -46,4 +46,10 @@ You will also require the MSBuild SonarQube plugin found
 
 As we expand analysis you may find a requirement to install further language definition plugins to allow SonarQube to understand that these are analysable file types.
 
-Installation documentation can be found in the sonar-spcaf-plugin section of this repo.
+Documentation
+---------------------
+
+You can found all the documenatation for this plugin [from here](https://support.rencore.com/hc/en-us/sections/206566547-SonarQube)
+
+A detailed How To can be found [from here](https://support.rencore.com/hc/en-us/articles/229871587-How-to-Install-SPCAF-SonarQube-integration)
+
