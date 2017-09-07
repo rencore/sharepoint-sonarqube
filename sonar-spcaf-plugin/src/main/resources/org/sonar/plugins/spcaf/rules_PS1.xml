@@ -8,7 +8,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC019101_DoNotUseEmptyCatchBlocks.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC019102</key>
@@ -19,7 +19,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC019102_DoNotInvokeNonConstantMembers.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC019103</key>
@@ -30,7 +30,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC019103_DoNotUseSpecialCharactersInmethodNames.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC019104</key>
@@ -41,7 +41,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC019104_DoNotUseReservedWordsAsParameterNames.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC019105</key>
@@ -52,7 +52,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC019105_CallShouldContinueWhenShouldProcessTrue.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC019106</key>
@@ -63,7 +63,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC019106_DoNotUseTrapStatement.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC019107</key>
@@ -74,7 +74,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC019107_DoNotUseUninitializedVariables.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC019108</key>
@@ -85,7 +85,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC019108_IncorrectComparisonAgainstNull.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC019109</key>
@@ -96,7 +96,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC019109_UseCorrectVerbs.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC019110</key>
@@ -107,7 +107,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC019110_UseBOMWhenNotUsingAscii.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC019111</key>
@@ -118,7 +118,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC019111_UseCmdLetsCorrectly.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC019112</key>
@@ -129,7 +129,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC019112_RemoveUnusedVariables.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC019113</key>
@@ -140,7 +140,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC019113_DeclareOutputTypesCorrectly.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC019114</key>
@@ -151,7 +151,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC019114_UseSingularNounsForCmdLetNames.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC029101</key>
@@ -162,7 +162,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC029101_DoNotUseInvokeExpression.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC029102</key>
@@ -173,7 +173,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC029102_ComputerNameShouldNotBeHardCoded.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC029103</key>
@@ -184,7 +184,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC029103_DoNotUseConvertToSecureString.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC029104</key>
@@ -195,7 +195,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC029104_DoNotHardcodeFilePaths.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC029105</key>
@@ -206,7 +206,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC029105_DoNotUsePlainTextPasswords.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC029106</key>
@@ -217,7 +217,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC029106_UsePSCredentialTypeForCredentialParams.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC039101</key>
@@ -228,7 +228,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC039101_AvoidEmptyHelpAttributes.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC039102</key>
@@ -239,7 +239,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC039102_AvoidUsingDeprecatedManifestFields.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC039103</key>
@@ -250,7 +250,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC039103_DoNotUsePositionalParameters.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC059101</key>
@@ -261,7 +261,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC059101_AvoidUsageOfErrorActionPreference.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC059102</key>
@@ -272,7 +272,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC059102_DoNotUseWriteHost.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC059103</key>
@@ -283,7 +283,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC059103_DoNotWriteCodeInGlobalScope.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC059104</key>
@@ -294,7 +294,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC059104_AvoidUsageofBackTicks.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC059105</key>
@@ -305,7 +305,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC059105_UseCmdletBindingWithWriteVerboseDebug.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC059106</key>
@@ -316,7 +316,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC059106_AvoidUsingCommandAliases.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC059107</key>
@@ -327,7 +327,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC059107_AvoidDefaultTrueSwitchParameter.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC059108</key>
@@ -338,7 +338,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC059108_ProvideCmdLetHelp.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC059109</key>
@@ -349,7 +349,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC059109_ProvideVerboseMessaging.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC089101</key>
@@ -360,7 +360,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC089101_UseCmdletStyleNamingConventions.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC089102</key>
@@ -371,7 +371,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC089102_AvoidUsageOfHungarianNotation.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC219101</key>
@@ -382,7 +382,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC219101_AvoidUsingInlineComments.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC229101</key>
@@ -393,7 +393,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC229101_DoNotUseWildcardsOrNullInExports.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
 
 </rules>

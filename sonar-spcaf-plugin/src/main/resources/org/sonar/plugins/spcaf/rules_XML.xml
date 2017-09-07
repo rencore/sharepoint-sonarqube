@@ -8,7 +8,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC010101_FixSchemaErrorsInSolution.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC010102</key>
@@ -19,7 +19,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC010102_DeclareRequiredAttributesInSolution.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC010103</key>
@@ -30,7 +30,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC010103_DefineSolutionIdAsTypeGUID.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC010104</key>
@@ -41,7 +41,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC010104_RemoveUnusedFilesFromPackage.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC010301</key>
@@ -52,7 +52,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC010301_RemoveEmptyResourceFiles.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC010302</key>
@@ -63,7 +63,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC010302_AvoidDuplicateKeysInResourceFiles.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC010701</key>
@@ -74,7 +74,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC010701_DeclareRequiredAttributesInSiteDefinition.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC010702</key>
@@ -85,7 +85,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC010702_DeclareSiteDefinitionElementInSolution.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC010703</key>
@@ -96,7 +96,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC010703_DoNotAddDependencyToWebAppFeatureInSiteDefinition.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC012101</key>
@@ -107,7 +107,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC012101_DeclareRequiredAttributesInFeature.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC012102</key>
@@ -118,7 +118,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC012102_DefineFeatureIdAsTypeGUID.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC012103</key>
@@ -129,7 +129,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC012103_RemoveSpacesFromFeatureFolder.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC012104</key>
@@ -140,7 +140,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC012104_DefineFeatureTitleWithMax255Characters.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC012111</key>
@@ -151,7 +151,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC012111_DoNotDefineActiveOnDefaultInWebOrSiteFeatures.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC012112</key>
@@ -162,7 +162,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC012112_DoNotDefineAutoActivateInCentralAdminInFarmFeatures.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC012113</key>
@@ -173,7 +173,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC012113_DefineAllRequiredAttributesForFeatureReceiver.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC012114</key>
@@ -184,7 +184,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC012114_DefineCorrectSolutionIdInFeatures.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC012115</key>
@@ -195,7 +195,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC012115_DefineCorrectReceiverAssemblyInFeature.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC012116</key>
@@ -206,7 +206,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC012116_DefineCorrectVersionInFeature.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC012121</key>
@@ -217,7 +217,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC012121_AddMissingAssemblyForFeatureReceiverAssembly.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC012122</key>
@@ -228,7 +228,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC012122_DeployFeatureReceiverAssemblyToGAC.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC012131</key>
@@ -239,7 +239,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC012131_DeclareFeatureTitle.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC012133</key>
@@ -250,7 +250,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC012133_DefineFeatureIdWithoutCurlyBrackets.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC012141</key>
@@ -261,7 +261,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC012141_AddResourcesWhenDefaultResourceFileIsDeclared.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC012201</key>
@@ -272,7 +272,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC012201_DeclareRequiredAttributesInFieldType.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC012202</key>
@@ -283,7 +283,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC012202_DoNotDeclareInternalTypeInFieldTypes.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC012203</key>
@@ -294,7 +294,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC012203_DoNotDeclareSQLTypeInFieldTypes.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC012206</key>
@@ -305,7 +305,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC012206_DeclareFieldTypeClassInFieldType.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC012211</key>
@@ -316,7 +316,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC012211_DoNotUseRenderPatternInFieldTypes.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC012212</key>
@@ -327,7 +327,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC012212_DoNotUsePropertySchemaInFieldTypes.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC015101</key>
@@ -338,7 +338,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC015101_DoNotDefineFieldInFeatureWithWrongScope.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC015102</key>
@@ -349,7 +349,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC015102_AddCurlyBracketsToFieldId.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC015103</key>
@@ -360,7 +360,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC015103_DefineUniqueFieldId.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC015104</key>
@@ -371,7 +371,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC015104_DefineFieldIdAsGUID.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC015105</key>
@@ -382,7 +382,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC015105_DeclareAllRequiredAttributesInFields.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC015106</key>
@@ -393,7 +393,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC015106_DefineDisplayNameInFieldWithMax255Characters.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC015107</key>
@@ -404,7 +404,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC015107_DoNotUseDeprecatedAttributeFromBaseTypeInField.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC015108</key>
@@ -415,7 +415,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC015108_DeclareAllRecommendedAttributesInFields.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC015109</key>
@@ -426,7 +426,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC015109_DoNotDefineLowerCaseFieldId.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC015111</key>
@@ -437,7 +437,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC015111_DeclareAttributeMultForMultipleValueFields.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC015112</key>
@@ -448,7 +448,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC015112_DefineUniqueFieldName.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC015113</key>
@@ -459,7 +459,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC015113_DefineUniqueFieldStaticName.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC015201</key>
@@ -470,7 +470,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC015201_DoNotDefineContentTypeIDWithMoreThan1024Characters.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC015202</key>
@@ -481,7 +481,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC015202_DoNotDefineContentTypeInFeatureWithWrongScope.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC015203</key>
@@ -492,7 +492,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC015203_DeclareRequiredAttributesInContentType.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC015204</key>
@@ -503,7 +503,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC015204_DoNotDefineDuplicateContentTypeID.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC015205</key>
@@ -514,7 +514,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC015205_DoNotDefineContentTypeNameWithMoreThan124Characters.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC015206</key>
@@ -525,7 +525,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC015206_DefineContentTypeIDAsHexadecimalGUID.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC015207</key>
@@ -536,7 +536,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC015207_DoNotDeclareInternalAttributesInContentType.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC015208</key>
@@ -547,7 +547,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC015208_DoNotDeclareObsoleteAttributesInContentType.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC015209</key>
@@ -558,7 +558,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC015209_InheritContentTypeFromExistingParentContentType.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC015210</key>
@@ -569,7 +569,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC015210_DefineCorrectParentFeatureId.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC015211</key>
@@ -580,7 +580,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC015211_DefineInheritsInContentTypeWithRemoveFiedRef.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC015212</key>
@@ -591,7 +591,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC015212_DefineInheritsToFalseInContentTypeWithForms.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC015213</key>
@@ -602,7 +602,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC015213_AvoidCommentsInsideContentType.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC015301</key>
@@ -613,7 +613,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC015301_DoNotDefineModuleInFeatureWithWrongScope.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC015302</key>
@@ -624,7 +624,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC015302_AddMissingModuleFileToFeature.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC015303</key>
@@ -635,7 +635,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC015303_DeclareFileElementInModule.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC015401</key>
@@ -646,7 +646,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC015401_DoNotDefineListInstanceInFeatureWithWrongScope.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC015402</key>
@@ -657,7 +657,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC015402_DeclareRequiredAttributesInListInstance.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC015403</key>
@@ -668,7 +668,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC015403_DefineUniqueIdInListInstance.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC015404</key>
@@ -679,7 +679,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC015404_DeployMissingListTemplateForListInstance.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC015405</key>
@@ -690,7 +690,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC015405_RemoveCurlyBracketsFromFeatureIdInListInstance.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC015406</key>
@@ -701,7 +701,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC015406_DeployMissingCustomSchemaForListInstance.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC015501</key>
@@ -712,7 +712,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC015501_DoNotDefineListTemplateInFeatureWithWrongScope.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC015502</key>
@@ -723,7 +723,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC015502_DeclareRequiredAttributesInListTemplate.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC015505</key>
@@ -734,7 +734,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC015505_DoNotDefineListNameWithSpaces.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC015506</key>
@@ -745,7 +745,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC015506_DefineUniqueListTemplateType.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC015510</key>
@@ -756,7 +756,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC015510_DeployMissingImageOfListTemplate.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC015511</key>
@@ -767,7 +767,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC015511_DoNotDeployTaxonomyFieldsInListDefinition.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC015601</key>
@@ -778,7 +778,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC015601_DoNotDefineContentTypeBindingInFeatureWithWrongScope.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC015701</key>
@@ -789,7 +789,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC015701_DeclareRequiredAttributesInCustomAction.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC015702</key>
@@ -800,7 +800,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC015702_DefineUniqueIDInCustomAction.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC015703</key>
@@ -811,7 +811,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC015703_DeployMissingUrlActionFileOfCustomAction.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC015704</key>
@@ -822,7 +822,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC015704_DeployMissingImageOfCustomAction.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC015705</key>
@@ -833,7 +833,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC015705_DeployMissingRibbonImageOfCustomAction.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC015706</key>
@@ -844,7 +844,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC015706_DeployMissingRibbonCommandUIHandlerOfCustomAction.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC015801</key>
@@ -855,7 +855,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC015801_DeclareRequiredAttributesInCustomActionGroup.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC016001</key>
@@ -866,7 +866,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC016001_DoNotDefineReceiverInFeatureWithWrongScope.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC016002</key>
@@ -877,7 +877,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC016002_DeclareScopeForReceiversInSiteFeatures.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC016003</key>
@@ -888,7 +888,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC016003_DoNotDefineEmailEventReceiverInSiteCollectionLevel.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC016101</key>
@@ -899,7 +899,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC016101_DefineControlAssemblyAndClass.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC016102</key>
@@ -910,7 +910,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC016102_DeployMissingControlAssembly.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC016103</key>
@@ -921,7 +921,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC016103_DeployMissingControlTemplate.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC016201</key>
@@ -932,7 +932,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC016201_DoNotDefineWorkflowInFeatureWithWrongScope.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC016202</key>
@@ -943,7 +943,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC016202_DeclareRequiredAttributesInWorkflow.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC016203</key>
@@ -954,7 +954,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC016203_DefineWorkflowIdAsTypeGUID.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC016301</key>
@@ -965,7 +965,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC016301_DoNotDefineDocumentConverterInFeatureWithWrongScope.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC016401</key>
@@ -976,7 +976,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC016401_DeclareTitleInWebPartDefinition.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC016501</key>
@@ -987,7 +987,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC016501_DeclareRequiredAttributesInFieldRef.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC016502</key>
@@ -998,7 +998,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC016502_DefineValidIDInFieldRef.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC016503</key>
@@ -1009,7 +1009,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC016503_DefineFieldRefInCorrectCasing.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC016601</key>
@@ -1020,7 +1020,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC016601_DeclareRequiredAttributesInRemoveFieldRef.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC016602</key>
@@ -1031,7 +1031,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC016602_NotDeclareIgnoredAttributesInRemoveFieldRef.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC016603</key>
@@ -1042,7 +1042,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC016603_DefineValidIDInRemoveFiedRef.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC017001</key>
@@ -1053,7 +1053,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC017001_DoNotDefineTemplateAssocationInFeatureWithWrongScope.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC017002</key>
@@ -1064,7 +1064,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC017002_DeclareRequiredAttributesInTemplateAssociation.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC017101</key>
@@ -1075,7 +1075,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC017101_DoNotDefinePropertyBagInFeatureWithWrongScope.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC017401</key>
@@ -1086,7 +1086,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC017401_DeclareRequiredAttributesInFeatureActivationDependency.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC017402</key>
@@ -1097,7 +1097,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC017402_DefineOptionalAttributesInFeatureActivationDependencyCorrectly.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC017411</key>
@@ -1108,7 +1108,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC017411_DoNotAddActivationDependencyToHiddenFeature.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC017412</key>
@@ -1119,7 +1119,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC017412_DoNotAddActivationDependencyToMoreRestrictiveScope.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC017413</key>
@@ -1130,7 +1130,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC017413_DoNotAddCrossScopeActivationDependencyToHiddenFeature.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC017414</key>
@@ -1141,7 +1141,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC017414_DoNotChainActivationDependencies.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC017415</key>
@@ -1152,7 +1152,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC017415_DoNotCreateCircularChaingOfActivationDependencies.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC017510</key>
@@ -1163,7 +1163,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC017510_DeclareDefaultDescriptionInListDefinition.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC017511</key>
@@ -1174,7 +1174,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC017511_DeclareRequiredAttributesInListDefinition.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC017601</key>
@@ -1185,7 +1185,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC017601_DeployMissingAssemblyInWCFWebService.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC017701</key>
@@ -1196,7 +1196,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC017701_DeclareRequiredAttributesInWebTemplate.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC017702</key>
@@ -1207,7 +1207,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC017702_DefineValidParentWebTemplate.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC017711</key>
@@ -1218,7 +1218,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC017711_DeclareRecommendedAttributesInWebTemplate.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC019901</key>
@@ -1229,7 +1229,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC019901_DoNotDeclareObsoleteAttributes.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC019902</key>
@@ -1240,7 +1240,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC019902_DefineBooleanAttributesInUpperCase.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC019903</key>
@@ -1251,7 +1251,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC019903_RemoveSpacesFromResourceKey.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC019904</key>
@@ -1262,7 +1262,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC019904_AddTranslationForResourceKey.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC020602</key>
@@ -1273,7 +1273,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC020602_PolicyMachineAccessAdministerNotAllowed.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC020603</key>
@@ -1284,7 +1284,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC020603_PolicyPermissionImpersonateNotAllowed.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC020611</key>
@@ -1295,7 +1295,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC020611_DoNotDefineUnrestrictedFileIOPermission.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC020612</key>
@@ -1306,7 +1306,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC020612_DoNotDefineUnrestrictedRegistryPermission.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC020613</key>
@@ -1317,7 +1317,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC020613_DoNotDefineUnrestrictedSecurityPermission.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC020614</key>
@@ -1328,7 +1328,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC020614_DoNotDefineUnrestrictedEnvironmentPermission.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC020615</key>
@@ -1339,7 +1339,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC020615_DoNotDefineUnrestrictedSMTPPermission.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC025501</key>
@@ -1350,7 +1350,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC025501_DoNotSetAllowEveryoneViewItemsToTrue.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC030101</key>
@@ -1361,7 +1361,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC030101_DoNotOverrideSystemFiles.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC040102</key>
@@ -1372,7 +1372,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC040102_DeclareTitleAndDescriptionInSolutions.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC040701</key>
@@ -1383,7 +1383,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC040701_TemplateConfigurationShouldNotBeVisibleInWholeFarm.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC042101</key>
@@ -1394,7 +1394,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC042101_DeclareDescriptionInFeatures.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC042102</key>
@@ -1405,7 +1405,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC042102_DeclareVersionInFeatures.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC042103</key>
@@ -1416,7 +1416,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC042103_MakeFeaturesWithScopeFarmOrWebAppVisible.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC042104</key>
@@ -1427,7 +1427,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC042104_MakeFeaturesWithScopeSiteOrWebHidden.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC042106</key>
@@ -1438,7 +1438,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC042106_FeatureActivitationDependenciesShouldContainTitleAndDescription.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC042107</key>
@@ -1449,7 +1449,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC042107_DefineFeatureReceiverAssemblyAsFQN.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC042201</key>
@@ -1460,7 +1460,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC042201_DeclareFieldTypesInASingleFile.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC045201</key>
@@ -1471,7 +1471,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC045201_DeclareAttributeInheritsInContentType.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC045203</key>
@@ -1482,7 +1482,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC045203_DeclareContentTypeIDUpperCase.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC045401</key>
@@ -1493,7 +1493,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC045401_DeclareTemplateTypeForExternalList.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC045801</key>
@@ -1504,7 +1504,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC045801_DeclareDescriptionInCustomActionGroup.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC046101</key>
@@ -1515,7 +1515,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC046101_DeclareAttributeSequenceInControl.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC046102</key>
@@ -1526,7 +1526,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC046102_DeclareAttributeIdInControl.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC046401</key>
@@ -1537,7 +1537,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC046401_DeclareTitleAndDescriptionInWebPart.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC050101</key>
@@ -1548,7 +1548,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC050101_DoNotUseSpacesInFilePaths.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC052201</key>
@@ -1559,7 +1559,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC052201_CustomFieldTypesShouldNotBeUserCreatable.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC055101</key>
@@ -1570,7 +1570,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC055101_DefineSameStaticAndInternalNameInField.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC055102</key>
@@ -1581,7 +1581,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC055102_ConsiderAllowDeletionInField.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC055202</key>
@@ -1592,7 +1592,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC055202_ConsiderSealedInContentType.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC055501</key>
@@ -1603,7 +1603,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC055501_DefineListTemplateTypeGreaterThan10000.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC055502</key>
@@ -1614,7 +1614,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC055502_AddEnsureFolderContentTypeInListDefinition.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC055503</key>
@@ -1625,7 +1625,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC055503_AvoidContentTypesInListDefinitions.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC055504</key>
@@ -1636,7 +1636,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC055504_ConsiderAllowDeletionInListTemplate.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC056401</key>
@@ -1647,7 +1647,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC056401_DeclareAllowCloseInWebPart.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC060101</key>
@@ -1658,7 +1658,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC060101_DoNotDeploySolutionGlobally.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC060103</key>
@@ -1669,7 +1669,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC060103_DoNotDeployProhibitedAssemblies.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC060105</key>
@@ -1680,7 +1680,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC060105_DoNotDeployThumbsDB.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC060106</key>
@@ -1691,7 +1691,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC060106_DoNotResetWebServer.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC060107</key>
@@ -1702,7 +1702,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC060107_DefineRecycleForResetWebServerModeOnUpgrade.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC060108</key>
@@ -1713,7 +1713,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC060108_DoNotDeployFilesDirectlyIntoSystemFolder.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC060111</key>
@@ -1724,7 +1724,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC060111_DoNotDeployBatchFiles.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC060112</key>
@@ -1735,7 +1735,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC060112_DoNotDeployPowerShellScripts.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC060113</key>
@@ -1746,7 +1746,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC060113_DoNotDeployMSIFiles.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC060303</key>
@@ -1757,7 +1757,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC060303_DoNotDeployRootFileToTemplatesFolder.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC060304</key>
@@ -1768,7 +1768,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC060304_DoNotDeployRootFileMultipleTimes.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC060401</key>
@@ -1779,7 +1779,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC060401_DoNotDeployImagesToLayouts.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC060402</key>
@@ -1790,7 +1790,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC060402_DeployOnlyImageToImagesFolder.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC060403</key>
@@ -1801,7 +1801,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC060403_DeployBinaryFilesToClientBin.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC060404</key>
@@ -1812,7 +1812,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC060404_DoNotDeployTemplateFileMultipleTimes.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC060405</key>
@@ -1823,7 +1823,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC060405_DoNotDeployFeatureFilesAsTemplateFile.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC060501</key>
@@ -1834,7 +1834,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC060501_DoNotDeployFeatureFilesAsResource.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC062101</key>
@@ -1845,7 +1845,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC062101_DeployMissingImageForFeature.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC062102</key>
@@ -1856,7 +1856,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC062102_DeployMissingElementFile.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC062103</key>
@@ -1867,7 +1867,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC062103_DoNotDeployFeatureMultipleTimes.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC062104</key>
@@ -1878,7 +1878,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC062104_DoNotDeployFeatureWithSameIDMultipleTimes.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC062111</key>
@@ -1889,7 +1889,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC062111_DoNotDeployEmptyElementManifests.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC062112</key>
@@ -1900,7 +1900,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC062112_DoNotDeploySharePointAssembliesAsElementFile.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC067201</key>
@@ -1911,7 +1911,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC067201_DoNoDeployWebServiceToLAYOUTS.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC067202</key>
@@ -1922,7 +1922,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC067202_DotNoDeployAdministrationWebServiceToADMIN.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC067601</key>
@@ -1933,7 +1933,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC067601_DoNotDeployWCFWebServiceToLAYOUTS.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC067602</key>
@@ -1944,7 +1944,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC067602_DoNotDeployWCFAdministrationWebServiceToADMIN.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC067701</key>
@@ -1955,7 +1955,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC067701_DeployMissingImageForWebTemplate.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC070001</key>
@@ -1966,7 +1966,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC070001_UseResourcesForLocalizableAttributes.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC070002</key>
@@ -1977,7 +1977,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC070002_UseFeatureResourcesForElements.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC076401</key>
@@ -1988,7 +1988,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC076401_LocalizeTitleAndDescriptionInWebPart.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC080101</key>
@@ -1999,7 +1999,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC080101_DefineSolutionNameAsValidNamespace.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC080102</key>
@@ -2010,7 +2010,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC080102_SolutionShouldNameFilesOrTheirFoldersAfterTheSolution.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC080103</key>
@@ -2021,7 +2021,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC080103_SolutionNameShouldStartWithCompanyName.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC080801</key>
@@ -2032,7 +2032,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC080801_WebTempFileShouldStartWithWEBTEMP.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC082101</key>
@@ -2043,7 +2043,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC082101_FeatureNameShouldStartWithSolutionName.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC082201</key>
@@ -2054,7 +2054,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC082201_DeclareFieldTypeInCorrectlyNamedFile.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC090101</key>
@@ -2065,7 +2065,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC090101_DoNotDeployControlTemplates.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC090102</key>
@@ -2076,7 +2076,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC090102_DoNotDeployFarmFeatures.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC090103</key>
@@ -2087,7 +2087,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC090103_DoNotDeployWebApplicatonFeatures.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC090701</key>
@@ -2098,7 +2098,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC090701_DoNotImplementSiteDefinition.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC092201</key>
@@ -2109,7 +2109,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC092201_DoNotImplementFieldType.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC095101</key>
@@ -2120,7 +2120,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC095101_DoNotImplementField.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC095201</key>
@@ -2131,7 +2131,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC095201_DoNotImplementContentType.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC095501</key>
@@ -2142,7 +2142,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC095501_DoNotImplementListTemplate.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC095701</key>
@@ -2153,7 +2153,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC095701_DoNotImplementCustomAction.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC095801</key>
@@ -2164,7 +2164,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC095801_DoNotImplementCustomActionGroup.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC096001</key>
@@ -2175,7 +2175,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC096001_DoNotImplementReceiver.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC096101</key>
@@ -2186,7 +2186,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC096101_DoNotImplementDelegateControl.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC096201</key>
@@ -2197,7 +2197,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC096201_DoNotImplementWorkflow.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC096301</key>
@@ -2208,7 +2208,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC096301_DoNotImplementDocumentConverter.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC097001</key>
@@ -2219,7 +2219,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC097001_DoNotImplementTemplateAssociation.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC100301</key>
@@ -2230,7 +2230,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC100301_DoNotDeployRootFiles.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC100401</key>
@@ -2241,7 +2241,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC100401_DoNotDeployTemplateFiles.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC100501</key>
@@ -2252,7 +2252,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC100501_DoNotDeployResources.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC102101</key>
@@ -2263,7 +2263,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC102101_DoNotDeployFarmFeatures.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC102102</key>
@@ -2274,7 +2274,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC102102_DoNotDeployWebAppFeatures.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC105801</key>
@@ -2285,7 +2285,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC105801_DoNotDeployCustomActionGroup.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC105901</key>
@@ -2296,7 +2296,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC105901_DoNotDeployHideCustomAction.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC106101</key>
@@ -2307,7 +2307,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC106101_DoNotDeployControl.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC150101</key>
@@ -2318,7 +2318,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC150101_DoNotDeployCASPolicies.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC150102</key>
@@ -2329,7 +2329,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC150102_DeclareSharePointVersionInSolution.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC155501</key>
@@ -2340,7 +2340,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC155501_Reference15HiveInImageInListTemplate.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC155701</key>
@@ -2351,7 +2351,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC155701_Reference15HiveInURLsInCustomAction.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC155702</key>
@@ -2362,7 +2362,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC155702_Reference15HiveInURLActionInCustomAction.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC155703</key>
@@ -2373,7 +2373,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC155703_Reference15HiveInScriptSrcInCustomAction.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC156101</key>
@@ -2384,7 +2384,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC156101_Reference15HiveInControlSrcInControl.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC157001</key>
@@ -2395,7 +2395,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC157001_DoNotAssociateFeatureToDocumentWorkspace.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC157002</key>
@@ -2406,7 +2406,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC157002_DoNotAssociateFeatureToMeetingWorkspaces.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC157003</key>
@@ -2417,7 +2417,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC157003_DoNotAssociateFeatureToPersonalizationSite.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC157004</key>
@@ -2428,7 +2428,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC157004_DoNotAssociateFeatureToGroupWorkTemplates.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC159906</key>
@@ -2439,7 +2439,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC159906_Reference15HiveInXSLT.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC011021</key>
@@ -2450,7 +2450,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC011021_DoNotUseSupportedLanguages.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC011031</key>
@@ -2461,7 +2461,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC011031_RemoveWSPFromProviderHostedApp.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC011041</key>
@@ -2472,7 +2472,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC011041_ProvideValidPNGAppIcon.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC011051</key>
@@ -2483,7 +2483,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC011051_DoNotDefineMoreThan25SupportedLocales.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC051011</key>
@@ -2494,7 +2494,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC051011_DefineAppAsProviderHostedIfAppWebIsEmpty.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC058721</key>
@@ -2505,7 +2505,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC058721_ReferenceExternalFilesWithoutProtocol.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC062152</key>
@@ -2516,7 +2516,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC062152_DeployMissingElementFileInAppWebFeature.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC062161</key>
@@ -2527,7 +2527,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC062161_DoNotDeployEmptyElementManifestsInAppWebFeature.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC062182</key>
@@ -2538,7 +2538,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC062182_DeployMissingElementFileInHostWebFeature.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC062191</key>
@@ -2549,7 +2549,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC062191_DoNotDeployEmptyElementManifestsInHostWebFeature.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC071011</key>
@@ -2560,7 +2560,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC071011_DeployDefinedResourcesFiles.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC071012</key>
@@ -2571,7 +2571,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC071012_DoNotDeployUnneededResourcesFile.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC071013</key>
@@ -2582,7 +2582,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC071013_DeployDefaultResourcesFile.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC071021</key>
@@ -2593,7 +2593,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC071021_LocalizeTitleOfApps.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC161001</key>
@@ -2604,7 +2604,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC161001_DoNotUseDebugInfoElementInAppManifest.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC161002</key>
@@ -2615,7 +2615,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC161002_DoNotUseFullControlPermission.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPC161021</key>
@@ -2626,7 +2626,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPC161021_DefineSupportedLocales.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPF010101</key>
@@ -2637,7 +2637,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPF010101_DefineManifestComponentType.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPF010102</key>
@@ -2648,7 +2648,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPF010102_SpecifyValidManifestComponentType.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPF010201</key>
@@ -2659,7 +2659,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPF010201_DefineSolutionName.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPF010202</key>
@@ -2670,7 +2670,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPF010202_DefineSolutionVersion.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPF010203</key>
@@ -2681,7 +2681,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPF010203_SpecifyValidSolutionVersion.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPF010204</key>
@@ -2692,7 +2692,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPF010204_DefineSolutionId.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPF010205</key>
@@ -2703,7 +2703,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPF010205_SpecifyValidSolutionId.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPF010206</key>
@@ -2714,7 +2714,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPF010206_DefinePackageSolutionConfigSolution.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPF010207</key>
@@ -2725,7 +2725,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPF010207_DefinePackageSolutionConfigPaths.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPF010208</key>
@@ -2736,7 +2736,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPF010208_DefinePackageSolutionZippedPackage.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPF010301</key>
@@ -2747,7 +2747,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPF010301_DefineCdnBasePath.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPF010302</key>
@@ -2758,7 +2758,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPF010302_SpecifyValidCdnBasePath.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPF010401</key>
@@ -2769,7 +2769,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPF010401_DefineBundleEntryEntry.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPF010402</key>
@@ -2780,7 +2780,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPF010402_BundleEntryEntryPointsToValidProjectFile.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPF010403</key>
@@ -2791,7 +2791,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPF010403_DefineBundleEntryOutputPath.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPF010404</key>
@@ -2802,7 +2802,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPF010404_BundleEntryOutputPathIsInTheRightLocation.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPF010601</key>
@@ -2813,7 +2813,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPF010601_WebPartUseCorrectCasingForReactEventHandlers.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPF010701</key>
@@ -2824,7 +2824,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPF010701_DefineWebPartId.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPF010702</key>
@@ -2835,7 +2835,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPF010702_WebPartIdIsUnique.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPF010703</key>
@@ -2846,7 +2846,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPF010703_DefineWebPartTitle.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPF010704</key>
@@ -2857,7 +2857,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPF010704_DefineWebPartVersion.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPF010705</key>
@@ -2868,7 +2868,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPF010705_SpecifyValidWebPartVersion.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPF010706</key>
@@ -2879,7 +2879,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPF010706_DefineWebPartManifestVersion.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPF010707</key>
@@ -2890,7 +2890,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPF010707_SpecifyValidWebPartManifestVersion.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPF010708</key>
@@ -2901,7 +2901,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPF010708_DefineWebPartProperties.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPF010709</key>
@@ -2912,7 +2912,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPF010709_SpecifyValidWebPartId.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPF010710</key>
@@ -2923,7 +2923,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPF010710_SpecifyValidWebPartIconFontName.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPF010711</key>
@@ -2934,7 +2934,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPF010711_DefineWebPartPropertiesSpecifiedInTheManifestInCode.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPF010712</key>
@@ -2945,7 +2945,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPF010712_DefineWebPartDescription.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPF010713</key>
@@ -2956,7 +2956,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPF010713_SpecifyWebPartImage.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPF010714</key>
@@ -2967,7 +2967,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPF010714_DontSpecifyBothWebPartIconAndImage.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPF010715</key>
@@ -2978,7 +2978,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPF010715_SpecifyValidIconImageUrl.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPF010716</key>
@@ -2989,7 +2989,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPF010716_EntryModuleMustContainDefaultExportClass.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPF020701</key>
@@ -3000,7 +3000,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPF020701_LoadWebPartFromApprovedLocation.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPF020702</key>
@@ -3011,7 +3011,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPF020702_DontReferenceScriptsFromUnapprovedLocations.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPF021301</key>
@@ -3022,7 +3022,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPF021301_DontReferenceScriptsFromUnapprovedLocationsInProject.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPF050101</key>
@@ -3033,7 +3033,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPF050101_LintConfigExists.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPF050102</key>
@@ -3044,18 +3044,18 @@
                                     <a href="https://docs.spcaf.com/v6/SPF050102_ProjectDependenciesAreRegistered.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPF050103</key>
                             <priority>MAJOR</priority>
-                            <name><![CDATA[npm-shrinkwrap.json file missing]]></name>
+                            <name><![CDATA[Lock file missing]]></name>
                             <description>
-                                <![CDATA[The npm-shrinkwrap.json file is used to lock down dependencies across projects, to ensure production uses the same dependency versions.<p>
-                                    <a href="https://docs.spcaf.com/v6/SPF050103_NpmShrinkWrapFileMissing.html">See SPCAF documentation</a>
+                                <![CDATA[A lock file is used to lock down dependencies across projects, to ensure production uses the same dependency versions.<p>
+                                    <a href="https://docs.spcaf.com/v6/SPF050103_LockFileMissing.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPF050601</key>
@@ -3066,7 +3066,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPF050601_ReactComponentFileShouldHaveCorrectExtension.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPF050602</key>
@@ -3077,7 +3077,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPF050602_FileWithoutReactComponentShouldntHaveReactExtension.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPF050901</key>
@@ -3088,7 +3088,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPF050901_ScriptIsServedWithSupportForCORS.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPF120501</key>
@@ -3099,7 +3099,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPF120501_DontBundleExternalLibrariesInWebPart.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPF120502</key>
@@ -3110,7 +3110,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPF120502_DontIncludeSameModulesInMultipleBundles.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPF120701</key>
@@ -3121,7 +3121,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPF120701_WebPartUsesOptimizedScripts.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPF120901</key>
@@ -3132,7 +3132,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPF120901_ServerHostingScriptsHasFarFutureExpirationHeaderSet.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPF120902</key>
@@ -3143,7 +3143,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPF120902_ScriptsAreServedGzipped.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPF120903</key>
@@ -3154,7 +3154,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPF120903_ScriptCanBeCachedByProxies.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPF120904</key>
@@ -3165,7 +3165,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPF120904_ScriptIsServedWithETag.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
                         <rule>
                             <key>SPF120905</key>
@@ -3176,7 +3176,7 @@
                                     <a href="https://docs.spcaf.com/v6/SPF120905_ScriptsAreServedUsingHttp2.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
-                            <tag>spcaf</tag>
+                             <tag>spcaf</tag>
                         </rule>
 
 </rules>
