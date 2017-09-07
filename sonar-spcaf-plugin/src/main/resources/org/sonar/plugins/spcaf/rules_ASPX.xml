@@ -1,4 +1,3 @@
-
 <rules>
                         <rule>
                             <key>SPC026901</key>
@@ -6,7 +5,7 @@
                             <name><![CDATA[Do not use inline code in ASPX pages]]></name>
                             <description>
                                 <![CDATA[ASPX pages should not contain inline code. Use code behind instead.<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC026901_DoNotUseInlineCodeInASPXPage">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC026901_DoNotUseInlineCodeInASPXPage.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -17,7 +16,7 @@
                             <name><![CDATA[Add 'SharePoint:FormDigest' to ASPX page]]></name>
                             <description>
                                 <![CDATA[ASPX pages should contain 'SharePoint:FormDigest' to ensure security validation of requests,<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC026902_AddValidateFormDigestToASPXPage">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC026902_AddValidateFormDigestToASPXPage.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -28,7 +27,7 @@
                             <name><![CDATA[Do not write in ASPX Pages 'Register' tags in a single line]]></name>
                             <description>
                                 <![CDATA[ASPX pages should write the Register tag in separate lines to improve readability of the code.<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC046901_ASPXPageShouldProvideRegisterTagsInSeparateLines">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC046901_ASPXPageShouldProvideRegisterTagsInSeparateLines.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -39,7 +38,7 @@
                             <name><![CDATA[Avoid inline JavaScript in ASPX Pages]]></name>
                             <description>
                                 <![CDATA[ASPX pages should not contain JavaScript code. Use separate .JS files instead.<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC046902_AvoidInlineJavaScriptInASPXPage">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC046902_AvoidInlineJavaScriptInASPXPage.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -50,18 +49,7 @@
                             <name><![CDATA[Avoid inline CSS in ASPX Pages]]></name>
                             <description>
                                 <![CDATA[ASPX pages should not contain CSS code. Use separate .CSS files instead.<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC046903_AvoidInlineCSSInASPXPage">See SPCAF documentation</a>
-                                </p>]]>
-                            </description>
-                            <tag>spcaf</tag>
-                        </rule>
-                        <rule>
-                            <key>SPC096901</key>
-                            <priority>MINOR</priority>
-                            <name><![CDATA[Do not use inline code in ASPX pages]]></name>
-                            <description>
-                                <![CDATA[ASPX pages should not contain inline code.<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC096901_DoNotUseInlineCode">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC046903_AvoidInlineCSSInASPXPage.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -72,7 +60,7 @@
                             <name><![CDATA[Do not inherit ASPX page from SharePoint assemblies older than Version 12]]></name>
                             <description>
                                 <![CDATA[ASPX pages should not inherit from previous or later version of Microsoft.SharePoint assemblies.<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC126901_DoNotInheritASPXPageFromSharePointVersion12">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC126901_DoNotInheritASPXPageFromSharePointVersion12.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -83,7 +71,7 @@
                             <name><![CDATA[Reference SharePoint 12 assemblies]]></name>
                             <description>
                                 <![CDATA[ASPX files should not reference previous or later versions of Microsoft.SharePoint assemblies.<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC126902_ASPXPageShouldReferenceSharePointVersion12">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC126902_ASPXPageShouldReferenceSharePointVersion12.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -94,7 +82,7 @@
                             <name><![CDATA[Inherit from SharePoint 14 assemblies]]></name>
                             <description>
                                 <![CDATA[ASPX pages should not inherit from previous or later version of Microsoft.SharePoint assemblies.<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC146901_ASPXPageShouldInheritFromSharePointVersion14">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC146901_ASPXPageShouldInheritFromSharePointVersion14.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -105,7 +93,7 @@
                             <name><![CDATA[Reference SharePoint 14 assemblies]]></name>
                             <description>
                                 <![CDATA[ASPX files should not reference previous or later versions of Microsoft.SharePoint assemblies.<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC146902_ASPXPageShouldReferenceSharePointVersion14">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC146902_ASPXPageShouldReferenceSharePointVersion14.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -116,7 +104,7 @@
                             <name><![CDATA[Register SharePoint 15 Assemblies in ASCX Control]]></name>
                             <description>
                                 <![CDATA[ASCX Control should not register previous versions of Microsoft.SharePoint assemblies.<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC156802_ASCXControlShouldRegisterSharePointVersion15">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC156802_ASCXControlShouldRegisterSharePointVersion15.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -127,7 +115,7 @@
                             <name><![CDATA[Reference SharePoint 15 Assemblies in ASCX Control]]></name>
                             <description>
                                 <![CDATA[ASCX Controls should not reference previous versions of Microsoft.SharePoint assemblies.<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC156803_ASCXControlShouldReferenceSharePointVersion15">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC156803_ASCXControlShouldReferenceSharePointVersion15.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -138,7 +126,7 @@
                             <name><![CDATA[Inherit ASPX Page from SharePoint 15 Assemblies]]></name>
                             <description>
                                 <![CDATA[ASPX Pages should not inherit from previous or later version of Microsoft.SharePoint assemblies.<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC156901_ASPXPageShouldInheritFromSharePointVersion15">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC156901_ASPXPageShouldInheritFromSharePointVersion15.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -149,7 +137,7 @@
                             <name><![CDATA[Register SharePoint 15 Assemblies in ASPX Page]]></name>
                             <description>
                                 <![CDATA[ASPX Pages should not register previous versions of Microsoft.SharePoint assemblies.<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC156902_ASPXPageShouldRegisterSharePointVersion15">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC156902_ASPXPageShouldRegisterSharePointVersion15.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -160,7 +148,7 @@
                             <name><![CDATA[Reference SharePoint 15 Assemblies in ASPX Page]]></name>
                             <description>
                                 <![CDATA[ASPX Pages should not reference previous versions of Microsoft.SharePoint assemblies.<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC156903_ASPXPageShouldReferenceSharePointVersion15">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC156903_ASPXPageShouldReferenceSharePointVersion15.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -171,7 +159,7 @@
                             <name><![CDATA[Register SharePoint 15 Assemblies in Master Page]]></name>
                             <description>
                                 <![CDATA[Master Pages should not register previous versions of Microsoft.SharePoint assemblies.<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC157302_MasterPageShouldRegisterSharePointVersion15">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC157302_MasterPageShouldRegisterSharePointVersion15.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -182,7 +170,7 @@
                             <name><![CDATA[Reference SharePoint 15 Assemblies in Master Page]]></name>
                             <description>
                                 <![CDATA[Master Pages should not reference previous versions of Microsoft.SharePoint assemblies.<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC157303_MasterPageShouldReferenceSharePointVersion15">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC157303_MasterPageShouldReferenceSharePointVersion15.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -193,7 +181,7 @@
                             <name><![CDATA[Reference 15 hive within all Pages (.aspx)]]></name>
                             <description>
                                 <![CDATA[Paths in Pages to '/_controltemplates/', '/_layouts/' and '/_layouts/images/' should point to 15 hive.<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC159901_Reference15HiveInPages">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC159901_Reference15HiveInPages.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -204,7 +192,7 @@
                             <name><![CDATA[Reference 15 hive within all Masterpages (.master)]]></name>
                             <description>
                                 <![CDATA[Paths in Masterpages to '/_controltemplates/', '/_layouts/' and '/_layouts/images/' should point to 15 hive.<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC159902_Reference15HiveInMasterPages">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC159902_Reference15HiveInMasterPages.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -215,7 +203,7 @@
                             <name><![CDATA[Reference 15 hive within all Controls (.ascx)]]></name>
                             <description>
                                 <![CDATA[Paths in Controls to '/_controltemplates/', '/_layouts/' and '/_layouts/images/' should point to 15 hive.<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC159905_Reference15HiveInControls">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC159905_Reference15HiveInControls.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>

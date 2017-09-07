@@ -1,4 +1,3 @@
-
 <rules>
                         <rule>
                             <key>SPC159903</key>
@@ -6,7 +5,7 @@
                             <name><![CDATA[Reference 15 hive within all Scripts (.js)]]></name>
                             <description>
                                 <![CDATA[Paths in Scripts to '/_controltemplates/', '/_layouts/' and '/_layouts/images/' should point to 15 hive.<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC159903_Reference15HiveInScripts">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC159903_Reference15HiveInScripts.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -17,7 +16,7 @@
                             <name><![CDATA[No assignment in conditional statement]]></name>
                             <description>
                                 <![CDATA[In most cases this is an error in the code, and unintended<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC018901_NoAssignmentInConditionalExpressions">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC018901_NoAssignmentInConditionalExpressions.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -28,7 +27,7 @@
                             <name><![CDATA[Consider to not use, or shim the console object]]></name>
                             <description>
                                 <![CDATA[The console object is only available in IE, after the developer console has been opened once, therefore throwing an error<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC018902_NoDeveloperConsoleUsage">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC018902_NoDeveloperConsoleUsage.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -39,7 +38,7 @@
                             <name><![CDATA[Consider to disallow Controls Characters in Regular Expressions]]></name>
                             <description>
                                 <![CDATA[Control characters are special, invisible characters in the ASCII range 0-31. These characters are rarely used in JavaScript strings so a regular expression containing these characters is most likely a mistake.<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC018904_NoControlCharactersInRegExp">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC018904_NoControlCharactersInRegExp.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -50,7 +49,7 @@
                             <name><![CDATA[Consider to disallow extra boolean casts]]></name>
                             <description>
                                 <![CDATA[In contexts such as an if statement's test where the result of the expression will already be coerced to a Boolean, casting to a Boolean via double negation (!!) is unnecessary.<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC018905_NoExtraBooleanCasts">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC018905_NoExtraBooleanCasts.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -61,7 +60,7 @@
                             <name><![CDATA[Disallow negated left operand of 'in' operator]]></name>
                             <description>
                                 <![CDATA[This is an error, if one intended this usage it should be explicitly coerced<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC018906_DisallowNegatedLeftOperandOfInOperator">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC018906_DisallowNegatedLeftOperandOfInOperator.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -72,7 +71,7 @@
                             <name><![CDATA[Disallow Global Object Function Calls ]]></name>
                             <description>
                                 <![CDATA[Quote from ESLint 'ECMAScript provides several global objects that are intended to be used as-is. Some of these objects look as if they could be constructors due their capitalization (such as Math and JSON) but will throw an error if you try to execute them as functions.'<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC018907_DisallowGlobalObjectFunctionCalls">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC018907_DisallowGlobalObjectFunctionCalls.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -83,7 +82,7 @@
                             <name><![CDATA[Disallow usage of NaN directly]]></name>
                             <description>
                                 <![CDATA[Quote from ESLint 'In JavaScript, NaN is a special value of the Number type. It's used to represent any of the "not-a-number" values represented by the double-precision 64-bit format as specified by the IEEE Standard for Binary Floating-Point Arithmetic. NaN has the unique property of not being equal to anything, including itself. That is to say, that the condition NaN !== NaN evaluates to true.'<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC018908_DisallowUseOfNaN">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC018908_DisallowUseOfNaN.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -94,7 +93,7 @@
                             <name><![CDATA[Ensure type checks are against valid types]]></name>
                             <description>
                                 <![CDATA[This rule prevents spelling mistakes in 'typeof' unary operator checks. Valid types are symbol, undefined, object, boolean, number, string and function.<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC018909_EnsureTypeofValid">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC018909_EnsureTypeofValid.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -105,7 +104,7 @@
                             <name><![CDATA[Assignment to function name not allowed]]></name>
                             <description>
                                 <![CDATA[This is strictly not allowed in ECMAScript, however some browsers allow it by accident<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC018910_AssignmentToFunctionNameNotAllowed">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC018910_AssignmentToFunctionNameNotAllowed.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -116,7 +115,7 @@
                             <name><![CDATA[Do not do toString directly on method objects]]></name>
                             <description>
                                 <![CDATA[Do not do function.ToString() comparisons directly as they are handled differently in each browser, always assign to a variable first<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC018911_NoComparisonWithMethodResultToString">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC018911_NoComparisonWithMethodResultToString.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -127,7 +126,7 @@
                             <name><![CDATA[Disallow use of delete on variables]]></name>
                             <description>
                                 <![CDATA['delete' is exclusively for use with object properties<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC018912_DisallowVariableDeletion">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC018912_DisallowVariableDeletion.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -138,7 +137,7 @@
                             <name><![CDATA[Catch identifiers should be unique]]></name>
                             <description>
                                 <![CDATA[Catch identifiers should be unique<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC018970_Ambiguouscatchvar">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC018970_Ambiguouscatchvar.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -149,7 +148,7 @@
                             <name><![CDATA[Ambiguous named function expression]]></name>
                             <description>
                                 <![CDATA[Ambiguous named function expression<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC018971_Ambiguousnamedfunctionexpression">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC018971_Ambiguousnamedfunctionexpression.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -160,7 +159,7 @@
                             <name><![CDATA[Export not at module level]]></name>
                             <description>
                                 <![CDATA[Export not at module level<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC018972_Exportnotatmodulelevel">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC018972_Exportnotatmodulelevel.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -171,7 +170,7 @@
                             <name><![CDATA[Numeric literal causes overflow or underflow exception]]></name>
                             <description>
                                 <![CDATA[Numeric literal causes overflow or underflow exception<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC018973_Numericoverflow">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC018973_Numericoverflow.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -182,7 +181,7 @@
                             <name><![CDATA[Strict operator always evaluates to true or false]]></name>
                             <description>
                                 <![CDATA[Strict operator always evaluates to true or false<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC018974_Strictcomparisonisalwaystrueorfalse">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC018974_Strictcomparisonisalwaystrueorfalse.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -193,7 +192,7 @@
                             <name><![CDATA[Array literal trailing commas has cross-browser difference]]></name>
                             <description>
                                 <![CDATA[Array literal trailing commas has cross-browser difference<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC018975_Arrayliteraltrailingcomma">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC018975_Arrayliteraltrailingcomma.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -204,7 +203,7 @@
                             <name><![CDATA[Variable or function declaration redefines the catch error name]]></name>
                             <description>
                                 <![CDATA[Variable or function declaration redefines the catch error name<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC018976_Duplicatecatch">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC018976_Duplicatecatch.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -215,7 +214,7 @@
                             <name><![CDATA[Constant declaration already declared]]></name>
                             <description>
                                 <![CDATA[Constant declaration already declared<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC018977_Duplicateconstantdeclaration">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC018977_Duplicateconstantdeclaration.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -226,7 +225,7 @@
                             <name><![CDATA[Duplicate lexical declaration; cannot redefine let or const variables]]></name>
                             <description>
                                 <![CDATA[Duplicate lexical declaration; cannot redefine let or const variables<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC018978_Duplicatelexicaldeclaration">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC018978_Duplicatelexicaldeclaration.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -237,7 +236,7 @@
                             <name><![CDATA[High-surrogate pair value not followed by low-surrogate value]]></name>
                             <description>
                                 <![CDATA[High-surrogate pair value not followed by low-surrogate value<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC018979_Highsurrogate">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC018979_Highsurrogate.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -248,7 +247,7 @@
                             <name><![CDATA[Reserved words and should not be used as an identifier]]></name>
                             <description>
                                 <![CDATA[Reserved words and should not be used as an identifier<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC018980_Keywordusedasidentifier">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC018980_Keywordusedasidentifier.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -259,7 +258,7 @@
                             <name><![CDATA[Low-surrogate pair value not preceeded by high-surrogate value]]></name>
                             <description>
                                 <![CDATA[Low-surrogate pair value not preceeded by high-surrogate value<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC018981_Lowsurrogate">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC018981_Lowsurrogate.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -270,7 +269,7 @@
                             <name><![CDATA[Function declaration should not be inside a statement. Cross-browser behavior difference]]></name>
                             <description>
                                 <![CDATA[Function declaration should not be inside a statement. Cross-browser behavior difference<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC018982_Misplacedfunctiondeclaration">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC018982_Misplacedfunctiondeclaration.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -281,7 +280,7 @@
                             <name><![CDATA[Reserved word used as object literal property name; cross-browser issue]]></name>
                             <description>
                                 <![CDATA[Reserved word used as object literal property name; cross-browser issue<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC018983_Objectliteralkeyword">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC018983_Objectliteralkeyword.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -292,7 +291,18 @@
                             <name><![CDATA[Identifier already in use]]></name>
                             <description>
                                 <![CDATA[Identifier already in use<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC018985_Duplicatename">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC018985_Duplicatename.html">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC018991</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Octal literals are deprecated. Possible cross-browser behavior difference]]></name>
+                            <description>
+                                <![CDATA[Octal literals are deprecated. Possible cross-browser behavior difference<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC018991_Octalliteralsdeprecated.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -300,10 +310,10 @@
                         <rule>
                             <key>SPC018992</key>
                             <priority>MAJOR</priority>
-                            <name><![CDATA[Octal literals are deprecated. Possible cross-browser behavior difference]]></name>
+                            <name><![CDATA[New line not allowed]]></name>
                             <description>
-                                <![CDATA[Octal literals are deprecated. Possible cross-browser behavior difference<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC018992_Octalliteralsdeprecated">See SPCAF documentation</a>
+                                <![CDATA[New line not allowed<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC018992_Newlinenotallowed.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -311,21 +321,21 @@
                         <rule>
                             <key>SPC018993</key>
                             <priority>MAJOR</priority>
-                            <name><![CDATA[New line not allowed]]></name>
+                            <name><![CDATA[Imported module does not export name]]></name>
                             <description>
-                                <![CDATA[New line not allowed<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC018993_Newlinenotallowed">See SPCAF documentation</a>
+                                <![CDATA[Imported module does not export name<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC018993_Nomoduleexport.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
                         </rule>
                         <rule>
-                            <key>SPC018994</key>
+                            <key>SPC018996</key>
                             <priority>MAJOR</priority>
-                            <name><![CDATA[Imported module does not export name]]></name>
+                            <name><![CDATA[Semicolon insertion]]></name>
                             <description>
-                                <![CDATA[Imported module does not export name<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC018994_Nomoduleexport">See SPCAF documentation</a>
+                                <![CDATA[Semicolon insertion<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC018996_Semicoloninsertion.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -333,10 +343,10 @@
                         <rule>
                             <key>SPC018997</key>
                             <priority>MAJOR</priority>
-                            <name><![CDATA[Semicolon insertion]]></name>
+                            <name><![CDATA[A statement block is expected]]></name>
                             <description>
-                                <![CDATA[Semicolon insertion<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC018997_Semicoloninsertion">See SPCAF documentation</a>
+                                <![CDATA[A statement block is expected<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC018997_Statementblockexpected.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -344,21 +354,10 @@
                         <rule>
                             <key>SPC018998</key>
                             <priority>MAJOR</priority>
-                            <name><![CDATA[A statement block is expected]]></name>
-                            <description>
-                                <![CDATA[A statement block is expected<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC018998_Statementblockexpected">See SPCAF documentation</a>
-                                </p>]]>
-                            </description>
-                            <tag>spcaf</tag>
-                        </rule>
-                        <rule>
-                            <key>SPC018999</key>
-                            <priority>MAJOR</priority>
                             <name><![CDATA[Suspect assigment]]></name>
                             <description>
                                 <![CDATA[Did you intend to write an assignment here?<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC018999_Suspectassignment">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC018998_Suspectassignment.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -366,10 +365,10 @@
                         <rule>
                             <key>SPC2389100</key>
                             <priority>MAJOR</priority>
-                            <name><![CDATA[Strict-mode does not allow duplicate argument names]]></name>
+                            <name><![CDATA[Strict-mode does not allow certain variable names]]></name>
                             <description>
-                                <![CDATA[Strict-mode does not allow duplicate argument names<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC2389100_Strictmodeduplicateargument">See SPCAF documentation</a>
+                                <![CDATA[Strict-mode does not allow certain variable names<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC2389100_Strictmodevariablename.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -377,10 +376,10 @@
                         <rule>
                             <key>SPC2389101</key>
                             <priority>MAJOR</priority>
-                            <name><![CDATA[Strict-mode does not allow certain variable names]]></name>
+                            <name><![CDATA[Strict-mode does not allow certain function names]]></name>
                             <description>
-                                <![CDATA[Strict-mode does not allow certain variable names<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC2389101_Strictmodevariablename">See SPCAF documentation</a>
+                                <![CDATA[Strict-mode does not allow certain function names<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC2389101_Strictmodefunctionname.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -388,10 +387,10 @@
                         <rule>
                             <key>SPC2389102</key>
                             <priority>MAJOR</priority>
-                            <name><![CDATA[Strict-mode does not allow certain function names]]></name>
+                            <name><![CDATA[Strict-mode does not allow duplicate property names]]></name>
                             <description>
-                                <![CDATA[Strict-mode does not allow certain function names<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC2389102_Strictmodefunctionname">See SPCAF documentation</a>
+                                <![CDATA[Strict-mode does not allow duplicate property names<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC2389102_Strictmodeduplicateproperty.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -399,10 +398,10 @@
                         <rule>
                             <key>SPC2389103</key>
                             <priority>MAJOR</priority>
-                            <name><![CDATA[Strict-mode does not allow duplicate property names]]></name>
+                            <name><![CDATA[Strict-mode does not allow assignment to certain variables]]></name>
                             <description>
-                                <![CDATA[Strict-mode does not allow duplicate property names<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC2389103_Strictmodeduplicateproperty">See SPCAF documentation</a>
+                                <![CDATA[Strict-mode does not allow assignment to certain variables<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC2389103_Strictmodeinvalidassign.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -410,10 +409,10 @@
                         <rule>
                             <key>SPC2389104</key>
                             <priority>MAJOR</priority>
-                            <name><![CDATA[Strict-mode does not allow assignment to certain variables]]></name>
+                            <name><![CDATA[Strict-mode does not allow ++ or -- on certain objects]]></name>
                             <description>
-                                <![CDATA[Strict-mode does not allow assignment to certain variables<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC2389104_Strictmodeinvalidassign">See SPCAF documentation</a>
+                                <![CDATA[Strict-mode does not allow ++ or -- on certain objects<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC2389104_Strictmodeinvalidpreorpost.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -421,10 +420,10 @@
                         <rule>
                             <key>SPC2389105</key>
                             <priority>MAJOR</priority>
-                            <name><![CDATA[Strict-mode does not allow ++ or -- on certain objects]]></name>
+                            <name><![CDATA[Strict-mode does not allow certain delete operands]]></name>
                             <description>
-                                <![CDATA[Strict-mode does not allow ++ or -- on certain objects<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC2389105_Strictmodeinvalidpreorpost">See SPCAF documentation</a>
+                                <![CDATA[Strict-mode does not allow certain delete operands<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC2389105_Strictmodeinvaliddelete.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -432,10 +431,10 @@
                         <rule>
                             <key>SPC2389106</key>
                             <priority>MAJOR</priority>
-                            <name><![CDATA[Strict-mode does not allow certain delete operands]]></name>
+                            <name><![CDATA[Strict-mode does not allow certain argument names]]></name>
                             <description>
-                                <![CDATA[Strict-mode does not allow certain delete operands<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC2389106_Strictmodeinvaliddelete">See SPCAF documentation</a>
+                                <![CDATA[Strict-mode does not allow certain argument names<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC2389106_Strictmodeargumentname.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -443,10 +442,10 @@
                         <rule>
                             <key>SPC2389107</key>
                             <priority>MAJOR</priority>
-                            <name><![CDATA[Strict-mode does not allow certain argument names]]></name>
+                            <name><![CDATA[Assignment to constant]]></name>
                             <description>
-                                <![CDATA[Strict-mode does not allow certain argument names<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC2389107_Strictmodeargumentname">See SPCAF documentation</a>
+                                <![CDATA[Assignment to constant<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC2389107_Assignmenttoconstant.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -454,10 +453,10 @@
                         <rule>
                             <key>SPC2389108</key>
                             <priority>MAJOR</priority>
-                            <name><![CDATA[Assignment to constant]]></name>
+                            <name><![CDATA[String literal is not safe for inline]]></name>
                             <description>
-                                <![CDATA[Assignment to constant<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC2389108_Assignmenttoconstant">See SPCAF documentation</a>
+                                <![CDATA[String literal is not safe for inline<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC2389108_Stringnotinlinesafe.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -465,10 +464,10 @@
                         <rule>
                             <key>SPC2389109</key>
                             <priority>MAJOR</priority>
-                            <name><![CDATA[String literal is not safe for inline]]></name>
+                            <name><![CDATA[Strict-mode does not allow assignment to undefined variables]]></name>
                             <description>
-                                <![CDATA[String literal is not safe for inline<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC2389109_Stringnotinlinesafe">See SPCAF documentation</a>
+                                <![CDATA[Strict-mode does not allow assignment to undefined variables<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC2389109_Strictmodeundefinedvariable.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -476,10 +475,10 @@
                         <rule>
                             <key>SPC2389110</key>
                             <priority>MAJOR</priority>
-                            <name><![CDATA[Strict-mode does not allow assignment to undefined variables]]></name>
+                            <name><![CDATA[End of file encountered before function is properly closed]]></name>
                             <description>
-                                <![CDATA[Strict-mode does not allow assignment to undefined variables<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC2389110_Strictmodeundefinedvariable">See SPCAF documentation</a>
+                                <![CDATA[End of file encountered before function is properly closed<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC2389110_Unclosedfunction.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -487,10 +486,10 @@
                         <rule>
                             <key>SPC2389111</key>
                             <priority>MAJOR</priority>
-                            <name><![CDATA[End of file encountered before function is properly closed]]></name>
+                            <name><![CDATA[Expected ///#ENDIF directive]]></name>
                             <description>
-                                <![CDATA[End of file encountered before function is properly closed<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC2389111_Unclosedfunction">See SPCAF documentation</a>
+                                <![CDATA[Expected ///#ENDIF directive<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC2389111_Noendifdirective.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -498,10 +497,10 @@
                         <rule>
                             <key>SPC2389112</key>
                             <priority>MAJOR</priority>
-                            <name><![CDATA[Expected ///#ENDIF directive]]></name>
+                            <name><![CDATA[Expected ///#ENDDEBUG directive]]></name>
                             <description>
-                                <![CDATA[Expected ///#ENDIF directive<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC2389112_Noendifdirective">See SPCAF documentation</a>
+                                <![CDATA[Expected ///#ENDDEBUG directive<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC2389112_Noenddebugdirective.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -509,10 +508,10 @@
                         <rule>
                             <key>SPC2389113</key>
                             <priority>MAJOR</priority>
-                            <name><![CDATA[Expected ///#ENDDEBUG directive]]></name>
+                            <name><![CDATA[Invalid numeric literal]]></name>
                             <description>
-                                <![CDATA[Expected ///#ENDDEBUG directive<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC2389113_Noenddebugdirective">See SPCAF documentation</a>
+                                <![CDATA[Invalid numeric literal<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC2389113_Badnumericliteral.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -520,10 +519,10 @@
                         <rule>
                             <key>SPC2389114</key>
                             <priority>MAJOR</priority>
-                            <name><![CDATA[Invalid numeric literal]]></name>
+                            <name><![CDATA[Suspect equality comparison]]></name>
                             <description>
-                                <![CDATA[Invalid numeric literal<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC2389114_Badnumericliteral">See SPCAF documentation</a>
+                                <![CDATA[Suspect equality comparison<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC2389114_Suspectequality.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -531,10 +530,10 @@
                         <rule>
                             <key>SPC2389115</key>
                             <priority>MAJOR</priority>
-                            <name><![CDATA[Suspect equality comparison]]></name>
+                            <name><![CDATA[Strict-mode does not allow certain catch error binding names]]></name>
                             <description>
-                                <![CDATA[Suspect equality comparison<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC2389115_Suspectequality">See SPCAF documentation</a>
+                                <![CDATA[Strict-mode does not allow certain catch error binding names<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC2389115_Strictmodecatchname.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -542,10 +541,10 @@
                         <rule>
                             <key>SPC2389116</key>
                             <priority>MAJOR</priority>
-                            <name><![CDATA[Strict-mode does not allow certain catch error binding names]]></name>
+                            <name><![CDATA[Binding patterns in var statements require initializer]]></name>
                             <description>
-                                <![CDATA[Strict-mode does not allow certain catch error binding names<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC2389116_Strictmodecatchname">See SPCAF documentation</a>
+                                <![CDATA[Binding patterns in var statements require initializer<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC2389116_Bindingpatternrequiresinitializer.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -553,10 +552,10 @@
                         <rule>
                             <key>SPC2389117</key>
                             <priority>MAJOR</priority>
-                            <name><![CDATA[Binding patterns in var statements require initializer]]></name>
+                            <name><![CDATA[Implicit object property name must be identifier]]></name>
                             <description>
-                                <![CDATA[Binding patterns in var statements require initializer<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC2389117_Bindingpatternrequiresinitializer">See SPCAF documentation</a>
+                                <![CDATA[Implicit object property name must be identifier<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC2389117_Implicitpropertynamemustbeidentifier.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -564,10 +563,10 @@
                         <rule>
                             <key>SPC2389118</key>
                             <priority>MAJOR</priority>
-                            <name><![CDATA[Implicit object property name must be identifier]]></name>
+                            <name><![CDATA[Setter method must have a single format argument]]></name>
                             <description>
-                                <![CDATA[Implicit object property name must be identifier<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC2389118_Implicitpropertynamemustbeidentifier">See SPCAF documentation</a>
+                                <![CDATA[Setter method must have a single format argument<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC2389118_Settermusthaveoneparameter.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -575,10 +574,10 @@
                         <rule>
                             <key>SPC2389119</key>
                             <priority>MAJOR</priority>
-                            <name><![CDATA[Setter method must have a single format argument]]></name>
+                            <name><![CDATA[Rest parameter can only be last parameter]]></name>
                             <description>
-                                <![CDATA[Setter method must have a single format argument<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC2389119_Settermusthaveoneparameter">See SPCAF documentation</a>
+                                <![CDATA[Rest parameter can only be last parameter<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC2389119_Restparameternotlast.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -586,10 +585,10 @@
                         <rule>
                             <key>SPC2389120</key>
                             <priority>MAJOR</priority>
-                            <name><![CDATA[Rest parameter can only be last parameter]]></name>
+                            <name><![CDATA[Unable to convert to binding syntax]]></name>
                             <description>
-                                <![CDATA[Rest parameter can only be last parameter<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC2389120_Restparameternotlast">See SPCAF documentation</a>
+                                <![CDATA[Unable to convert to binding syntax<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC2389120_Unabletoconverttobinding.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -597,10 +596,10 @@
                         <rule>
                             <key>SPC2389121</key>
                             <priority>MAJOR</priority>
-                            <name><![CDATA[Unable to convert to binding syntax]]></name>
+                            <name><![CDATA[Unable to convert from binding syntax]]></name>
                             <description>
-                                <![CDATA[Unable to convert to binding syntax<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC2389121_Unabletoconverttobinding">See SPCAF documentation</a>
+                                <![CDATA[Unable to convert from binding syntax<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC2389121_Unabletoconvertfrombinding.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -608,10 +607,10 @@
                         <rule>
                             <key>SPC2389122</key>
                             <priority>MAJOR</priority>
-                            <name><![CDATA[Unable to convert from binding syntax]]></name>
+                            <name><![CDATA[Invalid binding syntax]]></name>
                             <description>
-                                <![CDATA[Unable to convert from binding syntax<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC2389122_Unabletoconvertfrombinding">See SPCAF documentation</a>
+                                <![CDATA[Invalid binding syntax<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC2389122_Badbindingsyntax.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -619,10 +618,10 @@
                         <rule>
                             <key>SPC2389123</key>
                             <priority>MAJOR</priority>
-                            <name><![CDATA[Invalid binding syntax]]></name>
+                            <name><![CDATA[Methods not allowed in object literal bindings]]></name>
                             <description>
-                                <![CDATA[Invalid binding syntax<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC2389123_Badbindingsyntax">See SPCAF documentation</a>
+                                <![CDATA[Methods not allowed in object literal bindings<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC2389123_Methodsnotallowedinbindings.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -630,10 +629,10 @@
                         <rule>
                             <key>SPC2389124</key>
                             <priority>MAJOR</priority>
-                            <name><![CDATA[Methods not allowed in object literal bindings]]></name>
+                            <name><![CDATA[Expected for or if keyword]]></name>
                             <description>
-                                <![CDATA[Methods not allowed in object literal bindings<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC2389124_Methodsnotallowedinbindings">See SPCAF documentation</a>
+                                <![CDATA[Expected for or if keyword<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC2389124_Nofororif.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -641,10 +640,10 @@
                         <rule>
                             <key>SPC2389125</key>
                             <priority>MAJOR</priority>
-                            <name><![CDATA[Expected for or if keyword]]></name>
+                            <name><![CDATA[Expected class element]]></name>
                             <description>
-                                <![CDATA[Expected for or if keyword<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC2389125_Nofororif">See SPCAF documentation</a>
+                                <![CDATA[Expected class element<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC2389125_Classelementexpected.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -652,10 +651,10 @@
                         <rule>
                             <key>SPC2389126</key>
                             <priority>MAJOR</priority>
-                            <name><![CDATA[Expected class element]]></name>
+                            <name><![CDATA[Duplicate class element name]]></name>
                             <description>
-                                <![CDATA[Expected class element<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC2389126_Classelementexpected">See SPCAF documentation</a>
+                                <![CDATA[Duplicate class element name<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC2389126_Duplicateclasselementname.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -663,10 +662,10 @@
                         <rule>
                             <key>SPC2389127</key>
                             <priority>MAJOR</priority>
-                            <name><![CDATA[Duplicate class element name]]></name>
+                            <name><![CDATA[Class constructor must be regular method]]></name>
                             <description>
-                                <![CDATA[Duplicate class element name<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC2389127_Duplicateclasselementname">See SPCAF documentation</a>
+                                <![CDATA[Class constructor must be regular method<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC2389127_Specialconstructor.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -674,10 +673,10 @@
                         <rule>
                             <key>SPC2389128</key>
                             <priority>MAJOR</priority>
-                            <name><![CDATA[Class constructor must be regular method]]></name>
+                            <name><![CDATA[Class static method cannot be named 'prototype']]></name>
                             <description>
-                                <![CDATA[Class constructor must be regular method<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC2389128_Specialconstructor">See SPCAF documentation</a>
+                                <![CDATA[Class static method cannot be named 'prototype'<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC2389128_Staticprototype.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -685,10 +684,10 @@
                         <rule>
                             <key>SPC2389129</key>
                             <priority>MAJOR</priority>
-                            <name><![CDATA[Class static method cannot be named 'prototype']]></name>
+                            <name><![CDATA[Expected binding]]></name>
                             <description>
-                                <![CDATA[Class static method cannot be named 'prototype'<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC2389129_Staticprototype">See SPCAF documentation</a>
+                                <![CDATA[Expected binding<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC2389129_Nobinding.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -696,10 +695,10 @@
                         <rule>
                             <key>SPC2389130</key>
                             <priority>MAJOR</priority>
-                            <name><![CDATA[Expected binding]]></name>
+                            <name><![CDATA[Multiple default exports]]></name>
                             <description>
-                                <![CDATA[Expected binding<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC2389130_Nobinding">See SPCAF documentation</a>
+                                <![CDATA[Multiple default exports<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC2389130_Multipledefaultexports.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -707,10 +706,10 @@
                         <rule>
                             <key>SPC2389131</key>
                             <priority>MAJOR</priority>
-                            <name><![CDATA[Multiple default exports]]></name>
+                            <name><![CDATA[Import statement must include module name]]></name>
                             <description>
-                                <![CDATA[Multiple default exports<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC2389131_Multipledefaultexports">See SPCAF documentation</a>
+                                <![CDATA[Import statement must include module name<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC2389131_Importnomodulename.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -718,10 +717,10 @@
                         <rule>
                             <key>SPC2389132</key>
                             <priority>MAJOR</priority>
-                            <name><![CDATA[Import statement must include module name]]></name>
+                            <name><![CDATA[Duplicate module declaration]]></name>
                             <description>
-                                <![CDATA[Import statement must include module name<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC2389132_Importnomodulename">See SPCAF documentation</a>
+                                <![CDATA[Duplicate module declaration<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC2389132_Duplicatemoduledeclaration.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -729,10 +728,10 @@
                         <rule>
                             <key>SPC2389133</key>
                             <priority>MAJOR</priority>
-                            <name><![CDATA[Duplicate module declaration]]></name>
+                            <name><![CDATA[Imported module has no default export]]></name>
                             <description>
-                                <![CDATA[Duplicate module declaration<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC2389133_Duplicatemoduledeclaration">See SPCAF documentation</a>
+                                <![CDATA[Imported module has no default export<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC2389133_Nodefaultmoduleexport.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -740,10 +739,10 @@
                         <rule>
                             <key>SPC2389134</key>
                             <priority>MAJOR</priority>
-                            <name><![CDATA[Imported module has no default export]]></name>
+                            <name><![CDATA[Expected 'from']]></name>
                             <description>
-                                <![CDATA[Imported module has no default export<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC2389134_Nodefaultmoduleexport">See SPCAF documentation</a>
+                                <![CDATA[Expected 'from'<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC2389134_Noexpectedfrom.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -751,10 +750,10 @@
                         <rule>
                             <key>SPC2389135</key>
                             <priority>MAJOR</priority>
-                            <name><![CDATA[Expected 'from']]></name>
+                            <name><![CDATA[Expected string literal]]></name>
                             <description>
-                                <![CDATA[Expected 'from'<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC2389135_Noexpectedfrom">See SPCAF documentation</a>
+                                <![CDATA[Expected string literal<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC2389135_Nostringliteral.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -762,10 +761,10 @@
                         <rule>
                             <key>SPC2389136</key>
                             <priority>MAJOR</priority>
-                            <name><![CDATA[Expected string literal]]></name>
+                            <name><![CDATA[Expected specifier set]]></name>
                             <description>
-                                <![CDATA[Expected string literal<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC2389136_Nostringliteral">See SPCAF documentation</a>
+                                <![CDATA[Expected specifier set<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC2389136_Nospecifierset.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -773,10 +772,10 @@
                         <rule>
                             <key>SPC2389137</key>
                             <priority>MAJOR</priority>
-                            <name><![CDATA[Expected specifier set]]></name>
+                            <name><![CDATA[Arrow functions cannot be constructors]]></name>
                             <description>
-                                <![CDATA[Expected specifier set<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC2389137_Nospecifierset">See SPCAF documentation</a>
+                                <![CDATA[Arrow functions cannot be constructors<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC2389137_Arrowcannotbeconstructor.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -784,10 +783,10 @@
                         <rule>
                             <key>SPC2389138</key>
                             <priority>MAJOR</priority>
-                            <name><![CDATA[Arrow functions cannot be constructors]]></name>
+                            <name><![CDATA[Application Error]]></name>
                             <description>
-                                <![CDATA[Arrow functions cannot be constructors<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC2389138_Arrowcannotbeconstructor">See SPCAF documentation</a>
+                                <![CDATA[Application Error<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC2389138_Applicationerror.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -795,21 +794,10 @@
                         <rule>
                             <key>SPC2389139</key>
                             <priority>MAJOR</priority>
-                            <name><![CDATA[Application Error]]></name>
-                            <description>
-                                <![CDATA[Application Error<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC2389139_Applicationerror">See SPCAF documentation</a>
-                                </p>]]>
-                            </description>
-                            <tag>spcaf</tag>
-                        </rule>
-                        <rule>
-                            <key>SPC2389140</key>
-                            <priority>MAJOR</priority>
                             <name><![CDATA[No Source Error]]></name>
                             <description>
                                 <![CDATA[No Source Error<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC2389140_Nosource">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC2389139_Nosource.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -820,7 +808,7 @@
                             <name><![CDATA[Could not parse JavaScript code]]></name>
                             <description>
                                 <![CDATA[Could not parse JavaScript code<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC238950_Parsererror">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC238950_Parsererror.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -831,7 +819,7 @@
                             <name><![CDATA[Syntax error]]></name>
                             <description>
                                 <![CDATA[Syntax error<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC238951_Syntaxerror">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC238951_Syntaxerror.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -842,7 +830,7 @@
                             <name><![CDATA[Expected ':']]></name>
                             <description>
                                 <![CDATA[Expected ':'<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC238952_Nocolon">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC238952_Nocolon.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -853,7 +841,7 @@
                             <name><![CDATA[Expected ';']]></name>
                             <description>
                                 <![CDATA[Expected ';'<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC238953_Nosemicolon">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC238953_Nosemicolon.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -864,7 +852,7 @@
                             <name><![CDATA[Expected '(']]></name>
                             <description>
                                 <![CDATA[Expected '('<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC238954_Noleftparenthesis">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC238954_Noleftparenthesis.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -875,7 +863,7 @@
                             <name><![CDATA[Expected ')']]></name>
                             <description>
                                 <![CDATA[Expected ')'<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC238955_Norightparenthesis">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC238955_Norightparenthesis.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -886,7 +874,7 @@
                             <name><![CDATA[Expected ']']]></name>
                             <description>
                                 <![CDATA[Expected ']'<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC238956_Norightbracket">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC238956_Norightbracket.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -897,7 +885,7 @@
                             <name><![CDATA[Expected '{']]></name>
                             <description>
                                 <![CDATA[Expected '{'<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC238957_Noleftcurly">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC238957_Noleftcurly.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -908,7 +896,7 @@
                             <name><![CDATA[Expected '}']]></name>
                             <description>
                                 <![CDATA[Expected '}'<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC238958_Norightcurly">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC238958_Norightcurly.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -919,7 +907,7 @@
                             <name><![CDATA[Expected identifier]]></name>
                             <description>
                                 <![CDATA[Expected identifier<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC238959_Noidentifier">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC238959_Noidentifier.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -930,7 +918,7 @@
                             <name><![CDATA[Expected '=']]></name>
                             <description>
                                 <![CDATA[Expected '='<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC238960_Noequal">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC238960_Noequal.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -941,7 +929,7 @@
                             <name><![CDATA[Illegal assignment]]></name>
                             <description>
                                 <![CDATA[Illegal assignment<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC238961_Illegalassignment">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC238961_Illegalassignment.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -952,7 +940,7 @@
                             <name><![CDATA[Syntax error in regular expression]]></name>
                             <description>
                                 <![CDATA[Syntax error in regular expression<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC238962_Regexpsyntax">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC238962_Regexpsyntax.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -963,7 +951,7 @@
                             <name><![CDATA[Invalid character]]></name>
                             <description>
                                 <![CDATA[Invalid character<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC238963_Illegalchar">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC238963_Illegalchar.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -974,7 +962,7 @@
                             <name><![CDATA[Unterminated string constant]]></name>
                             <description>
                                 <![CDATA[Unterminated string constant<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC238964_Unterminatedstring">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC238964_Unterminatedstring.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -985,7 +973,7 @@
                             <name><![CDATA[Unterminated comment]]></name>
                             <description>
                                 <![CDATA[Unterminated comment<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC238965_Nocommentend">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC238965_Nocommentend.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -996,7 +984,7 @@
                             <name><![CDATA['return' statement outside of function]]></name>
                             <description>
                                 <![CDATA['return' statement outside of function<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC238966_Badreturn">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC238966_Badreturn.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -1007,7 +995,7 @@
                             <name><![CDATA[Can't have 'break' outside of loop]]></name>
                             <description>
                                 <![CDATA[Can't have 'break' outside of loop<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC238967_Badbreak">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC238967_Badbreak.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -1018,7 +1006,7 @@
                             <name><![CDATA[Can't have 'continue' outside of loop]]></name>
                             <description>
                                 <![CDATA[Can't have 'continue' outside of loop<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC238968_Badcontinue">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC238968_Badcontinue.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -1029,7 +1017,7 @@
                             <name><![CDATA[unused label]]></name>
                             <description>
                                 <![CDATA[unused label<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC238969_Unusedlabel">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC238969_Unusedlabel.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -1040,7 +1028,7 @@
                             <name><![CDATA[Expected hexadecimal digit]]></name>
                             <description>
                                 <![CDATA[Expected hexadecimal digit<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC238970_Badhexescapesequence">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC238970_Badhexescapesequence.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -1051,7 +1039,7 @@
                             <name><![CDATA[Expected 'while']]></name>
                             <description>
                                 <![CDATA[Expected 'while'<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC238971_Nowhile">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC238971_Nowhile.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -1062,7 +1050,7 @@
                             <name><![CDATA[Label redefined]]></name>
                             <description>
                                 <![CDATA[Label redefined<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC238972_Badlabel">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC238972_Badlabel.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -1073,7 +1061,7 @@
                             <name><![CDATA[Label not found]]></name>
                             <description>
                                 <![CDATA[Label not found<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC238973_Nolabel">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC238973_Nolabel.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -1084,7 +1072,7 @@
                             <name><![CDATA['default' can only appear once in a 'switch' statement]]></name>
                             <description>
                                 <![CDATA['default' can only appear once in a 'switch' statement<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC238974_Dupdefault">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC238974_Dupdefault.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -1095,7 +1083,7 @@
                             <name><![CDATA[Expected identifier or string]]></name>
                             <description>
                                 <![CDATA[Expected identifier or string<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC238975_Nomemberidentifier">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC238975_Nomemberidentifier.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -1106,7 +1094,7 @@
                             <name><![CDATA[Expected '@end']]></name>
                             <description>
                                 <![CDATA[Expected '@end'<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC238976_Noccend">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC238976_Noccend.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -1117,7 +1105,7 @@
                             <name><![CDATA[Conditional compilation is turned off]]></name>
                             <description>
                                 <![CDATA[Conditional compilation is turned off<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC238977_Ccoff">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC238977_Ccoff.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -1128,7 +1116,7 @@
                             <name><![CDATA[Expected 'catch']]></name>
                             <description>
                                 <![CDATA[Expected 'catch'<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC238978_Nocatch">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC238978_Nocatch.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -1139,7 +1127,7 @@
                             <name><![CDATA[Unmatched 'else'; no 'if' defined]]></name>
                             <description>
                                 <![CDATA[Unmatched 'else'; no 'if' defined<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC238979_Invalidelse">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC238979_Invalidelse.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -1150,7 +1138,7 @@
                             <name><![CDATA[Expected ',']]></name>
                             <description>
                                 <![CDATA[Expected ','<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC238980_Nocomma">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC238980_Nocomma.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -1161,7 +1149,7 @@
                             <name><![CDATA[Missing 'case' or 'default' statement]]></name>
                             <description>
                                 <![CDATA[Missing 'case' or 'default' statement<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC238981_Badswitch">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC238981_Badswitch.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -1172,7 +1160,7 @@
                             <name><![CDATA[Unmatched '@end'; no '@if' defined]]></name>
                             <description>
                                 <![CDATA[Unmatched '@end'; no '@if' defined<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC238982_Ccinvalidend">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC238982_Ccinvalidend.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -1183,7 +1171,7 @@
                             <name><![CDATA[Unmatched '@else'; no '@if' defined]]></name>
                             <description>
                                 <![CDATA[Unmatched '@else'; no '@if' defined<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC238983_Ccinvalidelse">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC238983_Ccinvalidelse.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -1194,7 +1182,7 @@
                             <name><![CDATA[Unmatched '@elif'; no '@if' defined]]></name>
                             <description>
                                 <![CDATA[Unmatched '@elif'; no '@if' defined<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC238984_Ccinvalidelseif">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC238984_Ccinvalidelseif.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -1205,7 +1193,18 @@
                             <name><![CDATA[Expecting more source characters]]></name>
                             <description>
                                 <![CDATA[Expecting more source characters<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC238985_Errorendoffile">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC238985_Errorendoffile.html">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPC238986</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Expected ',' or ')']]></name>
+                            <description>
+                                <![CDATA[Expected ',' or ')'<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC238986_Norightparenthesisorcomma.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -1213,10 +1212,10 @@
                         <rule>
                             <key>SPC238987</key>
                             <priority>MAJOR</priority>
-                            <name><![CDATA[Expected ',' or ')']]></name>
+                            <name><![CDATA[Expected ',' or ']']]></name>
                             <description>
-                                <![CDATA[Expected ',' or ')'<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC238987_Norightparenthesisorcomma">See SPCAF documentation</a>
+                                <![CDATA[Expected ',' or ']'<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC238987_Norightbracketorcomma.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -1224,10 +1223,10 @@
                         <rule>
                             <key>SPC238988</key>
                             <priority>MAJOR</priority>
-                            <name><![CDATA[Expected ',' or ']']]></name>
+                            <name><![CDATA[Expected expression]]></name>
                             <description>
-                                <![CDATA[Expected ',' or ']'<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC238988_Norightbracketorcomma">See SPCAF documentation</a>
+                                <![CDATA[Expected expression<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC238988_Expressionexpected.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -1235,10 +1234,10 @@
                         <rule>
                             <key>SPC238989</key>
                             <priority>MAJOR</priority>
-                            <name><![CDATA[Expected expression]]></name>
+                            <name><![CDATA[Unexpected ';']]></name>
                             <description>
-                                <![CDATA[Expected expression<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC238989_Expressionexpected">See SPCAF documentation</a>
+                                <![CDATA[Unexpected ';'<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC238989_Unexpectedsemicolon.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -1246,10 +1245,10 @@
                         <rule>
                             <key>SPC238990</key>
                             <priority>MAJOR</priority>
-                            <name><![CDATA[Unexpected ';']]></name>
+                            <name><![CDATA[Too many tokens have been skipped in the process of recovering from errors. The file may not be a JScript.NET file]]></name>
                             <description>
-                                <![CDATA[Unexpected ';'<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC238990_Unexpectedsemicolon">See SPCAF documentation</a>
+                                <![CDATA[Too many tokens have been skipped in the process of recovering from errors. The file may not be a JScript.NET file<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC238990_Toomanytokensskipped.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -1257,10 +1256,10 @@
                         <rule>
                             <key>SPC238991</key>
                             <priority>MAJOR</priority>
-                            <name><![CDATA[Too many tokens have been skipped in the process of recovering from errors. The file may not be a JScript.NET file]]></name>
+                            <name><![CDATA[Did you intend to have an empty statement for this branch of the if statement?]]></name>
                             <description>
-                                <![CDATA[Too many tokens have been skipped in the process of recovering from errors. The file may not be a JScript.NET file<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC238991_Toomanytokensskipped">See SPCAF documentation</a>
+                                <![CDATA[Did you intend to have an empty statement for this branch of the if statement?<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC238991_Suspectsemicolon.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -1268,10 +1267,10 @@
                         <rule>
                             <key>SPC238992</key>
                             <priority>MAJOR</priority>
-                            <name><![CDATA[Did you intend to have an empty statement for this branch of the if statement?]]></name>
+                            <name><![CDATA[A variable argument list must be the last argument]]></name>
                             <description>
-                                <![CDATA[Did you intend to have an empty statement for this branch of the if statement?<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC238992_Suspectsemicolon">See SPCAF documentation</a>
+                                <![CDATA[A variable argument list must be the last argument<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC238992_Parameterlistnotlast.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -1279,10 +1278,10 @@
                         <rule>
                             <key>SPC238993</key>
                             <priority>MAJOR</priority>
-                            <name><![CDATA[A variable argument list must be the last argument]]></name>
+                            <name><![CDATA[Function expression expected]]></name>
                             <description>
-                                <![CDATA[A variable argument list must be the last argument<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC238993_Parameterlistnotlast">See SPCAF documentation</a>
+                                <![CDATA[Function expression expected<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC238993_Functionexpressionexpected.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -1290,10 +1289,10 @@
                         <rule>
                             <key>SPC238994</key>
                             <priority>MAJOR</priority>
-                            <name><![CDATA[Function expression expected]]></name>
+                            <name><![CDATA[JSParser Exception]]></name>
                             <description>
-                                <![CDATA[Function expression expected<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC238994_Functionexpressionexpected">See SPCAF documentation</a>
+                                <![CDATA[JSParser Exception<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC238994_Jsparserexception.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -1301,10 +1300,10 @@
                         <rule>
                             <key>SPC238995</key>
                             <priority>MAJOR</priority>
-                            <name><![CDATA[JSParser Exception]]></name>
+                            <name><![CDATA[Resource reference must be single constant value]]></name>
                             <description>
-                                <![CDATA[JSParser Exception<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC238995_Jsparserexception">See SPCAF documentation</a>
+                                <![CDATA[Resource reference must be single constant value<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC238995_Resourcereferencemustbeconstant.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -1312,10 +1311,10 @@
                         <rule>
                             <key>SPC238996</key>
                             <priority>MAJOR</priority>
-                            <name><![CDATA[Resource reference must be single constant value]]></name>
+                            <name><![CDATA[Conditiona compilation structure too complex]]></name>
                             <description>
-                                <![CDATA[Resource reference must be single constant value<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC238996_Resourcereferencemustbeconstant">See SPCAF documentation</a>
+                                <![CDATA[Conditiona compilation structure too complex<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC238996_Conditionalcompilationtoocomplex.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -1323,10 +1322,10 @@
                         <rule>
                             <key>SPC238997</key>
                             <priority>MAJOR</priority>
-                            <name><![CDATA[Conditiona compilation structure too complex]]></name>
+                            <name><![CDATA[Unterminated ASP.NET block]]></name>
                             <description>
-                                <![CDATA[Conditiona compilation structure too complex<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC238997_Conditionalcompilationtoocomplex">See SPCAF documentation</a>
+                                <![CDATA[Unterminated ASP.NET block<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC238997_Unterminatedaspnetblock.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -1334,10 +1333,10 @@
                         <rule>
                             <key>SPC238998</key>
                             <priority>MAJOR</priority>
-                            <name><![CDATA[Unterminated ASP.NET block]]></name>
+                            <name><![CDATA[Strict-mode does not allow with-statements]]></name>
                             <description>
-                                <![CDATA[Unterminated ASP.NET block<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC238998_Unterminatedaspnetblock">See SPCAF documentation</a>
+                                <![CDATA[Strict-mode does not allow with-statements<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC238998_Strictmodenowith.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -1345,10 +1344,10 @@
                         <rule>
                             <key>SPC238999</key>
                             <priority>MAJOR</priority>
-                            <name><![CDATA[Strict-mode does not allow with-statements]]></name>
+                            <name><![CDATA[Strict-mode does not allow duplicate argument names]]></name>
                             <description>
-                                <![CDATA[Strict-mode does not allow with-statements<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC238999_Strictmodenowith">See SPCAF documentation</a>
+                                <![CDATA[Strict-mode does not allow duplicate argument names<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC238999_Strictmodeduplicateargument.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -1359,7 +1358,7 @@
                             <name><![CDATA[Use of eval can compromise site security]]></name>
                             <description>
                                 <![CDATA[Use of eval, and eval type functions causes severe security cross site scripting attack loopholes, on the site<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC028901_EvalEvil">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC028901_EvalEvil.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -1370,7 +1369,7 @@
                             <name><![CDATA[Use of implied eval can compromise site security]]></name>
                             <description>
                                 <![CDATA[Use of implied eval, and eval type functions causes severe security cross site scripting attack loopholes, on the site<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC028902_ImpliedEvalEvil">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC028902_ImpliedEvalEvil.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -1381,7 +1380,7 @@
                             <name><![CDATA[Disallow use of script URLs]]></name>
                             <description>
                                 <![CDATA[This causes the browser to eval the code target, opening up a point for a cross site scripting attack<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC028903_NoScriptUrls">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC028903_NoScriptUrls.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -1392,7 +1391,7 @@
                             <name><![CDATA[Consider to disallow use of Comma Operator]]></name>
                             <description>
                                 <![CDATA[The comma operator used in sequences can cause confusion what the code should actually return<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC028904_NoCommaOperator">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC028904_NoCommaOperator.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -1403,7 +1402,7 @@
                             <name><![CDATA[Consider the use of a Namespace registration method, instead of object chains]]></name>
                             <description>
                                 <![CDATA[Warning, do not declare code in the global namespace directly. Instead consider using the $_global_ namespace pattern with a Namespace registration method, this will ensure correct execution with the MDS garbage collector<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC038902_ConsiderUseOfNamespaceRegistration">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC038902_ConsiderUseOfNamespaceRegistration.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -1414,7 +1413,7 @@
                             <name><![CDATA[Variable names considered reserved for SharePoint]]></name>
                             <description>
                                 <![CDATA[Some variable names are considered reserved in SharePoint Context<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC038903_ReservedWordsInSharePointJS">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC038903_ReservedWordsInSharePointJS.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -1425,7 +1424,7 @@
                             <name><![CDATA[Consider to use built in helper method, instead of type checking null, and undefined]]></name>
                             <description>
                                 <![CDATA[Consider to use built in helper method from SharePoint (SP.ScriptUtility isNullOrEmptyString, isNullorUndefined, isUndefined and truncateToInt), instead of type checking null, and undefined<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC038904_ConsiderToNotTypeCheckDirectlyNullOrUndefined">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC038904_ConsiderToNotTypeCheckDirectlyNullOrUndefined.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -1436,7 +1435,7 @@
                             <name><![CDATA[Consider to not use $]]></name>
                             <description>
                                 <![CDATA[Consider to not use $ in your code in SharePoint 2010 directory. The $ variable is registered by SharePoint for the CMS Site Manager, and the Asset Portal Browser.<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC038905_NoDollarInSharePoint2010">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC038905_NoDollarInSharePoint2010.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -1447,7 +1446,7 @@
                             <name><![CDATA[Warning, document.all only works in IE8]]></name>
                             <description>
                                 <![CDATA[Warning, document.all only works in IE8, and is not supported in ECMAScript<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC038906_DocumentAllIE8Only">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC038906_DocumentAllIE8Only.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -1458,7 +1457,7 @@
                             <name><![CDATA[Consider using a "Value and Type" comparison in if statements]]></name>
                             <description>
                                 <![CDATA[Consider using a "Value and Type" comparison in if statements, it is possible for values to be the same but types to be different. This helps to prevent cases such as "0 == false" from occuring. This isn't required were a type is asserted<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC058901_ConsiderToUseStrongComparisonInIfStatements">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC058901_ConsiderToUseStrongComparisonInIfStatements.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -1469,7 +1468,7 @@
                             <name><![CDATA[Consider not using 'arguments.callee' and arguments.caller']]></name>
                             <description>
                                 <![CDATA[Consider not using 'arguments.callee' and 'arguments.caller', these have been deprecated to allow for code optimisations in JavaScript. Consider replacing with a recursive callback were required<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC058902_DeprecatedCodeCallerAndCallee">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC058902_DeprecatedCodeCallerAndCallee.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -1480,7 +1479,7 @@
                             <name><![CDATA[Consider to not use empty labels]]></name>
                             <description>
                                 <![CDATA[Consider to not use empty labels, goto is not supported in ECMAScript<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC058903_NoEmptyLabels">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC058903_NoEmptyLabels.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -1491,7 +1490,7 @@
                             <name><![CDATA[Missing break in switch statement]]></name>
                             <description>
                                 <![CDATA[Missing break in switch statement, In most cases this is an error<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC058904_DisallowCaseStatementFallthrough">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC058904_DisallowCaseStatementFallthrough.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -1502,7 +1501,7 @@
                             <name><![CDATA[__iterator__ is a reserved word]]></name>
                             <description>
                                 <![CDATA[The __iterator__ property is not implemented in all browsers<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC058905_NoIterator">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC058905_NoIterator.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -1513,7 +1512,7 @@
                             <name><![CDATA[Do not reassign native objects]]></name>
                             <description>
                                 <![CDATA[Native objects are protected from ECMA6 due to issues with reassigning<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC058906_NoNativeReassign">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC058906_NoNativeReassign.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -1524,7 +1523,7 @@
                             <name><![CDATA[Do not use new keyword without assignment]]></name>
                             <description>
                                 <![CDATA[This creates an object without assignment to a variable<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC058907_NoNewKeywordWithoutAssign">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC058907_NoNewKeywordWithoutAssign.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -1535,7 +1534,7 @@
                             <name><![CDATA[Disallow use of the function constructor]]></name>
                             <description>
                                 <![CDATA[This is implied code evaluation, the function contructor cause cross site scripting attack vulnerabilities in the code<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC058908_DisallowFunctionConstructor">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC058908_DisallowFunctionConstructor.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -1546,7 +1545,7 @@
                             <name><![CDATA[Consider to disallow primitive wrapper instances]]></name>
                             <description>
                                 <![CDATA[Objects created from primitive wrappers, are not the same as the primitives themseleves, and used only internally<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC058909_DisallowPrimitiveWrapperInstances">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC058909_DisallowPrimitiveWrapperInstances.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -1557,7 +1556,7 @@
                             <name><![CDATA[__proto__ is a reserved word]]></name>
                             <description>
                                 <![CDATA[The __proto__ property is not implemented in all browsers<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC058910_NoProto">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC058910_NoProto.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -1565,21 +1564,10 @@
                         <rule>
                             <key>SPC0589100</key>
                             <priority>MINOR</priority>
-                            <name><![CDATA[Unused label]]></name>
-                            <description>
-                                <![CDATA[Unused label<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC0589100_Unusedlabel">See SPCAF documentation</a>
-                                </p>]]>
-                            </description>
-                            <tag>spcaf</tag>
-                        </rule>
-                        <rule>
-                            <key>SPC0589101</key>
-                            <priority>MINOR</priority>
                             <name><![CDATA[With statement is not recommended]]></name>
                             <description>
                                 <![CDATA[With statement is not recommended<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC0589101_Withnotrecommended">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC0589100_Withnotrecommended.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -1590,7 +1578,7 @@
                             <name><![CDATA[Consider to not allow assignment in return statements]]></name>
                             <description>
                                 <![CDATA[Assigning values inside a return statement, can cause confusion as to the codes intent<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC058911_NoAssignmentInReturn">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC058911_NoAssignmentInReturn.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -1601,7 +1589,7 @@
                             <name><![CDATA[Always supply a radix with parseInt]]></name>
                             <description>
                                 <![CDATA[You must always supply a radix with parseInt, as some valid values will be shown as NaN (Not a Number)<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC058912_AlwaysSupplyRadixWithParseInt">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC058912_AlwaysSupplyRadixWithParseInt.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -1612,7 +1600,7 @@
                             <name><![CDATA[Do not declare code in the global namespace directly]]></name>
                             <description>
                                 <![CDATA[Do not declare code in the global namespace directly. Instead consider using the $_global_ namespace pattern with Namespace registration, this will ensure correct execution with the MDS garbage collector<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC058913_CodeDeclaredInGlobalNamespace">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC058913_CodeDeclaredInGlobalNamespace.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -1623,7 +1611,7 @@
                             <name><![CDATA[Argument was defined but not referenced]]></name>
                             <description>
                                 <![CDATA[Argument was defined but not referenced<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC058984_Argumentnotreferenced">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC058984_Argumentnotreferenced.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -1634,7 +1622,7 @@
                             <name><![CDATA[A function was defined but not referenced]]></name>
                             <description>
                                 <![CDATA[A function was defined but not referenced<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC058986_Functionnotreferenced">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC058986_Functionnotreferenced.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -1645,7 +1633,7 @@
                             <name><![CDATA[Function has not been declared]]></name>
                             <description>
                                 <![CDATA[Function has not been declared<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC058987_Undeclaredfunction">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC058987_Undeclaredfunction.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -1653,10 +1641,10 @@
                         <rule>
                             <key>SPC058988</key>
                             <priority>MINOR</priority>
-                            <name><![CDATA[Variable has not been declared]]></name>
+                            <name><![CDATA[A variable was defined but not set or referenced]]></name>
                             <description>
-                                <![CDATA[Variable has not been declared<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC058988_Undeclaredvariable">See SPCAF documentation</a>
+                                <![CDATA[A variable was defined but not set or referenced<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC058988_Variabledefinednotreferenced.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -1664,10 +1652,10 @@
                         <rule>
                             <key>SPC058989</key>
                             <priority>MINOR</priority>
-                            <name><![CDATA[A variable was defined but not set or referenced]]></name>
+                            <name><![CDATA[Function name should be a simple identifier; possible browser-specific implementation]]></name>
                             <description>
-                                <![CDATA[A variable was defined but not set or referenced<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC058989_Variabledefinednotreferenced">See SPCAF documentation</a>
+                                <![CDATA[Function name should be a simple identifier; possible browser-specific implementation<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC058989_Functionnamemustbeidentifier.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -1675,21 +1663,21 @@
                         <rule>
                             <key>SPC058990</key>
                             <priority>MINOR</priority>
-                            <name><![CDATA[Function name should be a simple identifier; possible browser-specific implementation]]></name>
+                            <name><![CDATA[Object constructor takes no arguments]]></name>
                             <description>
-                                <![CDATA[Function name should be a simple identifier; possible browser-specific implementation<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC058990_Functionnamemustbeidentifier">See SPCAF documentation</a>
+                                <![CDATA[Object constructor takes no arguments<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC058990_Objectconstructortakesnoarguments.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
                         </rule>
                         <rule>
-                            <key>SPC058991</key>
+                            <key>SPC058994</key>
                             <priority>MINOR</priority>
-                            <name><![CDATA[Object constructor takes no arguments]]></name>
+                            <name><![CDATA[Consider replacing maximum numeric literal with Number.MAX_VALUE]]></name>
                             <description>
-                                <![CDATA[Object constructor takes no arguments<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC058991_Objectconstructortakesnoarguments">See SPCAF documentation</a>
+                                <![CDATA[Consider replacing maximum numeric literal with Number.MAX_VALUE<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC058994_Numericmaximum.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -1697,21 +1685,21 @@
                         <rule>
                             <key>SPC058995</key>
                             <priority>MINOR</priority>
-                            <name><![CDATA[Consider replacing maximum numeric literal with Number.MAX_VALUE]]></name>
+                            <name><![CDATA[Consider replacing minimum numeric literal with Number.MIN_VALUE]]></name>
                             <description>
-                                <![CDATA[Consider replacing maximum numeric literal with Number.MAX_VALUE<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC058995_Numericmaximum">See SPCAF documentation</a>
+                                <![CDATA[Consider replacing minimum numeric literal with Number.MIN_VALUE<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC058995_Numericminimum.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
                         </rule>
                         <rule>
-                            <key>SPC058996</key>
+                            <key>SPC058999</key>
                             <priority>MINOR</priority>
-                            <name><![CDATA[Consider replacing minimum numeric literal with Number.MIN_VALUE]]></name>
+                            <name><![CDATA[Unused label]]></name>
                             <description>
-                                <![CDATA[Consider replacing minimum numeric literal with Number.MIN_VALUE<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC058996_Numericminimum">See SPCAF documentation</a>
+                                <![CDATA[Unused label<p>
+                                    <a href="https://docs.spcaf.com/v6/SPC058999_Unusedlabel.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -1722,7 +1710,7 @@
                             <name><![CDATA[Consider to not use Alert, Confirm and Prompt messages boxes in production code]]></name>
                             <description>
                                 <![CDATA[Consider to not use Alert, Confirm and Prompt messages boxes in production code, as these are considered bad usability<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC198901_PopupMessagesArePoorUsability">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC198901_PopupMessagesArePoorUsability.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -1733,7 +1721,7 @@
                             <name><![CDATA[Consider following curly brace conventions]]></name>
                             <description>
                                 <![CDATA[Consider using curly brace convensions for all if, while, and for block<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC218901_ConsiderFollowingCurlyBraceConventions">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC218901_ConsiderFollowingCurlyBraceConventions.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -1744,7 +1732,7 @@
                             <name><![CDATA[Consider refactoring, too many parameters in function definition, maximum 3]]></name>
                             <description>
                                 <![CDATA[Either use a monadic pattern to only ever use a single object, or refactor the method to reduce parameters, to a maximum of 3 in order to ease readability, and reduce code complexity.<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC218902_LimitMaximumNumberParameters">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC218902_LimitMaximumNumberParameters.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
@@ -1755,7 +1743,73 @@
                             <name><![CDATA[Consider to not reference child methods, or values in a for loop sequence]]></name>
                             <description>
                                 <![CDATA[This is a performance penalty, as this will generate a lookup during every loop<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC228901_NoObjectLookupOrMethodCallsInsideForLoops">See SPCAF documentation</a>
+                                    <a href="https://docs.spcaf.com/v6/SPC228901_NoObjectLookupOrMethodCallsInsideForLoops.html">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPF010801</key>
+                            <priority>MINOR</priority>
+                            <name><![CDATA[Ensure that Web Part properties used in code are defined in the Web Part manifest]]></name>
+                            <description>
+                                <![CDATA[All Web Part properties used in code must be defined in the Web Part manifest<p>
+                                    <a href="https://docs.spcaf.com/v6/SPF010801_DefineWebPartPropertiesSpecifiedInCodeInTheManifest.html">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPF010802</key>
+                            <priority>CRITICAL</priority>
+                            <name><![CDATA[Don't use HttpClient to connect to SharePoint]]></name>
+                            <description>
+                                <![CDATA[Don't use HttpClient to connect to SharePoint. Use the SPHttpClient instead<p>
+                                    <a href="https://docs.spcaf.com/v6/SPF010802_DontUseHttpClientToConnectToSharePoint.html">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPF010803</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Don't use PropertyPaneTextField with numeric properties]]></name>
+                            <description>
+                                <![CDATA[Don't use PropertyPaneTextField with numeric properties<p>
+                                    <a href="https://docs.spcaf.com/v6/SPF010803_DontUsePropertyPaneTextFieldWithNumericProperties.html">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPF020801</key>
+                            <priority>CRITICAL</priority>
+                            <name><![CDATA[Don't load scripts from unapproved locations]]></name>
+                            <description>
+                                <![CDATA[Web Part loads script from a location that hasn't been approved<p>
+                                    <a href="https://docs.spcaf.com/v6/SPF020801_DontLoadScriptsFromUnapprovedLocations.html">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPF020802</key>
+                            <priority>CRITICAL</priority>
+                            <name><![CDATA[Don't use web part properties without escaping]]></name>
+                            <description>
+                                <![CDATA[Web part properties values should be escaped before using them<p>
+                                    <a href="https://docs.spcaf.com/v6/SPF020802_DontUseWebPartPropertiesWithoutEscaping.html">See SPCAF documentation</a>
+                                </p>]]>
+                            </description>
+                            <tag>spcaf</tag>
+                        </rule>
+                        <rule>
+                            <key>SPF050801</key>
+                            <priority>MAJOR</priority>
+                            <name><![CDATA[Validate web part properties' values]]></name>
+                            <description>
+                                <![CDATA[You should always validate web part properties' values<p>
+                                    <a href="https://docs.spcaf.com/v6/SPF050801_ValidateWebPartPropertiesValues.html">See SPCAF documentation</a>
                                 </p>]]>
                             </description>
                             <tag>spcaf</tag>
