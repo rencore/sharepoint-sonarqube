@@ -1,15 +1,13 @@
-
 <rules>
-                        <rule>
-                            <key>SPC159904</key>
-                            <priority>MINOR</priority>
-                            <name><![CDATA[Reference 15 hive within all Styles (.css)]]></name>
-                            <description>
-                                <![CDATA[Paths in Styles to '/_controltemplates/', '/_layouts/' and '/_layouts/images/' should point to 15 hive.<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC159904_Reference15HiveInStyles">See SPCAF documentation</a>
-                                </p>]]>
-                            </description>
-                            <tag>spcaf</tag>
-                        </rule>
-
+                            <rule>
+                                <key>SPC159904</key>
+                                <priority>MINOR</priority>
+                                <name><![CDATA[Reference 15 hive within all Styles (.css)]]></name>
+                                <description>
+                                    <![CDATA[Paths in Styles to '/_controltemplates/', '/_layouts/' and '/_layouts/images/' should point to 15 hive.<p>
+                                        <a href="https://docs.spcaf.com/v7/SPC159904_Reference15HiveInStyles.html">See SPCAF documentation</a>
+                                    </p>]]>
+                                </description>
+                                <tag>spcaf</tag>
+                            </rule>
 </rules>

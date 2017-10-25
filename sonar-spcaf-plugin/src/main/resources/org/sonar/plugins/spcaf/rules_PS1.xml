@@ -1,399 +1,398 @@
-
 <rules>
-                        <rule>
-                            <key>SPC019101</key>
-                            <priority>MAJOR</priority>
-                            <name><![CDATA[Do not use empty Catch Blocks]]></name>
-                            <description>
-                                <![CDATA[Empty catch blocks are a poor design. Always output an error and use error handling in the event of an exception.<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC019101_DoNotUseEmptyCatchBlocks">See SPCAF documentation</a>
-                                </p>]]>
-                            </description>
-                            <tag>spcaf</tag>
-                        </rule>
-                        <rule>
-                            <key>SPC019102</key>
-                            <priority>MAJOR</priority>
-                            <name><![CDATA[Do not invoke non constant members]]></name>
-                            <description>
-                                <![CDATA[Using variable member invocations can result in an empty invocation from occurring. This can result in undesired circumstances.<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC019102_DoNotInvokeNonConstantMembers">See SPCAF documentation</a>
-                                </p>]]>
-                            </description>
-                            <tag>spcaf</tag>
-                        </rule>
-                        <rule>
-                            <key>SPC019103</key>
-                            <priority>CRITICAL</priority>
-                            <name><![CDATA[Do not use special characters in method names]]></name>
-                            <description>
-                                <![CDATA[The use of special characters in method names can result in parser errors when executing the script.<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC019103_DoNotUseSpecialCharactersInmethodNames">See SPCAF documentation</a>
-                                </p>]]>
-                            </description>
-                            <tag>spcaf</tag>
-                        </rule>
-                        <rule>
-                            <key>SPC019104</key>
-                            <priority>CRITICAL</priority>
-                            <name><![CDATA[Do not use reserved words as parameter names]]></name>
-                            <description>
-                                <![CDATA[Exceptions and unwanted bahaviour occurs when reserved words are used as paramater names.<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC019104_DoNotUseReservedWordsAsParameterNames">See SPCAF documentation</a>
-                                </p>]]>
-                            </description>
-                            <tag>spcaf</tag>
-                        </rule>
-                        <rule>
-                            <key>SPC019105</key>
-                            <priority>MAJOR</priority>
-                            <name><![CDATA[Functions that use ShouldProcess sould support Force to bypass]]></name>
-                            <description>
-                                <![CDATA[In order to correctly support the force boolean switch, you need to call ShouldContinue correctly when you call ShouldProcess.<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC019105_CallShouldContinueWhenShouldProcessTrue">See SPCAF documentation</a>
-                                </p>]]>
-                            </description>
-                            <tag>spcaf</tag>
-                        </rule>
-                        <rule>
-                            <key>SPC019106</key>
-                            <priority>MAJOR</priority>
-                            <name><![CDATA[Do not use trap statements]]></name>
-                            <description>
-                                <![CDATA[Trap statements are designed for administrators. Try Catch should be used in all written script files. History: Trap was implemented in v1, because it was all the PowerShell team had time to implement.<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC019106_DoNotUseTrapStatement">See SPCAF documentation</a>
-                                </p>]]>
-                            </description>
-                            <tag>spcaf</tag>
-                        </rule>
-                        <rule>
-                            <key>SPC019107</key>
-                            <priority>MAJOR</priority>
-                            <name><![CDATA[Do not use unitialized variables]]></name>
-                            <description>
-                                <![CDATA[Uninitialized variables will cause script errors, and should never be used before assignment.<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC019107_DoNotUseUninitializedVariables">See SPCAF documentation</a>
-                                </p>]]>
-                            </description>
-                            <tag>spcaf</tag>
-                        </rule>
-                        <rule>
-                            <key>SPC019108</key>
-                            <priority>MAJOR</priority>
-                            <name><![CDATA[Incorrect precedence for comparison operator against null]]></name>
-                            <description>
-                                <![CDATA[If the item on the left hand side is an Array, PowerShell will automatically check the whole Array for null.<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC019108_IncorrectComparisonAgainstNull">See SPCAF documentation</a>
-                                </p>]]>
-                            </description>
-                            <tag>spcaf</tag>
-                        </rule>
-                        <rule>
-                            <key>SPC019109</key>
-                            <priority>MINOR</priority>
-                            <name><![CDATA[Use only approved verbs]]></name>
-                            <description>
-                                <![CDATA[The approved verbs are designed to describe the scope of the action, not using them can confuse the scripts intention to the end user.<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC019109_UseCorrectVerbs">See SPCAF documentation</a>
-                                </p>]]>
-                            </description>
-                            <tag>spcaf</tag>
-                        </rule>
-                        <rule>
-                            <key>SPC019110</key>
-                            <priority>MAJOR</priority>
-                            <name><![CDATA[Use a Byte Order Mark with non Ascii files]]></name>
-                            <description>
-                                <![CDATA[Ascii is a 7-bit to the byte encoding. Files that use UTF-8/UTF-16 or another encoding should use a byte order mark to allow identification.<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC019110_UseBOMWhenNotUsingAscii">See SPCAF documentation</a>
-                                </p>]]>
-                            </description>
-                            <tag>spcaf</tag>
-                        </rule>
-                        <rule>
-                            <key>SPC019111</key>
-                            <priority>MAJOR</priority>
-                            <name><![CDATA[Call CmdLets with correct parameters]]></name>
-                            <description>
-                                <![CDATA[CmdLets must be called with the correct syntax and parameters.<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC019111_UseCmdLetsCorrectly">See SPCAF documentation</a>
-                                </p>]]>
-                            </description>
-                            <tag>spcaf</tag>
-                        </rule>
-                        <rule>
-                            <key>SPC019112</key>
-                            <priority>MINOR</priority>
-                            <name><![CDATA[Remove unused variable]]></name>
-                            <description>
-                                <![CDATA[Variables that have been assigned but not used should be removed for better supportability in the future. Having unused variables can confuse the scripts intent.<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC019112_RemoveUnusedVariables">See SPCAF documentation</a>
-                                </p>]]>
-                            </description>
-                            <tag>spcaf</tag>
-                        </rule>
-                        <rule>
-                            <key>SPC019113</key>
-                            <priority>MAJOR</priority>
-                            <name><![CDATA[Declare output types correctly]]></name>
-                            <description>
-                                <![CDATA[No exception will be thrown if you pass the wrong type, which can result in undesired results.<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC019113_DeclareOutputTypesCorrectly">See SPCAF documentation</a>
-                                </p>]]>
-                            </description>
-                            <tag>spcaf</tag>
-                        </rule>
-                        <rule>
-                            <key>SPC019114</key>
-                            <priority>MINOR</priority>
-                            <name><![CDATA[Use singular nouns for CmdLets]]></name>
-                            <description>
-                                <![CDATA[As standard practice for PowerShell, CmdLets should be named Verb-Noun in the singular form.<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC019114_UseSingularNounsForCmdLetNames">See SPCAF documentation</a>
-                                </p>]]>
-                            </description>
-                            <tag>spcaf</tag>
-                        </rule>
-                        <rule>
-                            <key>SPC029101</key>
-                            <priority>MAJOR</priority>
-                            <name><![CDATA[Do not use Invoke-Expression]]></name>
-                            <description>
-                                <![CDATA[Invoke-Expression allows external text to be run as code. Evaluated code at runtime is a script injection vulnerability. Dynamic code can be executed using PowerShells & operator and splatting to apply the paramaters required.<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC029101_DoNotUseInvokeExpression">See SPCAF documentation</a>
-                                </p>]]>
-                            </description>
-                            <tag>spcaf</tag>
-                        </rule>
-                        <rule>
-                            <key>SPC029102</key>
-                            <priority>MAJOR</priority>
-                            <name><![CDATA[Computer name switches on applicable CmdLets shouldn't be hardcoded]]></name>
-                            <description>
-                                <![CDATA[Harcoding server names in scripts can expose critical information about the target system..<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC029102_ComputerNameShouldNotBeHardCoded">See SPCAF documentation</a>
-                                </p>]]>
-                            </description>
-                            <tag>spcaf</tag>
-                        </rule>
-                        <rule>
-                            <key>SPC029103</key>
-                            <priority>CRITICAL</priority>
-                            <name><![CDATA[Do not use convert to secure string]]></name>
-                            <description>
-                                <![CDATA[Converting to secure string from plain text is insecure and exposes sensative data<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC029103_DoNotUseConvertToSecureString">See SPCAF documentation</a>
-                                </p>]]>
-                            </description>
-                            <tag>spcaf</tag>
-                        </rule>
-                        <rule>
-                            <key>SPC029104</key>
-                            <priority>MAJOR</priority>
-                            <name><![CDATA[Do not use direct hardcoded file paths]]></name>
-                            <description>
-                                <![CDATA[Exposing directory structure in a script can possibly expose the layout of internal systems. This script may also not work on other machines<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC029104_DoNotHardcodeFilePaths">See SPCAF documentation</a>
-                                </p>]]>
-                            </description>
-                            <tag>spcaf</tag>
-                        </rule>
-                        <rule>
-                            <key>SPC029105</key>
-                            <priority>CRITICAL</priority>
-                            <name><![CDATA[Do not use plain text for passwords]]></name>
-                            <description>
-                                <![CDATA[Using plain text passwords directly compromises your system security<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC029105_DoNotUsePlainTextPasswords">See SPCAF documentation</a>
-                                </p>]]>
-                            </description>
-                            <tag>spcaf</tag>
-                        </rule>
-                        <rule>
-                            <key>SPC029106</key>
-                            <priority>CRITICAL</priority>
-                            <name><![CDATA[Use PSCredential type for credential parameters]]></name>
-                            <description>
-                                <![CDATA[PowerShell security best practices state that the PSCredential type should be used to secure credentials correctly. Also the CredentialAttribute has to be applied after the PSCredential attribute to be correctly parsed and secure.<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC029106_UsePSCredentialTypeForCredentialParams">See SPCAF documentation</a>
-                                </p>]]>
-                            </description>
-                            <tag>spcaf</tag>
-                        </rule>
-                        <rule>
-                            <key>SPC039101</key>
-                            <priority>CRITICAL</priority>
-                            <name><![CDATA[Avoid Empty Help Attributes]]></name>
-                            <description>
-                                <![CDATA[Empty help attributes causes an error in execution when requested.<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC039101_AvoidEmptyHelpAttributes">See SPCAF documentation</a>
-                                </p>]]>
-                            </description>
-                            <tag>spcaf</tag>
-                        </rule>
-                        <rule>
-                            <key>SPC039102</key>
-                            <priority>CRITICAL</priority>
-                            <name><![CDATA[Do not use depricated manifest field]]></name>
-                            <description>
-                                <![CDATA[Depricated manifest fields cause parser errors when being executed in the wrong context.<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC039102_AvoidUsingDeprecatedManifestFields">See SPCAF documentation</a>
-                                </p>]]>
-                            </description>
-                            <tag>spcaf</tag>
-                        </rule>
-                        <rule>
-                            <key>SPC039103</key>
-                            <priority>CRITICAL</priority>
-                            <name><![CDATA[Do not use positional parameters]]></name>
-                            <description>
-                                <![CDATA[Positional parameters increase readability of scripts allowing for better team supportability within the code.<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC039103_DoNotUsePositionalParameters">See SPCAF documentation</a>
-                                </p>]]>
-                            </description>
-                            <tag>spcaf</tag>
-                        </rule>
-                        <rule>
-                            <key>SPC059101</key>
-                            <priority>MAJOR</priority>
-                            <name><![CDATA[Avoid usage of $ErrorActionPreference]]></name>
-                            <description>
-                                <![CDATA[Using $ErrorActionPreference can create some strange behaviour by purposfuly disabling errors from happening. Potential errors should be checked for with an if statement before they can happen, or be caught in a try-catch-finally.<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC059101_AvoidUsageOfErrorActionPreference">See SPCAF documentation</a>
-                                </p>]]>
-                            </description>
-                            <tag>spcaf</tag>
-                        </rule>
-                        <rule>
-                            <key>SPC059102</key>
-                            <priority>INFO</priority>
-                            <name><![CDATA[Do not use Write-Host]]></name>
-                            <description>
-                                <![CDATA[Write-Host is never needed in PowerShell CmdLets. Instead use the correct Write-&lt;verb&gt; for your situation. Write-Error for Errors, Write-Debug for debug, Write-Verbose for extra informaiton on request.<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC059102_DoNotUseWriteHost">See SPCAF documentation</a>
-                                </p>]]>
-                            </description>
-                            <tag>spcaf</tag>
-                        </rule>
-                        <rule>
-                            <key>SPC059103</key>
-                            <priority>MINOR</priority>
-                            <name><![CDATA[Do not write code in the global scope]]></name>
-                            <description>
-                                <![CDATA[Assignment to variables and usage of variables, in the global scope can cause value conflicts across scripts. It is recommended to use methods and local variables where possible.<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC059103_DoNotWriteCodeInGlobalScope">See SPCAF documentation</a>
-                                </p>]]>
-                            </description>
-                            <tag>spcaf</tag>
-                        </rule>
-                        <rule>
-                            <key>SPC059104</key>
-                            <priority>MINOR</priority>
-                            <name><![CDATA[Avoid using Backticks (`) to spread code over multiple lines]]></name>
-                            <description>
-                                <![CDATA[Backticks are used to spread lines of code in PowerShell over multiple lines. The downside is that they are difficult to see and hard to maintain and grasp a clear intent for the code structure.<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC059104_AvoidUsageofBackTicks">See SPCAF documentation</a>
-                                </p>]]>
-                            </description>
-                            <tag>spcaf</tag>
-                        </rule>
-                        <rule>
-                            <key>SPC059105</key>
-                            <priority>MINOR</priority>
-                            <name><![CDATA[Use [CmdletBinding()] with Write Verbose/Debug]]></name>
-                            <description>
-                                <![CDATA[CmdletBinding allows usage of -Verbose and -Debug switches to apply to the contents of methods in the PowerShell Script and should be applied where Write-Verbose or Write-Debug CmdLets are used.<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC059105_UseCmdletBindingWithWriteVerboseDebug">See SPCAF documentation</a>
-                                </p>]]>
-                            </description>
-                            <tag>spcaf</tag>
-                        </rule>
-                        <rule>
-                            <key>SPC059106</key>
-                            <priority>MAJOR</priority>
-                            <name><![CDATA[Do not use CmdLet Aliases]]></name>
-                            <description>
-                                <![CDATA[Do not use CmdLet aliases with the exceptions of "cat", "cp", "curl", "diff", "echo", "kill", "ls", "man", "mount", "mv", "ps", "pwd", "rm", "sleep", "tee", "type", "wget" which are acceptable and whitelisted.<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC059106_AvoidUsingCommandAliases">See SPCAF documentation</a>
-                                </p>]]>
-                            </description>
-                            <tag>spcaf</tag>
-                        </rule>
-                        <rule>
-                            <key>SPC059107</key>
-                            <priority>CRITICAL</priority>
-                            <name><![CDATA[Do not default true switch parameter]]></name>
-                            <description>
-                                <![CDATA[Using a default value of true on a switch property will have undesired results.<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC059107_AvoidDefaultTrueSwitchParameter">See SPCAF documentation</a>
-                                </p>]]>
-                            </description>
-                            <tag>spcaf</tag>
-                        </rule>
-                        <rule>
-                            <key>SPC059108</key>
-                            <priority>INFO</priority>
-                            <name><![CDATA[Exported CmdLets should include comment help]]></name>
-                            <description>
-                                <![CDATA[Comments should be provided which supple the help context of the Exported CmdLet for use with Get-Help.<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC059108_ProvideCmdLetHelp">See SPCAF documentation</a>
-                                </p>]]>
-                            </description>
-                            <tag>spcaf</tag>
-                        </rule>
-                        <rule>
-                            <key>SPC059109</key>
-                            <priority>INFO</priority>
-                            <name><![CDATA[Provide verbose messaging for the end user]]></name>
-                            <description>
-                                <![CDATA[Verbose messaging can allow indepth program flow when required to the end user, allowing CmdLets to be more easily used especially in cases where an error occurs.<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC059109_ProvideVerboseMessaging">See SPCAF documentation</a>
-                                </p>]]>
-                            </description>
-                            <tag>spcaf</tag>
-                        </rule>
-                        <rule>
-                            <key>SPC089101</key>
-                            <priority>INFO</priority>
-                            <name><![CDATA[Follow PowerShell naming conventions for better consistency for methods]]></name>
-                            <description>
-                                <![CDATA[To show better intent of each method, consider naming methods in PowerShell with the CmdLet style naming practice of Verb-Noun.<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC089101_UseCmdletStyleNamingConventions">See SPCAF documentation</a>
-                                </p>]]>
-                            </description>
-                            <tag>spcaf</tag>
-                        </rule>
-                        <rule>
-                            <key>SPC089102</key>
-                            <priority>MINOR</priority>
-                            <name><![CDATA[Avoid usage of Hungarian notation]]></name>
-                            <description>
-                                <![CDATA[Hungarian notation was used extensively in the past. However it is widely seen today as confusing to read, and can hide the true intent of a program meaning that code written can become unsupportable.<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC089102_AvoidUsageOfHungarianNotation">See SPCAF documentation</a>
-                                </p>]]>
-                            </description>
-                            <tag>spcaf</tag>
-                        </rule>
-                        <rule>
-                            <key>SPC219101</key>
-                            <priority>INFO</priority>
-                            <name><![CDATA[Avoid usage of inline comments]]></name>
-                            <description>
-                                <![CDATA[Inline comments are only useful when reading a script. Getting into the habbit of putting comments in a Write-Verbose or a Write-Debug can give the end user help, as well as the script reader.<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC219101_AvoidUsingInlineComments">See SPCAF documentation</a>
-                                </p>]]>
-                            </description>
-                            <tag>spcaf</tag>
-                        </rule>
-                        <rule>
-                            <key>SPC229101</key>
-                            <priority>MINOR</priority>
-                            <name><![CDATA[AliasesToExport, CmdletsToExport, FunctionsToExport and VariablesToExport should be declared either empty or with exports only]]></name>
-                            <description>
-                                <![CDATA[Incorrectly defining the exports slows down the compilers module auto-discovery task.<p>
-                                    <a href="https://docs.spcaf.com/v6/SPC229101_DoNotUseWildcardsOrNullInExports">See SPCAF documentation</a>
-                                </p>]]>
-                            </description>
-                            <tag>spcaf</tag>
-                        </rule>
+                            <rule>
+                                <key>SPC019101</key>
+                                <priority>MAJOR</priority>
+                                <name><![CDATA[Do not use empty Catch Blocks]]></name>
+                                <description>
+                                    <![CDATA[Empty catch blocks are a poor design. Always output an error and use error handling in the event of an exception.<p>
+                                        <a href="https://docs.spcaf.com/v7/SPC019101_DoNotUseEmptyCatchBlocks.html">See SPCAF documentation</a>
+                                    </p>]]>
+                                </description>
+                                <tag>spcaf</tag>
+                            </rule>
+                            <rule>
+                                <key>SPC019102</key>
+                                <priority>MAJOR</priority>
+                                <name><![CDATA[Do not invoke non constant members]]></name>
+                                <description>
+                                    <![CDATA[Using variable member invocations can result in an empty invocation from occurring. This can result in undesired circumstances.<p>
+                                        <a href="https://docs.spcaf.com/v7/SPC019102_DoNotInvokeNonConstantMembers.html">See SPCAF documentation</a>
+                                    </p>]]>
+                                </description>
+                                <tag>spcaf</tag>
+                            </rule>
+                            <rule>
+                                <key>SPC019103</key>
+                                <priority>CRITICAL</priority>
+                                <name><![CDATA[Do not use special characters in method names]]></name>
+                                <description>
+                                    <![CDATA[The use of special characters in method names can result in parser errors when executing the script.<p>
+                                        <a href="https://docs.spcaf.com/v7/SPC019103_DoNotUseSpecialCharactersInmethodNames.html">See SPCAF documentation</a>
+                                    </p>]]>
+                                </description>
+                                <tag>spcaf</tag>
+                            </rule>
+                            <rule>
+                                <key>SPC019104</key>
+                                <priority>CRITICAL</priority>
+                                <name><![CDATA[Do not use reserved words as parameter names]]></name>
+                                <description>
+                                    <![CDATA[Exceptions and unwanted bahaviour occurs when reserved words are used as paramater names.<p>
+                                        <a href="https://docs.spcaf.com/v7/SPC019104_DoNotUseReservedWordsAsParameterNames.html">See SPCAF documentation</a>
+                                    </p>]]>
+                                </description>
+                                <tag>spcaf</tag>
+                            </rule>
+                            <rule>
+                                <key>SPC019105</key>
+                                <priority>MAJOR</priority>
+                                <name><![CDATA[Functions that use ShouldProcess should support Force to bypass]]></name>
+                                <description>
+                                    <![CDATA[In order to correctly support the force boolean switch, you need to call ShouldContinue correctly when you call ShouldProcess.<p>
+                                        <a href="https://docs.spcaf.com/v7/SPC019105_CallShouldContinueWhenShouldProcessTrue.html">See SPCAF documentation</a>
+                                    </p>]]>
+                                </description>
+                                <tag>spcaf</tag>
+                            </rule>
+                            <rule>
+                                <key>SPC019106</key>
+                                <priority>MAJOR</priority>
+                                <name><![CDATA[Do not use trap statements]]></name>
+                                <description>
+                                    <![CDATA[Trap statements are designed for administrators. Try Catch should be used in all written script files. History: Trap was implemented in v1, because it was all the PowerShell team had time to implement.<p>
+                                        <a href="https://docs.spcaf.com/v7/SPC019106_DoNotUseTrapStatement.html">See SPCAF documentation</a>
+                                    </p>]]>
+                                </description>
+                                <tag>spcaf</tag>
+                            </rule>
+                            <rule>
+                                <key>SPC019107</key>
+                                <priority>MAJOR</priority>
+                                <name><![CDATA[Do not use unitialized variables]]></name>
+                                <description>
+                                    <![CDATA[Uninitialized variables will cause script errors, and should never be used before assignment.<p>
+                                        <a href="https://docs.spcaf.com/v7/SPC019107_DoNotUseUninitializedVariables.html">See SPCAF documentation</a>
+                                    </p>]]>
+                                </description>
+                                <tag>spcaf</tag>
+                            </rule>
+                            <rule>
+                                <key>SPC019108</key>
+                                <priority>MAJOR</priority>
+                                <name><![CDATA[Incorrect precedence for comparison operator against null]]></name>
+                                <description>
+                                    <![CDATA[If the item on the left hand side is an Array, PowerShell will automatically check the whole Array for null.<p>
+                                        <a href="https://docs.spcaf.com/v7/SPC019108_IncorrectComparisonAgainstNull.html">See SPCAF documentation</a>
+                                    </p>]]>
+                                </description>
+                                <tag>spcaf</tag>
+                            </rule>
+                            <rule>
+                                <key>SPC019109</key>
+                                <priority>MINOR</priority>
+                                <name><![CDATA[Use only approved verbs]]></name>
+                                <description>
+                                    <![CDATA[The approved verbs are designed to describe the scope of the action, not using them can confuse the scripts intention to the end user.<p>
+                                        <a href="https://docs.spcaf.com/v7/SPC019109_UseCorrectVerbs.html">See SPCAF documentation</a>
+                                    </p>]]>
+                                </description>
+                                <tag>spcaf</tag>
+                            </rule>
+                            <rule>
+                                <key>SPC019110</key>
+                                <priority>MAJOR</priority>
+                                <name><![CDATA[Use a Byte Order Mark with non Ascii files]]></name>
+                                <description>
+                                    <![CDATA[Ascii is a 7-bit to the byte encoding. Files that use UTF-8/UTF-16 or another encoding should use a byte order mark to allow identification.<p>
+                                        <a href="https://docs.spcaf.com/v7/SPC019110_UseBOMWhenNotUsingAscii.html">See SPCAF documentation</a>
+                                    </p>]]>
+                                </description>
+                                <tag>spcaf</tag>
+                            </rule>
+                            <rule>
+                                <key>SPC019111</key>
+                                <priority>MAJOR</priority>
+                                <name><![CDATA[Call CmdLets with correct parameters]]></name>
+                                <description>
+                                    <![CDATA[CmdLets must be called with the correct syntax and parameters.<p>
+                                        <a href="https://docs.spcaf.com/v7/SPC019111_UseCmdLetsCorrectly.html">See SPCAF documentation</a>
+                                    </p>]]>
+                                </description>
+                                <tag>spcaf</tag>
+                            </rule>
+                            <rule>
+                                <key>SPC019112</key>
+                                <priority>MINOR</priority>
+                                <name><![CDATA[Remove unused variable]]></name>
+                                <description>
+                                    <![CDATA[Variables that have been assigned but not used should be removed for better supportability in the future. Having unused variables can confuse the scripts intent.<p>
+                                        <a href="https://docs.spcaf.com/v7/SPC019112_RemoveUnusedVariables.html">See SPCAF documentation</a>
+                                    </p>]]>
+                                </description>
+                                <tag>spcaf</tag>
+                            </rule>
+                            <rule>
+                                <key>SPC019113</key>
+                                <priority>MAJOR</priority>
+                                <name><![CDATA[Declare output types correctly]]></name>
+                                <description>
+                                    <![CDATA[No exception will be thrown if you pass the wrong type, which can result in undesired results.<p>
+                                        <a href="https://docs.spcaf.com/v7/SPC019113_DeclareOutputTypesCorrectly.html">See SPCAF documentation</a>
+                                    </p>]]>
+                                </description>
+                                <tag>spcaf</tag>
+                            </rule>
+                            <rule>
+                                <key>SPC019114</key>
+                                <priority>MINOR</priority>
+                                <name><![CDATA[Use singular nouns for CmdLets]]></name>
+                                <description>
+                                    <![CDATA[As standard practice for PowerShell, CmdLets should be named Verb-Noun in the singular form.<p>
+                                        <a href="https://docs.spcaf.com/v7/SPC019114_UseSingularNounsForCmdLetNames.html">See SPCAF documentation</a>
+                                    </p>]]>
+                                </description>
+                                <tag>spcaf</tag>
+                            </rule>
+                            <rule>
+                                <key>SPC029101</key>
+                                <priority>MAJOR</priority>
+                                <name><![CDATA[Do not use Invoke-Expression]]></name>
+                                <description>
+                                    <![CDATA[Invoke-Expression allows external text to be run as code. Evaluated code at runtime is a script injection vulnerability. Dynamic code can be executed using PowerShells & operator and splatting to apply the paramaters required.<p>
+                                        <a href="https://docs.spcaf.com/v7/SPC029101_DoNotUseInvokeExpression.html">See SPCAF documentation</a>
+                                    </p>]]>
+                                </description>
+                                <tag>spcaf</tag>
+                            </rule>
+                            <rule>
+                                <key>SPC029102</key>
+                                <priority>MAJOR</priority>
+                                <name><![CDATA[Computer name switches on applicable CmdLets shouldn't be hardcoded]]></name>
+                                <description>
+                                    <![CDATA[Harcoding server names in scripts can expose critical information about the target system..<p>
+                                        <a href="https://docs.spcaf.com/v7/SPC029102_ComputerNameShouldNotBeHardCoded.html">See SPCAF documentation</a>
+                                    </p>]]>
+                                </description>
+                                <tag>spcaf</tag>
+                            </rule>
+                            <rule>
+                                <key>SPC029103</key>
+                                <priority>CRITICAL</priority>
+                                <name><![CDATA[Do not use convert to secure string]]></name>
+                                <description>
+                                    <![CDATA[Converting to secure string from plain text is insecure and exposes sensative data<p>
+                                        <a href="https://docs.spcaf.com/v7/SPC029103_DoNotUseConvertToSecureString.html">See SPCAF documentation</a>
+                                    </p>]]>
+                                </description>
+                                <tag>spcaf</tag>
+                            </rule>
+                            <rule>
+                                <key>SPC029104</key>
+                                <priority>MAJOR</priority>
+                                <name><![CDATA[Do not use direct hardcoded file paths]]></name>
+                                <description>
+                                    <![CDATA[Exposing directory structure in a script can possibly expose the layout of internal systems. This script may also not work on other machines<p>
+                                        <a href="https://docs.spcaf.com/v7/SPC029104_DoNotHardcodeFilePaths.html">See SPCAF documentation</a>
+                                    </p>]]>
+                                </description>
+                                <tag>spcaf</tag>
+                            </rule>
+                            <rule>
+                                <key>SPC029105</key>
+                                <priority>CRITICAL</priority>
+                                <name><![CDATA[Do not use plain text for passwords]]></name>
+                                <description>
+                                    <![CDATA[Using plain text passwords directly compromises your system security<p>
+                                        <a href="https://docs.spcaf.com/v7/SPC029105_DoNotUsePlainTextPasswords.html">See SPCAF documentation</a>
+                                    </p>]]>
+                                </description>
+                                <tag>spcaf</tag>
+                            </rule>
+                            <rule>
+                                <key>SPC029106</key>
+                                <priority>CRITICAL</priority>
+                                <name><![CDATA[Use PSCredential type for credential parameters]]></name>
+                                <description>
+                                    <![CDATA[PowerShell security best practices state that the PSCredential type should be used to secure credentials correctly. Also the CredentialAttribute has to be applied after the PSCredential attribute to be correctly parsed and secure.<p>
+                                        <a href="https://docs.spcaf.com/v7/SPC029106_UsePSCredentialTypeForCredentialParams.html">See SPCAF documentation</a>
+                                    </p>]]>
+                                </description>
+                                <tag>spcaf</tag>
+                            </rule>
+                            <rule>
+                                <key>SPC039101</key>
+                                <priority>CRITICAL</priority>
+                                <name><![CDATA[Avoid Empty Help Attributes]]></name>
+                                <description>
+                                    <![CDATA[Empty help attributes causes an error in execution when requested.<p>
+                                        <a href="https://docs.spcaf.com/v7/SPC039101_AvoidEmptyHelpAttributes.html">See SPCAF documentation</a>
+                                    </p>]]>
+                                </description>
+                                <tag>spcaf</tag>
+                            </rule>
+                            <rule>
+                                <key>SPC039102</key>
+                                <priority>CRITICAL</priority>
+                                <name><![CDATA[Do not use depricated manifest field]]></name>
+                                <description>
+                                    <![CDATA[Depricated manifest fields cause parser errors when being executed in the wrong context.<p>
+                                        <a href="https://docs.spcaf.com/v7/SPC039102_AvoidUsingDeprecatedManifestFields.html">See SPCAF documentation</a>
+                                    </p>]]>
+                                </description>
+                                <tag>spcaf</tag>
+                            </rule>
+                            <rule>
+                                <key>SPC039103</key>
+                                <priority>CRITICAL</priority>
+                                <name><![CDATA[Do not use positional parameters]]></name>
+                                <description>
+                                    <![CDATA[Positional parameters increase readability of scripts allowing for better team supportability within the code.<p>
+                                        <a href="https://docs.spcaf.com/v7/SPC039103_DoNotUsePositionalParameters.html">See SPCAF documentation</a>
+                                    </p>]]>
+                                </description>
+                                <tag>spcaf</tag>
+                            </rule>
+                            <rule>
+                                <key>SPC059101</key>
+                                <priority>MAJOR</priority>
+                                <name><![CDATA[Avoid usage of $ErrorActionPreference]]></name>
+                                <description>
+                                    <![CDATA[Using $ErrorActionPreference can create some strange behavior by purposfuly disabling errors from happening. Potential errors should be checked for with an if statement before they can happen, or be caught in a try-catch-finally.<p>
+                                        <a href="https://docs.spcaf.com/v7/SPC059101_AvoidUsageOfErrorActionPreference.html">See SPCAF documentation</a>
+                                    </p>]]>
+                                </description>
+                                <tag>spcaf</tag>
+                            </rule>
+                            <rule>
+                                <key>SPC059102</key>
+                                <priority>INFO</priority>
+                                <name><![CDATA[Do not use Write-Host]]></name>
+                                <description>
+                                    <![CDATA[Write-Host is never needed in PowerShell CmdLets. Instead use the correct Write-&lt;verb&gt; for your situation. Write-Error for Errors, Write-Debug for debug, Write-Verbose for extra informaiton on request.<p>
+                                        <a href="https://docs.spcaf.com/v7/SPC059102_DoNotUseWriteHost.html">See SPCAF documentation</a>
+                                    </p>]]>
+                                </description>
+                                <tag>spcaf</tag>
+                            </rule>
+                            <rule>
+                                <key>SPC059103</key>
+                                <priority>MINOR</priority>
+                                <name><![CDATA[Do not write code in the global scope]]></name>
+                                <description>
+                                    <![CDATA[Assignment to variables and usage of variables, in the global scope can cause value conflicts across scripts. It is recommended to use methods and local variables where possible.<p>
+                                        <a href="https://docs.spcaf.com/v7/SPC059103_DoNotWriteCodeInGlobalScope.html">See SPCAF documentation</a>
+                                    </p>]]>
+                                </description>
+                                <tag>spcaf</tag>
+                            </rule>
+                            <rule>
+                                <key>SPC059104</key>
+                                <priority>MINOR</priority>
+                                <name><![CDATA[Avoid using Backticks (`) to spread code over multiple lines]]></name>
+                                <description>
+                                    <![CDATA[Backticks are used to spread lines of code in PowerShell over multiple lines. The downside is that they are difficult to see and hard to maintain and grasp a clear intent for the code structure.<p>
+                                        <a href="https://docs.spcaf.com/v7/SPC059104_AvoidUsageofBackTicks.html">See SPCAF documentation</a>
+                                    </p>]]>
+                                </description>
+                                <tag>spcaf</tag>
+                            </rule>
+                            <rule>
+                                <key>SPC059105</key>
+                                <priority>MINOR</priority>
+                                <name><![CDATA[Use [CmdletBinding()] with Write Verbose/Debug]]></name>
+                                <description>
+                                    <![CDATA[CmdletBinding allows usage of -Verbose and -Debug switches to apply to the contents of methods in the PowerShell Script and should be applied where Write-Verbose or Write-Debug CmdLets are used.<p>
+                                        <a href="https://docs.spcaf.com/v7/SPC059105_UseCmdletBindingWithWriteVerboseDebug.html">See SPCAF documentation</a>
+                                    </p>]]>
+                                </description>
+                                <tag>spcaf</tag>
+                            </rule>
+                            <rule>
+                                <key>SPC059106</key>
+                                <priority>MAJOR</priority>
+                                <name><![CDATA[Do not use CmdLet Aliases]]></name>
+                                <description>
+                                    <![CDATA[Do not use CmdLet aliases with the exceptions of "cat", "cp", "curl", "diff", "echo", "kill", "ls", "man", "mount", "mv", "ps", "pwd", "rm", "sleep", "tee", "type", "wget" which are acceptable and whitelisted.<p>
+                                        <a href="https://docs.spcaf.com/v7/SPC059106_AvoidUsingCommandAliases.html">See SPCAF documentation</a>
+                                    </p>]]>
+                                </description>
+                                <tag>spcaf</tag>
+                            </rule>
+                            <rule>
+                                <key>SPC059107</key>
+                                <priority>CRITICAL</priority>
+                                <name><![CDATA[Do not default true switch parameter]]></name>
+                                <description>
+                                    <![CDATA[Using a default value of true on a switch property will have undesired results.<p>
+                                        <a href="https://docs.spcaf.com/v7/SPC059107_AvoidDefaultTrueSwitchParameter.html">See SPCAF documentation</a>
+                                    </p>]]>
+                                </description>
+                                <tag>spcaf</tag>
+                            </rule>
+                            <rule>
+                                <key>SPC059108</key>
+                                <priority>INFO</priority>
+                                <name><![CDATA[Exported CmdLets should include comment help]]></name>
+                                <description>
+                                    <![CDATA[Comments should be provided which supple the help context of the Exported CmdLet for use with Get-Help.<p>
+                                        <a href="https://docs.spcaf.com/v7/SPC059108_ProvideCmdLetHelp.html">See SPCAF documentation</a>
+                                    </p>]]>
+                                </description>
+                                <tag>spcaf</tag>
+                            </rule>
+                            <rule>
+                                <key>SPC059109</key>
+                                <priority>INFO</priority>
+                                <name><![CDATA[Provide verbose messaging for the end user]]></name>
+                                <description>
+                                    <![CDATA[Verbose messaging can allow indepth program flow when required to the end user, allowing CmdLets to be more easily used especially in cases where an error occurs.<p>
+                                        <a href="https://docs.spcaf.com/v7/SPC059109_ProvideVerboseMessaging.html">See SPCAF documentation</a>
+                                    </p>]]>
+                                </description>
+                                <tag>spcaf</tag>
+                            </rule>
+                            <rule>
+                                <key>SPC089101</key>
+                                <priority>INFO</priority>
+                                <name><![CDATA[Follow PowerShell naming conventions for better consistency for methods]]></name>
+                                <description>
+                                    <![CDATA[To show better intent of each method, consider naming methods in PowerShell with the CmdLet style naming practice of Verb-Noun.<p>
+                                        <a href="https://docs.spcaf.com/v7/SPC089101_UseCmdletStyleNamingConventions.html">See SPCAF documentation</a>
+                                    </p>]]>
+                                </description>
+                                <tag>spcaf</tag>
+                            </rule>
+                            <rule>
+                                <key>SPC089102</key>
+                                <priority>MINOR</priority>
+                                <name><![CDATA[Avoid usage of Hungarian notation]]></name>
+                                <description>
+                                    <![CDATA[Hungarian notation was used extensively in the past. However it is widely seen today as confusing to read, and can hide the true intent of a program meaning that code written can become unsupportable.<p>
+                                        <a href="https://docs.spcaf.com/v7/SPC089102_AvoidUsageOfHungarianNotation.html">See SPCAF documentation</a>
+                                    </p>]]>
+                                </description>
+                                <tag>spcaf</tag>
+                            </rule>
+                            <rule>
+                                <key>SPC219101</key>
+                                <priority>INFO</priority>
+                                <name><![CDATA[Avoid usage of inline comments]]></name>
+                                <description>
+                                    <![CDATA[Inline comments are only useful when reading a script. Getting into the habbit of putting comments in a Write-Verbose or a Write-Debug can give the end user help, as well as the script reader.<p>
+                                        <a href="https://docs.spcaf.com/v7/SPC219101_AvoidUsingInlineComments.html">See SPCAF documentation</a>
+                                    </p>]]>
+                                </description>
+                                <tag>spcaf</tag>
+                            </rule>
+                            <rule>
+                                <key>SPC229101</key>
+                                <priority>MINOR</priority>
+                                <name><![CDATA[AliasesToExport, CmdletsToExport, FunctionsToExport and VariablesToExport should be declared either empty or with exports only]]></name>
+                                <description>
+                                    <![CDATA[Incorrectly defining the exports slows down the compilers module auto-discovery task.<p>
+                                        <a href="https://docs.spcaf.com/v7/SPC229101_DoNotUseWildcardsOrNullInExports.html">See SPCAF documentation</a>
+                                    </p>]]>
+                                </description>
+                                <tag>spcaf</tag>
+                            </rule>
 </rules>
