@@ -2475,6 +2475,17 @@
                                 <tag>spcaf</tag>
                             </rule>
                             <rule>
+                                <key>SPC058721</key>
+                                <priority>MINOR</priority>
+                                <name><![CDATA[Consider to reference external files without the scheme in web pages]]></name>
+                                <description>
+                                    <![CDATA[The url to external files (.js, .css or images) should be used without the scheme (http, https). This prevents conflicts if the page is called either with http or https.<p>
+                                        <a href="https://docs.spcaf.com/v7/SPC058721_ReferenceExternalFilesWithoutProtocol.html">See SPCAF documentation</a>
+                                    </p>]]>
+                                </description>
+                                <tag>spcaf</tag>
+                            </rule>
+                            <rule>
                                 <key>SPC062152</key>
                                 <priority>MAJOR</priority>
                                 <name><![CDATA[Deploy missing ElementManifest or ElementFile in Feature (AppWeb)]]></name>
@@ -2998,6 +3009,17 @@
                                 <description>
                                     <![CDATA[Disable CSS class directives to improve AngularJS compiler performance<p>
                                         <a href="https://docs.spcaf.com/v7/NG1120103_DisableCssClassDirectives.html">See SPCAF documentation</a>
+                                    </p>]]>
+                                </description>
+                                <tag>spcaf</tag>
+                            </rule>
+                            <rule>
+                                <key>SPC058701</key>
+                                <priority>MINOR</priority>
+                                <name><![CDATA[Use the latest versions of JavaScript libraries]]></name>
+                                <description>
+                                    <![CDATA[Use the latest versions of JavaScript libraries which contain the latest bug fixes and security patches<p>
+                                        <a href="https://docs.spcaf.com/v7/SPC058701_UseTheLatestVersionOfJavaScriptLibraries.html">See SPCAF documentation</a>
                                     </p>]]>
                                 </description>
                                 <tag>spcaf</tag>
