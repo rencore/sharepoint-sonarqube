@@ -286,7 +286,7 @@ public class SpcafSensor implements Sensor {
       }
     }
     catch(IOException ex){
-      LOG.info("SPCAF: IO Exception occured while attempted to read file: " + ex.getMessage());
+      LOG.info("SPCAF: IO Exception occurred while attempted to read file: " + ex.getMessage());
     }
   }
 
