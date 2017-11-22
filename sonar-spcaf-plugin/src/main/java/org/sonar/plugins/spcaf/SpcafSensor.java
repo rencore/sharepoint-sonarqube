@@ -214,7 +214,7 @@ public class SpcafSensor implements Sensor {
         for(InputFile currentInputFile : fileSystem.inputFiles(fileSystem.predicates().all()))
         {
           LOG.info("Comparing physical file location against input file: " + currentInputFile.absolutePath());
-          if(currentInputFile.absolutePath().equals(correctedPath) && currentInputFile.type().equals(InputFile.Type.MAIN))
+          if(currentInputFile.absolutePath().equalsIgnoreCase(correctedPath) && currentInputFile.type().equalsIgnoreCase(InputFile.Type.MAIN))
           {
             inputFile = currentInputFile;
             break;
