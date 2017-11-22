@@ -213,6 +213,7 @@ public class SpcafSensor implements Sensor {
         InputFile inputFile = null;
         for(InputFile currentInputFile : fileSystem.inputFiles(fileSystem.predicates().all()))
         {
+          LOG.debug("Comparing physical file location against input file: " + currentInputFile);
           if(currentInputFile.absolutePath().equals(correctedPath) && currentInputFile.type().equals(InputFile.Type.MAIN))
           {
             inputFile = currentInputFile;
@@ -220,17 +221,12 @@ public class SpcafSensor implements Sensor {
           }
         }
 
-        if(inputFile == null)
-        {
-          continue;
-        }
-
-        LOG.info("SPCAF: Input file path:" + inputFile.absolutePath());
-
         if(inputFile == null) {
           logSkippedIssue(issue, "\"" + fileName + "\" is not in SonarQube Input Files.");
           continue;
         }
+
+        LOG.info("SPCAF: Input file path:" + inputFile.absolutePath());
 
         LOG.info("Repository file located");
 
