@@ -19,6 +19,7 @@
  */
 package org.sonar.plugins.spcaf;
 
+
 import com.google.common.annotations.VisibleForTesting;
 import org.apache.commons.io.FilenameUtils;
 import org.apache.commons.lang.StringUtils;
@@ -50,6 +51,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.List;
+import java.lang.*;
 
 public class SpcafSensor implements Sensor {
 
