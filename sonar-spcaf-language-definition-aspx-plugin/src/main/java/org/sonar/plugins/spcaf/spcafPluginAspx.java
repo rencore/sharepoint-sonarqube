@@ -29,7 +29,7 @@ import java.util.List;
 public class spcafPluginAspx extends SonarPlugin {
 
   public static final String ASPX_SUFFIXES_KEY = "sonar.spcaf.aspx.file.suffixes";
-  public static final String ASPX_SUFFIXES_DEFAULT_VALUE = ".aspx,.master,.ascx,.html,.htm";
+  public static final String ASPX_SUFFIXES_DEFAULT_VALUE = ".aspx,.master,.ascx";
 
   /**
    * {@inheritDoc}
