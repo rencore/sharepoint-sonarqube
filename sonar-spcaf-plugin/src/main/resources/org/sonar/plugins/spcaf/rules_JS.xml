@@ -1474,6 +1474,94 @@
                                 <tag>spcaf</tag>
                             </rule>
                             <rule>
+                                <key>SPC048901</key>
+                                <priority>INFO</priority>
+                                <name><![CDATA[JavaScript file uses SharePoint REST API]]></name>
+                                <description>
+                                    <![CDATA[JavaScript file uses SharePoint REST API<p>
+                                        <a href="https://docs.spcaf.com/v7/SPC048901_JavaScriptFileUsesSharePointRestApi.html">See SPCAF documentation</a>
+                                    </p>]]>
+                                </description>
+                                <tag>spcaf</tag>
+                            </rule>
+                            <rule>
+                                <key>SPC048902</key>
+                                <priority>INFO</priority>
+                                <name><![CDATA[JavaScript file uses SPServices]]></name>
+                                <description>
+                                    <![CDATA[JavaScript file uses SPServices<p>
+                                        <a href="https://docs.spcaf.com/v7/SPC048902_JavaScriptFileUsesSpServices.html">See SPCAF documentation</a>
+                                    </p>]]>
+                                </description>
+                                <tag>spcaf</tag>
+                            </rule>
+                            <rule>
+                                <key>SPC048903</key>
+                                <priority>INFO</priority>
+                                <name><![CDATA[JavaScript file uses SharePoint JavaScript Object Model]]></name>
+                                <description>
+                                    <![CDATA[JavaScript file uses SharePoint JavaScript Object Model<p>
+                                        <a href="https://docs.spcaf.com/v7/SPC048903_JavaScriptFileUsesSpJsom.html">See SPCAF documentation</a>
+                                    </p>]]>
+                                </description>
+                                <tag>spcaf</tag>
+                            </rule>
+                            <rule>
+                                <key>SPC048904</key>
+                                <priority>INFO</priority>
+                                <name><![CDATA[JavaScript file uses Microsoft Graph REST API]]></name>
+                                <description>
+                                    <![CDATA[JavaScript file uses Microsoft Graph REST API<p>
+                                        <a href="https://docs.spcaf.com/v7/SPC048904_JavaScriptFileUsesMsGraphRestApi.html">See SPCAF documentation</a>
+                                    </p>]]>
+                                </description>
+                                <tag>spcaf</tag>
+                            </rule>
+                            <rule>
+                                <key>SPC048905</key>
+                                <priority>INFO</priority>
+                                <name><![CDATA[JavaScript file uses Microsoft Graph beta REST API]]></name>
+                                <description>
+                                    <![CDATA[JavaScript file uses Microsoft Graph beta REST API<p>
+                                        <a href="https://docs.spcaf.com/v7/SPC048905_JavaScriptFileUsesMsGraphBetaRestApi.html">See SPCAF documentation</a>
+                                    </p>]]>
+                                </description>
+                                <tag>spcaf</tag>
+                            </rule>
+                            <rule>
+                                <key>SPC048906</key>
+                                <priority>INFO</priority>
+                                <name><![CDATA[JavaScript file uses Microsoft Graph v1.0 REST API]]></name>
+                                <description>
+                                    <![CDATA[JavaScript file uses Microsoft Graph v1.0 REST API<p>
+                                        <a href="https://docs.spcaf.com/v7/SPC048906_JavaScriptFileUsesMsGraphv1_0RestApi.html">See SPCAF documentation</a>
+                                    </p>]]>
+                                </description>
+                                <tag>spcaf</tag>
+                            </rule>
+                            <rule>
+                                <key>SPC048907</key>
+                                <priority>INFO</priority>
+                                <name><![CDATA[JavaScript file uses Microsoft Graph SDK]]></name>
+                                <description>
+                                    <![CDATA[JavaScript file uses Microsoft Graph SDK<p>
+                                        <a href="https://docs.spcaf.com/v7/SPC048907_JavaScriptFileUsesMsGraphSdk.html">See SPCAF documentation</a>
+                                    </p>]]>
+                                </description>
+                                <tag>spcaf</tag>
+                            </rule>
+                            <rule>
+                                <key>SPC048908</key>
+                                <priority>INFO</priority>
+                                <name><![CDATA[JavaScript file uses PnP JavaScript Core Library]]></name>
+                                <description>
+                                    <![CDATA[JavaScript file uses PnP JavaScript Core Library<p>
+                                        <a href="https://docs.spcaf.com/v7/SPC048908_JavaScriptFileUsesSpPnpJs.html">See SPCAF documentation</a>
+                                    </p>]]>
+                                </description>
+                                <tag>spcaf</tag>
+                            </rule>
+                            <rule>
                                 <key>SPC058901</key>
                                 <priority>MINOR</priority>
                                 <name><![CDATA[Consider using a "Value and Type" comparison in if statements]]></name>
@@ -1806,9 +1894,9 @@
                             <rule>
                                 <key>SPF010401</key>
                                 <priority>MAJOR</priority>
-                                <name><![CDATA[Specify a bundle entry point]]></name>
+                                <name><![CDATA[Specify the entry point for a bundle component]]></name>
                                 <description>
-                                    <![CDATA[Bundle entry must specify the bundle entry point<p>
+                                    <![CDATA[Bundle component must specify the entry point<p>
                                         <a href="https://docs.spcaf.com/v7/SPF010401_DefineBundleEntryEntry.html">See SPCAF documentation</a>
                                     </p>]]>
                                 </description>
@@ -1817,9 +1905,9 @@
                             <rule>
                                 <key>SPF010402</key>
                                 <priority>MAJOR</priority>
-                                <name><![CDATA[Bundle entry point must point to a valid project file]]></name>
+                                <name><![CDATA[Component entry point in a bundle must point to a valid project file]]></name>
                                 <description>
-                                    <![CDATA[Bundle entry point must point to a valid project file<p>
+                                    <![CDATA[Component entry point in a bundle must point to a valid project file<p>
                                         <a href="https://docs.spcaf.com/v7/SPF010402_BundleEntryEntryPointsToValidProjectFile.html">See SPCAF documentation</a>
                                     </p>]]>
                                 </description>
@@ -2057,6 +2145,17 @@
                                 <tag>spcaf</tag>
                             </rule>
                             <rule>
+                                <key>NG1010101</key>
+                                <priority>MAJOR</priority>
+                                <name><![CDATA[Always specify default route]]></name>
+                                <description>
+                                    <![CDATA[Always specify default route to gracefully handle requests that don't match any route<p>
+                                        <a href="https://docs.spcaf.com/v7/NG1010101_AlwaysSpecifyDefaultRoute.html">See SPCAF documentation</a>
+                                    </p>]]>
+                                </description>
+                                <tag>spcaf</tag>
+                            </rule>
+                            <rule>
                                 <key>NG1010201</key>
                                 <priority>CRITICAL</priority>
                                 <name><![CDATA[Don't inject invalid dependencies in module configs]]></name>
@@ -2288,6 +2387,17 @@
                                 <tag>spcaf</tag>
                             </rule>
                             <rule>
+                                <key>NG1020101</key>
+                                <priority>MAJOR</priority>
+                                <name><![CDATA[Don't disable SCE]]></name>
+                                <description>
+                                    <![CDATA[Don't disable SCE in your application<p>
+                                        <a href="https://docs.spcaf.com/v7/NG1020101_DontDisableSce.html">See SPCAF documentation</a>
+                                    </p>]]>
+                                </description>
+                                <tag>spcaf</tag>
+                            </rule>
+                            <rule>
                                 <key>NG1050201</key>
                                 <priority>MAJOR</priority>
                                 <name><![CDATA[Inject built-in AngularJS dependencies before custom ones in module configs]]></name>
@@ -2382,6 +2492,39 @@
                                 <description>
                                     <![CDATA[Use 'controller as' in ngController directives<p>
                                         <a href="https://docs.spcaf.com/v7/NG1051001_UseControllerAsInNgController.html">See SPCAF documentation</a>
+                                    </p>]]>
+                                </description>
+                                <tag>spcaf</tag>
+                            </rule>
+                            <rule>
+                                <key>NG1120101</key>
+                                <priority>MAJOR</priority>
+                                <name><![CDATA[Disable debug data]]></name>
+                                <description>
+                                    <![CDATA[Disable debug data in production for a significant performance boost<p>
+                                        <a href="https://docs.spcaf.com/v7/NG1120101_DisableDebugData.html">See SPCAF documentation</a>
+                                    </p>]]>
+                                </description>
+                                <tag>spcaf</tag>
+                            </rule>
+                            <rule>
+                                <key>NG1120102</key>
+                                <priority>MAJOR</priority>
+                                <name><![CDATA[Disable comment directives]]></name>
+                                <description>
+                                    <![CDATA[Disable comment directives to improve AngularJS compiler performance<p>
+                                        <a href="https://docs.spcaf.com/v7/NG1120102_DisableCommentDirectives.html">See SPCAF documentation</a>
+                                    </p>]]>
+                                </description>
+                                <tag>spcaf</tag>
+                            </rule>
+                            <rule>
+                                <key>NG1120103</key>
+                                <priority>MAJOR</priority>
+                                <name><![CDATA[Disable CSS class directives]]></name>
+                                <description>
+                                    <![CDATA[Disable CSS class directives to improve AngularJS compiler performance<p>
+                                        <a href="https://docs.spcaf.com/v7/NG1120103_DisableCssClassDirectives.html">See SPCAF documentation</a>
                                     </p>]]>
                                 </description>
                                 <tag>spcaf</tag>

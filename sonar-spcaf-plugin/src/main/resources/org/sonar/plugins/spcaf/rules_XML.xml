@@ -2442,17 +2442,6 @@
                                 <tag>spcaf</tag>
                             </rule>
                             <rule>
-                                <key>SPC011041</key>
-                                <priority>MAJOR</priority>
-                                <name><![CDATA[Provide a valid PNG Image as AppIcon]]></name>
-                                <description>
-                                    <![CDATA[Each app must contain a valid AppIcon in format PNG.<p>
-                                        <a href="https://docs.spcaf.com/v7/SPC011041_ProvideValidPNGAppIcon.html">See SPCAF documentation</a>
-                                    </p>]]>
-                                </description>
-                                <tag>spcaf</tag>
-                            </rule>
-                            <rule>
                                 <key>SPC011051</key>
                                 <priority>MAJOR</priority>
                                 <name><![CDATA[Do not define more than 25 'SupportedLocales']]></name>
@@ -2954,61 +2943,6 @@
                                 <description>
                                     <![CDATA[Client Side Web Part doesn't use optimized scripts<p>
                                         <a href="https://docs.spcaf.com/v7/SPF120701_WebPartUsesOptimizedScripts.html">See SPCAF documentation</a>
-                                    </p>]]>
-                                </description>
-                                <tag>spcaf</tag>
-                            </rule>
-                            <rule>
-                                <key>NG1010101</key>
-                                <priority>MAJOR</priority>
-                                <name><![CDATA[Always specify default route]]></name>
-                                <description>
-                                    <![CDATA[Always specify default route to gracefully handle requests that don't match any route<p>
-                                        <a href="https://docs.spcaf.com/v7/NG1010101_AlwaysSpecifyDefaultRoute.html">See SPCAF documentation</a>
-                                    </p>]]>
-                                </description>
-                                <tag>spcaf</tag>
-                            </rule>
-                            <rule>
-                                <key>NG1020101</key>
-                                <priority>MAJOR</priority>
-                                <name><![CDATA[Don't disable SCE]]></name>
-                                <description>
-                                    <![CDATA[Don't disable SCE in your application<p>
-                                        <a href="https://docs.spcaf.com/v7/NG1020101_DontDisableSce.html">See SPCAF documentation</a>
-                                    </p>]]>
-                                </description>
-                                <tag>spcaf</tag>
-                            </rule>
-                            <rule>
-                                <key>NG1120101</key>
-                                <priority>MAJOR</priority>
-                                <name><![CDATA[Disable debug data]]></name>
-                                <description>
-                                    <![CDATA[Disable debug data in production for a significant performance boost<p>
-                                        <a href="https://docs.spcaf.com/v7/NG1120101_DisableDebugData.html">See SPCAF documentation</a>
-                                    </p>]]>
-                                </description>
-                                <tag>spcaf</tag>
-                            </rule>
-                            <rule>
-                                <key>NG1120102</key>
-                                <priority>MAJOR</priority>
-                                <name><![CDATA[Disable comment directives]]></name>
-                                <description>
-                                    <![CDATA[Disable comment directives to improve AngularJS compiler performance<p>
-                                        <a href="https://docs.spcaf.com/v7/NG1120102_DisableCommentDirectives.html">See SPCAF documentation</a>
-                                    </p>]]>
-                                </description>
-                                <tag>spcaf</tag>
-                            </rule>
-                            <rule>
-                                <key>NG1120103</key>
-                                <priority>MAJOR</priority>
-                                <name><![CDATA[Disable CSS class directives]]></name>
-                                <description>
-                                    <![CDATA[Disable CSS class directives to improve AngularJS compiler performance<p>
-                                        <a href="https://docs.spcaf.com/v7/NG1120103_DisableCssClassDirectives.html">See SPCAF documentation</a>
                                     </p>]]>
                                 </description>
                                 <tag>spcaf</tag>
